@@ -29,7 +29,7 @@ for r_ in res2:
     nm = re.findall(name, r_)[0].replace('<name>','').replace('</name>','').strip()
     ur = re.findall(uri, r_)[0].replace('<uri type="URL">','').replace('</uri>','').strip()
     de = re.findall(dataEntry, r_)[0].replace('<dataEntry>','').replace('</dataEntry>','').strip()
-    rx = re.findall(regex, r_)[0].replace('pattern="','').replace('">','').strip()
+    rx = re.findall(regex, r_)[0].replace(' restricted="true"', '').replace('pattern="','').replace('">','').strip()
     ex = re.findall(exam, r_)
     if len(ex) > 0:
         ex = ex[0].replace('<dataEntityExample>','').replace('</dataEntityExample>','').strip()

@@ -1,0 +1,64 @@
+=================
+pyOpt Solutions
+=================
+
+Maximum deletions: 4.0
+All metabolites tested: ['M_dcamp_c', 'M_fpram_c', 'M_5mta_c', 'M_hisp_c', 'M_csn_c', 'M_4hpro_LT_c', 'M_cgly_c', 'M_ump_c', 'M_ac_c', 'M_2mecdp_c', 'M_4h2oglt_c', 'M_mercppyr_c', 'M_ncam_c', 'M_4adcho_c', 'M_4mop_c', 'M_lac_D_c', 'M_pre6a_c', 'M_acald_c', 'M_aicar_c', 'M_pre5_c', 'M_4abz_c', 'M_dhap_c', 'M_pyr_c', 'M_fprica_c', 'M_4ppcys_c', 'M_acglu_c', 'M_3mop_c', 'M_pre3a_c', 'M_glu5sa_c', 'M_2dhp_c', 'M_sl2a6o_c', 'M_anth_c', 'M_cmp_c', 'M_dad_5_c', 'M_suc6p_c', 'M_db4p_c', 'M_ade_c', 'M_sucsal_c', 'M_hgbam_c', 'M_pram_c', 'M_ahdt_c', 'M_4r5au_c', 'M_g3p_c', 'M_udp_c', 'M_2shchc_c', 'M_pre4_c', 'M_5g2oxpt_c', 'M_dna5mtc_c', 'M_dscl_c', 'M_acmana_c', 'M_oaa_c', 'M_adcobhex_c', 'M_pppg9_c', 'M_mppp9om_c', 'M_34hpp_c', 'M_26dap_LL_c', 'M_g1p_c', 'M_phpyr_c', 'M_gmp_c', 'M_akg_c', 'M_glyald_c', 'M_fgam_c', 'M_dtmp_c', 'M_adn_c', 'M_eig3p_c', 'M_25dhpp_c', 'M_hpyr_c', 'M_e4p_c', 'M_3pg_c', 'M_orot_c', 'M_peptido_syn_c', 'M_gam6p_c', 'M_fum_c', 'M_for_c', 'M_ahcys_c', 'M_4ahmmp_c', 'M_acg5sa_c', 'M_C04051_c', 'M_cbp_c', 'M_3mob_c']
+
+=================
+
+
+Product reaction (R_EX_5mta_c): min 0.00035, max 0.00035
+Biomass reaction (R_BiomassAuto): 0.05226
+Deleted genes (4): ['sll1556', 'sll1223', 'slr1938', 'sll1498']
+_________________
+
+Product reaction (R_EX_4hpro_LT_c): min 1e-05, max 1e-05
+Biomass reaction (R_BiomassAuto): 0.05233
+Deleted genes (4): ['sll1561', 'slr0370', 'sll0823', 'sll1841']
+_________________
+
+Product reaction (R_EX_ac_e): min 0.01012, max 0.01012
+Biomass reaction (R_BiomassAuto): 0.05203
+Deleted genes (4): ['sll0542', 'sll1299', 'slr1672', 'slr0229']
+_________________
+
+Product reaction (R_EX_4h2oglt_c): min 1e-05, max 1e-05
+Biomass reaction (R_BiomassAuto): 0.05233
+Deleted genes (4): ['sll0330', 'slr0370', 'sll0107', 'sll1625']
+_________________
+
+Product reaction (R_EX_mercppyr_c): min 0.19381, max 0.19381
+Biomass reaction (R_BiomassAuto): 0.03399
+Deleted genes (4): ['sll1502', 'slr0710', 'sll1499', 'slr0301']
+_________________
+
+Product reaction (R_EX_dad_5_c): min 0.00226, max 0.00226
+Biomass reaction (R_BiomassAuto): 0.05168
+Deleted genes (4): ['sll0374', 'sll1185', 'sll1841', 'sll1223']
+_________________
+
+Product reaction (R_EX_db4p_c): min 0.03697, max 0.03697
+Biomass reaction (R_BiomassAuto): 0.05052
+Deleted genes (4): ['sll0753', 'slr0477', 'sll1358', 'sll1223']
+_________________
+
+Product reaction (R_EX_ade_c): min 0.00166, max 0.00166
+Biomass reaction (R_BiomassAuto): 0.05199
+Deleted genes (4): ['sll1484', 'slr1743', 'sll1430', 'slr0851']
+_________________
+
+Product reaction (R_EX_adn_c): min 0.00166, max 0.00166
+Biomass reaction (R_BiomassAuto): 0.05187
+Deleted genes (4): ['slr1793', 'slr1993', 'sll1430', 'sll1841']
+_________________
+
+Product reaction (R_EX_fum_e): min 0.15248, max 0.15248
+Biomass reaction (R_BiomassAuto): 0.04345
+Deleted genes (4): ['slr0018', 'slr1755', 'slr0458', 'sll1349']
+_________________
+
+Product reaction (R_EX_ahcys_c): min 0.0013, max 0.0013
+Biomass reaction (R_BiomassAuto): 0.05184
+Deleted genes (4): ['sll1196', 'sll1234', 'slr1672', 'sll0745']
+_________________
