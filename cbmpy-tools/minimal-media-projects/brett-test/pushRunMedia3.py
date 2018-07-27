@@ -21,11 +21,11 @@ modelFile = 'iAF692.split.xml'
 USE_SBML3 = True
 
 # bgoli-130813 this sets the roundoff factor for the MILP which has a tolereance of 1.0e-6 (default)
-milpRoundOff = 16
+milpRoundOff = 8
 
 # FVA parameters
 FVA_TOL = None
-FVA_RoundOff = 16
+FVA_RoundOff = 8
 
 # this enables using a ranking strategy when testing possible media combinations smallest --> largest span
 ENABLE_FVA_RANK = False
@@ -214,10 +214,16 @@ def RUN(cmod3, minC, ignore, objFuncR, cntr):
 
 xdata = {}
 time0 = time.time()
+
+global newBnds
+global objFuncReactions
+objFuncReactions = None
+newBnds = None
+
 for cset in constraintFiles:
     xdata[cset] = {}
     # first we clone the base model
-    cmod = cmodBase.clone()
+    cmod = cmodBase
     # read bounds from file
     newBnds = readBounds(os.path.join(constraintDir, cset), delimiter=',')
     constraint_bound_reactions = []
@@ -348,7 +354,7 @@ for cset in constraintFiles:
 DEBF.flush()
 DEBF.close()
 
-PPR.pprint(xdata)
+#PPR.pprint(xdata)
 F = file('media_search_results-({}).txt'.format(modelFile), 'w')
 F.write(PPR.pformat(xdata))
 F.close()
@@ -391,17 +397,25 @@ for c in xdata:
         for r in xdata[c][m]['media']:
             L3 = 'ALT{},{},'.format(cntr,r)
             cntr += 1
+            print(c,m)
+            print(xdata[c][m]['media'][r])
             S = unwrap(xdata[c][m]['media'][r])
+            print(S)
             L3 += '{}'.format(S)
             lines.append(L3[:-1])
             g2 = [s.strip() for s in L3[:-1].split(',')]
             g2.pop(0)
+            print(g2)
             groups.append(g2)
+        pprint.pprint(groups)
         combis = list(itertools.product(*groups))
+        pprint.pprint(combis)
         xdata[c][m]['combis'] = combis
         print('Media combinations ({})({}): {}'.format(c, m, len(combis)))
 
 cbm.CBTools.storeObj(xdata, 'media_search_results-({})'.format(modelFile))
+
+#os.sys.exit()
 
 try:
     F = file('media_search_results-({}).csv'.format(modelFile), 'w')
@@ -430,7 +444,9 @@ for o_ in objList:
         ydata[modelFile][o_][m_] = {}
         sdata[modelFile][o_][m_] = {}
         try:
-            cmod = xdata[m_][o_]['model']
+            cmod = xdata[m_][o_]['model'].clone()
+            for b_ in newBnds:
+                cmod.setReactionBounds(b_[0], b_[1], b_[2])
             #cmod.setReactionLowerBound('R_BP_biomass_130704', 0.0)
             #cmod.setReactionUpperBound('R_BP_biomass_130704', float('inf'))
             newBnds = xdata[m_][o_]['bounds']
@@ -448,10 +464,16 @@ for o_ in objList:
             for c_ in combis:
                 for cb_ in c_:
                     if cb_ in neg_input_names or REVERSE_MINVAL:
+                        print('--> BING', neg_input_names, REVERSE_MINVAL)
                         cmod.setReactionBounds(cb_, -float('inf'), 0.0)
                     else:
+                        print('\n-->', cb_, 0.0, float('inf'))
                         cmod.setReactionBounds(cb_, 0.0, float('inf'))
-                cbm.CBCPLEX.cplx_MinimizeSumOfAbsFluxes(cmod, objF2constr=False, pre_opt=False, quiet=True)
+                # TODO bgoli: - there is a "feature of this example model which screws this up"
+                # TODO bgoli: minimization of the optimization reaction set helps but there is still an issue e.g.
+                # R_EXi_nac_e': 0.0, 'R_EXi_ni2_e': 0.002, 'R_EXi_pi_e': 0.0 there shouldn't be zero values
+
+                cbm.CBCPLEX.cplx_MinimizeSumOfAbsFluxes(cmod, objF2constr=False, pre_opt=False, selected_reactions=objFuncReactions, quiet=True)
                 media = {}
                 solution = {}
                 for cb_ in c_:
@@ -471,6 +493,8 @@ for o_ in objList:
             print(ex)
             print('\nMedia generation failed for: {} : {}'.format(o_, m_))
             #os.sys.exit()
+
+#os.sys.exit()
 
 PPR.pprint(ydata)
 F = file('media_final-({}).txt'.format(modelFile), 'w')
