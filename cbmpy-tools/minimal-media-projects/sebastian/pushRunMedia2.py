@@ -13,7 +13,7 @@ minimizationDir = os.path.join(cDir, 'minimizationsets')
 #modelFile = [f for f in os.listdir(modelDir) if f.endswith('.xml')][0]
 
 # bgoli-130813 for present purposes we hardcode an input files
-modelFile = 'Ecoli_split_inter.xml'
+modelFile = 'iAF692.split.xml'
 
 # just what it says whether to load an L3 file
 USE_SBML3 = True
@@ -26,13 +26,13 @@ FVA_TOL = None
 FVA_RoundOff = 8
 
 # this enables using a ranking strategy when testing possible media combinations smallest --> largest span
-ENABLE_FVA_RANK = False
+ENABLE_FVA_RANK = True
 
 # magic perturbation constant
 MINVAL = 1.0e-3
 
 # get rid of pseudo alternatives
-ENABLE_MAGIC_RESULT_FILTER = False
+ENABLE_MAGIC_RESULT_FILTER = True
 
 # multiple constraints possible
 constraintFiles = []

@@ -12,7 +12,9 @@ minimizationDir = os.path.join(cDir, 'minimizationsets')
 # we assume there is only one model in 'models' in any case we use the first
 #modelFile = [f for f in os.listdir(modelDir) if f.endswith('.xml')][0]
 
-# bgoli-130813 for present purposes we hardcode an input files
+#tempoutF = 'd:\\@Dropbox\\Dropbox\\work\\temp_resq'
+
+# bgoli-130813 for present purposes we hardcode 2 input files
 modelFile = 'Ecoli_split_inter.xml'
 
 # just what it says whether to load an L3 file
@@ -30,6 +32,7 @@ ENABLE_FVA_RANK = False
 
 # magic perturbation constant
 MINVAL = 1.0e-3
+REVERSE_MINVAL = False
 
 # get rid of pseudo alternatives
 ENABLE_MAGIC_RESULT_FILTER = False
@@ -67,7 +70,7 @@ else:
     cmodBase = cbm.CBRead.readSBML2FBA(sbmlF)
 
 
-cbm.CBTools.processSBMLAnnotationNotes(cmodBase, annotation_key='note')
+# cbm.CBTools.processSBMLAnnotationNotes(cmodBase, annotation_key='note')
 cbm.CBSolver.analyzeModel(cmodBase)
 
 # here we define a function that will read the constraint files
@@ -121,7 +124,7 @@ CACHE = {}
 DEBF = file('Debug-({}).txt'.format(modelFile), 'w')
 
 def RUN(cmod3, minC, ignore, objFuncR, cntr):
-    global RESQ, MINVAL, CACHE, DEBF, ENABLE_FVA_RANK
+    global RESQ, MINVAL, REVERSE_MINVAL, CACHE, DEBF, ENABLE_FVA_RANK
     cntr += 1
     ignore = copy.deepcopy(ignore)
     cbm.CBSolver.analyzeModel(cmod3, build_n=True)
@@ -156,6 +159,12 @@ def RUN(cmod3, minC, ignore, objFuncR, cntr):
 
     print('nonZeroCnt: {}'.format(len(nonZero)))
 
+    ## if len(nonZero) == 0:
+        ## print('nonZerocnt exit')
+        ## DEBF.write('{}, nonZeroCount is zero\n'.format(cntr))
+        ## return {}
+
+
     testable = []
     for r_ in nonZero:
         if r_ not in ignore:
@@ -189,7 +198,7 @@ def RUN(cmod3, minC, ignore, objFuncR, cntr):
             for rr_ in testable:
                 if rr_ != r_:
                     #rval = cmod4.getReaction(rr_).getValue()
-                    if NEG_INPUT:
+                    if rr_ in neg_input_names or REVERSE_MINVAL:
                         DEBF.write('{}, setting upper bound ({}): {}\n'.format(cntr, rr_, -MINVAL))
                         cmod4.setReactionUpperBound(rr_, -MINVAL)
                     else:
@@ -214,22 +223,6 @@ for cset in constraintFiles:
     constraint_bound_reactions = []
     # set bounds from constraint file
 
-
-    # test for palsson back-to-front exchange reactions
-    NEG_INPUT = False
-    neg_input_names = []
-    for b_ in newBnds:
-        if b_[1] < 0.0 and b_[2] <= 0.0:
-            NEG_INPUT = True
-            print('Negative input detected: {}'.format(b_[0]))
-            neg_input_names.append(b_[0])
-    if NEG_INPUT:
-        print('\n\nNegative input detected for reactions:')
-        print(neg_input_names)
-        if not raw_input('\nSwitch to negative mode (y/n)?: \n') == 'y':
-            os.sys.exit(-1)
-
-
     for b_ in newBnds:
         cmod.setReactionBounds(b_[0], b_[1], b_[2])
         constraint_bound_reactions.append(b_[0])
@@ -249,10 +242,28 @@ for cset in constraintFiles:
             objFuncReactions = []
             objFuncReactions = readMinimizationSet(os.path.join(minimizationDir, mset))
 
+
+            # test for palsson back-to-front reactions in the minimization set
+            NEG_INPUT = False
+            neg_input_names = []
+            for r_ in objFuncReactions:
+                b_ = cmod.getReactionBounds(r_)
+                if b_[1] < 0.0 and b_[2] <= 0.0:
+                    NEG_INPUT = True
+                    print('Negative input detected: {}'.format(b_[0]))
+                    neg_input_names.append(b_[0])
+            if NEG_INPUT:
+                print('\n\nNegative input detected, for reactions:')
+                print(neg_input_names)
+                print('\n\nswitching to reversible (negative mode) ... ')
+                ## print('... exiting, please reformulate the problem\n')
+                ## os.sys.exit(-1)
+            del NEG_INPUT
+            neg_input_names = tuple(neg_input_names)
+
             # now we do a flux sum minimization on cmod
             #minSum = cbm.CBSolver.cplx_MinimizeSumOfAbsFluxes(cmod, selected_reactions=objFuncReactions, quiet=True)
             minSum = cbm.CBSolver.cplx_MinimizeSumOfAbsFluxes(cmod, selected_reactions=objFuncReactions, objF2constr=False, pre_opt=False, quiet=True)
-
 
             # now lets do a minimum number active flux minimization
 
@@ -285,25 +296,26 @@ for cset in constraintFiles:
                     ##if abs(round(fva[r_, 2], milpRoundOff)) == abs(round(fva[r_,3], milpRoundOff)):
                         #blocked.append(fvan[r_])
                     # this switches to negative mode
-                    if NEG_INPUT:
-                        if abs(round(fva[r_, 3], FVA_RoundOff)) > 0.0:
+                    if fvan[r_] in neg_input_names:
+                        print(fva[r_])
+                        if round(fva[r_, 3], FVA_RoundOff) < 0.0:
                             required.append(fvan[r_])
                         else:
                             testable.append(fvan[r_])
                     else:
-                        if abs(round(fva[r_, 2], FVA_RoundOff)) > 0.0:
+                        if round(fva[r_, 2], FVA_RoundOff) > 0.0:
                             required.append(fvan[r_])
                         else:
                             testable.append(fvan[r_])
 
             DEBF.write('({})-({})\n'.format(modelFile, cset))
 
-            #print(required)
+            print(neg_input_names)
             #print(objFuncReactions)
+            print(required)
             print(testable)
             print(len(objFuncReactions), len(required), len(testable))
-            time.sleep(3)
-
+            time.sleep(5)
 
             #run_res = RUN(cmod2, minCNt00, required, objFuncReactions, cntr)
             run_res = RUN(cmod2, minCNt00, required, testable, cntr)
@@ -428,14 +440,14 @@ for o_ in objList:
             for b_ in objreact:
                 cmod.setReactionBounds(b_, 0.0, 0.0)
             for b_ in required:
-                if NEG_INPUT:
+                if b_ in neg_input_names or REVERSE_MINVAL:
                     cmod.setReactionBounds(b_, -float('inf'), 0.0)
                 else:
                     cmod.setReactionBounds(b_, 0.0, float('inf'))
             mcntr = 1
             for c_ in combis:
                 for cb_ in c_:
-                    if NEG_INPUT:
+                    if cb_ in neg_input_names or REVERSE_MINVAL:
                         cmod.setReactionBounds(cb_, -float('inf'), 0.0)
                     else:
                         cmod.setReactionBounds(cb_, 0.0, float('inf'))
@@ -453,6 +465,7 @@ for o_ in objList:
                     solution[r_] = cmod.getReaction(r_).getValue()
                 ydata[modelFile][o_][m_][mcntr] = media
                 sdata[modelFile][o_][m_][mcntr] = solution
+                print(media)
                 mcntr += 1
         except Exception as ex:
             print(ex)

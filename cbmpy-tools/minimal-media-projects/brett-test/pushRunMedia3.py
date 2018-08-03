@@ -15,7 +15,7 @@ minimizationDir = os.path.join(cDir, 'minimizationsets')
 #tempoutF = 'd:\\@Dropbox\\Dropbox\\work\\temp_resq'
 
 # bgoli-130813 for present purposes we hardcode 2 input files
-modelFile = 'iAF692.split.xml'
+modelFile = 'Ecoli_split_inter.xml'
 
 # just what it says whether to load an L3 file
 USE_SBML3 = True
@@ -28,10 +28,10 @@ FVA_TOL = None
 FVA_RoundOff = 10
 
 # this enables using a ranking strategy when testing possible media combinations smallest --> largest span
-ENABLE_FVA_RANK = False
+ENABLE_FVA_RANK = True
 
 # magic perturbation constant
-MINVAL = 1.0e-4
+MINVAL = 1.0e-2
 REVERSE_MINVAL = False
 
 # get rid of pseudo alternatives
@@ -265,7 +265,7 @@ for cset in constraintFiles:
                 print(neg_input_names)
                 print('\n\nswitching to reversible (negative mode) ... ')
                 ## print('... exiting, please reformulate the problem\n')
-                ## os.sys.exit(-1)
+                os.sys.exit(-1)
             del NEG_INPUT
             neg_input_names = tuple(neg_input_names)
 
@@ -370,8 +370,6 @@ F.close()
 
 print('\nTotal results: {}\nTime: {} mins\n\n'.format(len(RESQ), (time.time()-time0)/60.))
 
-#os.sys.exit(-2)
-
 def unwrap(d):
     s = ''
     for k in d:
@@ -424,12 +422,12 @@ for c in xdata:
 
 cbm.CBTools.storeObj(xdata, 'media_search_results-({})'.format(modelFile))
 
-#os.sys.exit()
-
+msr_out_str = ''
 try:
     F = file('media_search_results-({}).csv'.format(modelFile), 'w')
     for l in lines:
         F.write('{}\n'.format(l))
+        msr_out_str += '{}\n'.format(l)
     F.close()
 except:
     print('Close Excel file')
@@ -440,6 +438,19 @@ objList = xdata[mediaList[0]].keys()
 
 print(mediaList)
 print(objList)
+
+pprint.pprint(xdata[mediaList[0]][objList[0]])
+print('\nmedia')
+for m_ in xdata[mediaList[0]][objList[0]]['media']:
+    print(m_)
+    pprint.pprint(xdata[mediaList[0]][objList[0]]['media'][m_])
+
+print('\nNo Unwrap Exit\n')
+print(msr_out_str)
+
+#os.sys.exit(-2)
+
+
 
 # ['media', 'model', 'required', 'bounds']
 ydata = {}
@@ -587,6 +598,14 @@ for m_ in sdata:
 cbm.CBTools.storeObj(sdata, 'solutions-({})'.format(modelFile))
 
 endtime = time.time()
+
+print('\nmedia')
+for m_ in xdata[mediaList[0]][objList[0]]['media']:
+    print(m_)
+    pprint.pprint(xdata[mediaList[0]][objList[0]]['media'][m_])
+print(msr_out_str)
+
+
 F = file('TimeCustomSearch-({}).txt'.format(modelFile), 'w')
 F.write('Total analysis time (seconds): {}\n'.format(round(endtime-time0,1)))
 F.close()
