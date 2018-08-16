@@ -1,11 +1,11 @@
 (Ecoli_split_inter.xml)-(basic.csv)
-1, setting lower bound (R_EXinput_dgsn_e): 0.01
-3, infeasible model (LPS_INFEAS)
+1, setting lower bound (R_EXinput_dgsn_e): 0.001
+3, infeasible model (fba) (LPS_INFEAS)
 2, success
-1, setting lower bound (R_EXinput_pi_e): 0.01
-5, setting lower bound (R_EXinput_ala_L_e): 0.01
+1, setting lower bound (R_EXinput_pi_e): 0.001
+5, setting lower bound (R_EXinput_ala_L_e): 0.001
 6, no testable
-5, setting lower bound (R_EXinput_val_L_e): 0.01
+5, setting lower bound (R_EXinput_val_L_e): 0.001
 6, mincount not min
 5, success
 4, success

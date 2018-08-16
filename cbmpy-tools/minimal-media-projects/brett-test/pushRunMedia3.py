@@ -21,17 +21,17 @@ modelFile = 'Ecoli_split_inter.xml'
 USE_SBML3 = True
 
 # bgoli-130813 this sets the roundoff factor for the MILP which has a tolereance of 1.0e-6 (default)
-milpRoundOff = 10
+milpRoundOff = 8
 
 # FVA parameters
 FVA_TOL = None
-FVA_RoundOff = 10
+FVA_RoundOff = 8
 
 # this enables using a ranking strategy when testing possible media combinations smallest --> largest span
-ENABLE_FVA_RANK = True
+ENABLE_FVA_RANK = False
 
 # magic perturbation constant
-MINVAL = 1.0e-2
+MINVAL = 1.0e-3
 REVERSE_MINVAL = False
 
 # get rid of pseudo alternatives
@@ -71,7 +71,7 @@ else:
 
 
 # cbm.CBTools.processSBMLAnnotationNotes(cmodBase, annotation_key='note')
-cbm.CBSolver.analyzeModel(cmodBase)
+cbm.doFBA(cmodBase)
 
 # here we define a function that will read the constraint files
 def readBounds(filename, delimiter=','):
@@ -131,20 +131,29 @@ def RUN(cmod3, minC, ignore, objFuncR, cntr):
     minCnt0 = 1e32
     if cmod3.SOLUTION_STATUS != 'LPS_OPT':
         print('fba exit')
-        DEBF.write('{}, infeasible model ({})\n'.format(cntr, cmod3.SOLUTION_STATUS))
+        DEBF.write('{}, infeasible model (fba) ({})\n'.format(cntr, cmod3.SOLUTION_STATUS))
         return {}
+    # test if a minsum can be calculated
+    msum = cbm.CBCPLEX.cplx_MinimizeSumOfAbsFluxes(cmod3, objF2constr=False, pre_opt=False, selected_reactions=None, quiet=False)
+    if cmod3.SOLUTION_STATUS != 'LPS_OPT':
+        print('minsum exit')
+        DEBF.write('{}, infeasible model (minsum) ({})\n'.format(cntr, cmod3.SOLUTION_STATUS))
+        return {}
+
     mincnt_fail = False
+    lpx = None
     try:
         minCnt0, lpx = cbm.CBSolver.cplx_MinimizeNumActiveFluxes(cmod3, selected_reactions=objFuncR, return_lp_obj=True,\
                                                                    quiet=True, objF2constr=False, pre_opt=True)
         if lpx.solution.get_status() != lpx.solution.status.MIP_optimal:
-            print('mincnt fail')
+            print('mincnt fail (status={})'.format(lpx.solution.get_status()))
             DEBF.write('{}, mincount not feasible ({})\n'.format(cntr, lpx.solution.get_status()))
             del lpx
             mincnt_fail = True
         del lpx
     except:
         mincnt_fail = True
+        del lpx
 
     if mincnt_fail:
         print('mincnt fail')
@@ -162,18 +171,16 @@ def RUN(cmod3, minC, ignore, objFuncR, cntr):
 
     print('nonZeroCnt: {}'.format(len(nonZero)))
 
-    ## if len(nonZero) == 0:
-        ## print('nonZerocnt exit')
-        ## DEBF.write('{}, nonZeroCount is zero\n'.format(cntr))
-        ## return {}
-
-
     testable = []
     for r_ in nonZero:
         if r_ not in ignore:
             testable.append(r_)
-    #print('filipeCnt: {}'.format(len(testable)))
+
     print('Testable reactions:\n{}\n'.format(testable))
+
+    if len(testable) == 0:
+        DEBF.write('{}, no testable\n'.format(cntr))
+        return None
 
     if ENABLE_FVA_RANK:
         fva, fvan = cbm.CBSolver.FluxVariabilityAnalysis(cmod3, selected_reactions=testable, pre_opt=False,\
@@ -191,25 +198,21 @@ def RUN(cmod3, minC, ignore, objFuncR, cntr):
         testable = testable_ranked
 
     res = {}
-    if len(testable) == 0:
-        DEBF.write('{}, no testable\n'.format(cntr))
-        return {}
-    else:
-        for r_ in testable:
-            cmod4 = cmod3.clone()
-            cmod4.setReactionBounds(r_, 0.0, 0.0)
-            for rr_ in testable:
-                if rr_ != r_:
-                    #rval = cmod4.getReaction(rr_).getValue()
-                    if rr_ in neg_input_names or REVERSE_MINVAL:
-                        DEBF.write('{}, setting upper bound ({}): {}\n'.format(cntr, rr_, -MINVAL))
-                        cmod4.setReactionUpperBound(rr_, -MINVAL)
-                    else:
-                        DEBF.write('{}, setting lower bound ({}): {}\n'.format(cntr, rr_, MINVAL))
-                        cmod4.setReactionLowerBound(rr_, MINVAL)
-                    ignore.append(rr_)
-            res['{}'.format(r_)] = RUN(cmod4, minC, ignore, objFuncR, cntr)
-            #res['{}({})'.format(r_, cntr)] = RUN(cmod4, minC, ignore, objFuncR, cntr)
+
+    for r_ in testable:
+        cmod4 = cmod3.clone()
+        cmod4.setReactionBounds(r_, 0.0, 0.0)
+        for rr_ in testable:
+            if rr_ != r_:
+                #rval = cmod4.getReaction(rr_).getValue()
+                if rr_ in neg_input_names or REVERSE_MINVAL:
+                    DEBF.write('{}, setting upper bound ({}): {}\n'.format(cntr, rr_, -MINVAL))
+                    cmod4.setReactionUpperBound(rr_, -MINVAL)
+                else:
+                    DEBF.write('{}, setting lower bound ({}): {}\n'.format(cntr, rr_, MINVAL))
+                    cmod4.setReactionLowerBound(rr_, MINVAL)
+                ignore.append(rr_)
+        res['{}'.format(r_)] = RUN(cmod4, minC, ignore, objFuncR, cntr)
     del cmod3, cmod4
     print('Returning sub-iteration: {}'.format(cntr))
     DEBF.write('{}, success\n'.format(cntr))
@@ -323,19 +326,12 @@ for cset in constraintFiles:
 
             DEBF.write('({})-({})\n'.format(modelFile, cset))
 
-            #print(neg_input_names)
-            ##print(objFuncReactions)
-            #print(required)
-            #print(testable)
-            #print(len(objFuncReactions), len(required), len(testable))
-            time.sleep(5)
-
             #run_res = RUN(cmod2, minCNt00, required, objFuncReactions, cntr)
             cmod2 = cmod.clone()
             run_res = RUN(cmod2, minCNt00, required, testable, cntr)
             del cmod2
 
-            PPR.pprint(run_res)
+            #PPR.pprint(run_res)
             magic_filtered = []
             if ENABLE_MAGIC_RESULT_FILTER:
                 print('\nINFO: Magic result filter enabled!')
@@ -346,7 +342,7 @@ for cset in constraintFiles:
                 if len(run_res) < 1:
                     DEBF.write('No results returned from search algorithm, media results unreliable and generated for debugging purpose only!\n')
                     DEBF.write('For example, check that biomass constraints are not set too tight :->\n')
-            PPR.pprint(run_res)
+            #PPR.pprint(run_res)
 
             xdata[cset][mset]['media'] = run_res
             xdata[cset][mset]['required'] = required
@@ -372,12 +368,24 @@ print('\nTotal results: {}\nTime: {} mins\n\n'.format(len(RESQ), (time.time()-ti
 
 def unwrap(d):
     s = ''
+    removeables = set()
     for k in d:
-        if len(d[k]) == 0:
+        if d[k] is None:
+            print('No subelement return, pruning branch: {}'.format(d[k]))
+            removeables.add(k)
+        elif len(d[k]) == 0:
             s += '{},'.format(k)
         else:
             s += '{},{}'.format(k, unwrap(d[k]))
+    for k in removeables:
+        print('Pruning {} : {}'.format(d.pop(k), d))
     return s
+
+
+# debug raw media
+print('Raw media pre filter')
+#PPR.pprint(xdata['conset1.csv']['minset1.csv']['media'])
+
 
 lines = []
 
@@ -422,6 +430,11 @@ for c in xdata:
 
 cbm.CBTools.storeObj(xdata, 'media_search_results-({})'.format(modelFile))
 
+# debug raw media
+print('Raw media post filter')
+#PPR.pprint(xdata['conset1.csv']['minset1.csv']['media'])
+#os.sys.exit()
+
 msr_out_str = ''
 try:
     F = file('media_search_results-({}).csv'.format(modelFile), 'w')
@@ -431,7 +444,6 @@ try:
     F.close()
 except:
     print('Close Excel file')
-
 
 mediaList = xdata.keys()
 objList = xdata[mediaList[0]].keys()
@@ -516,6 +528,7 @@ for o_ in objList:
                     for r_ in rids:
                         solution[r_] = cmod.getReaction(r_).getValue()
                 else:
+                    badmod = cmod.clone()
                     for cb_ in c_:
                         media[cb_] = numpy.nan
                     for rb_ in required:

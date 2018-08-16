@@ -1,1 +1,1 @@
-Total analysis time (seconds): 23.6
+Total analysis time (seconds): 17.9

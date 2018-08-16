@@ -2,17 +2,16 @@
 \Problem name: MODELID_1461534
 
 Minimize
- MNAF: bin_R_EXinput_pi_e + bin_R_EXinput_nh4_e + bin_R_EXinput_h2o_e
-       + bin_R_EXinput_ala_L_e + bin_R_EXinput_uri_e + bin_R_EXinput_asp_L_e
-       + bin_R_EXinput_glyclt_e + bin_R_EXinput_tre_e + bin_R_EXinput_glcn_e
-       + bin_R_EXinput_k_e + bin_R_EXinput_glc_e + bin_R_EXinput_dgsn_e
-       + bin_R_EXinput_gly_e + bin_R_EXinput_12ppd_S_e + bin_R_EXinput_thm_e
-       + bin_R_EXinput_so4_e + bin_R_EXinput_gam_e + bin_R_EXinput_galct_D_e
-       + bin_R_EXinput_val_L_e + bin_R_EXinput_3hcinnm_e
+ MNAF: bin_R_EXinput_pi_e + bin_R_EXinput_nh4_e + bin_R_EXinput_uri_e
+       + bin_R_EXinput_asp_L_e + bin_R_EXinput_glyclt_e + bin_R_EXinput_tre_e
+       + bin_R_EXinput_glcn_e + bin_R_EXinput_k_e + bin_R_EXinput_glc_e
+       + bin_R_EXinput_dgsn_e + bin_R_EXinput_gly_e + bin_R_EXinput_12ppd_S_e
+       + bin_R_EXinput_thm_e + bin_R_EXinput_so4_e + bin_R_EXinput_gam_e
+       + bin_R_EXinput_galct_D_e + bin_R_EXinput_3hcinnm_e
        + bin_R_EXinput_malttr_e + bin_R_EXinput_man6p_e + bin_R_EXinput_ile_L_e
        + bin_R_EXinput_lys_L_e + bin_R_EXinput_3hpppn_e + bin_R_EXinput_ura_e
        + bin_R_EXinput_xan_e + bin_R_EXinput_fe2_e + bin_R_EXinput_succ_e
-       + bin_R_EXinput_acnam_e
+       + bin_R_EXinput_acnam_e + bin_R_EXinput_val_L_e + bin_R_EXinput_ala_L_e
 Subject To
  M_10fthf_c:      - R_AICART + R_MTHFC - R_FTHFD - R_GARFT  = 0
  M_12dgr_EC_c:    0.02 R_PAPA_EC - 0.02 R_DAGK_EC + 0.02 R_PEPT_EC  = 0
@@ -1293,8 +1292,6 @@ Subject To
  M_xylu_D_c:      - R_XYLK + R_XYLI1  = 0
  ind_R_EXinput_pi_e:      bin_R_EXinput_pi_e = 0 -> R_EXinput_pi_e  = 0
  ind_R_EXinput_nh4_e:     bin_R_EXinput_nh4_e = 0 -> R_EXinput_nh4_e  = 0
- ind_R_EXinput_h2o_e:     bin_R_EXinput_h2o_e = 0 -> R_EXinput_h2o_e  = 0
- ind_R_EXinput_ala_L_e:   bin_R_EXinput_ala_L_e = 0 -> R_EXinput_ala_L_e  = 0
  ind_R_EXinput_uri_e:     bin_R_EXinput_uri_e = 0 -> R_EXinput_uri_e  = 0
  ind_R_EXinput_asp_L_e:   bin_R_EXinput_asp_L_e = 0 -> R_EXinput_asp_L_e  = 0
  ind_R_EXinput_glyclt_e:  bin_R_EXinput_glyclt_e = 0 -> R_EXinput_glyclt_e  = 0
@@ -1311,7 +1308,6 @@ Subject To
  ind_R_EXinput_gam_e:     bin_R_EXinput_gam_e = 0 -> R_EXinput_gam_e  = 0
  ind_R_EXinput_galct_D_e: bin_R_EXinput_galct_D_e = 0 -> R_EXinput_galct_D_e
                            = 0
- ind_R_EXinput_val_L_e:   bin_R_EXinput_val_L_e = 0 -> R_EXinput_val_L_e  = 0
  ind_R_EXinput_3hcinnm_e: bin_R_EXinput_3hcinnm_e = 0 -> R_EXinput_3hcinnm_e
                            = 0
  ind_R_EXinput_malttr_e:  bin_R_EXinput_malttr_e = 0 -> R_EXinput_malttr_e  = 0
@@ -1324,6 +1320,8 @@ Subject To
  ind_R_EXinput_fe2_e:     bin_R_EXinput_fe2_e = 0 -> R_EXinput_fe2_e  = 0
  ind_R_EXinput_succ_e:    bin_R_EXinput_succ_e = 0 -> R_EXinput_succ_e  = 0
  ind_R_EXinput_acnam_e:   bin_R_EXinput_acnam_e = 0 -> R_EXinput_acnam_e  = 0
+ ind_R_EXinput_val_L_e:   bin_R_EXinput_val_L_e = 0 -> R_EXinput_val_L_e  = 0
+ ind_R_EXinput_ala_L_e:   bin_R_EXinput_ala_L_e = 0 -> R_EXinput_ala_L_e  = 0
 Bounds
 -999999 <= R_GLYCt <= 999999
  0 <= R_PLIPA3 <= 999999
@@ -1604,7 +1602,6 @@ Bounds
 -999999 <= R_TRPt2r <= 999999
  0 <= R_GMPR <= 999999
  0 <= R_DGSNt2 <= 999999
- 0 <= R_EXinput_h2o_e <= 100
  0 <= R_IPDPS <= 999999
 -999999 <= R_ILEt2r <= 999999
  0 <= R_SBTpts <= 999999
@@ -1694,7 +1691,7 @@ Bounds
  0 <= R_TAUDO <= 999999
  0 <= R_EXoutput_thm_e <= 1000
  0 <= R_GALt2 <= 999999
-      R_BiomassEcoli = 1
+ 1 <= R_BiomassEcoli <= 2
  0 <= R_EX_no2_e <= 999999
 -999999 <= R_AGPR <= 999999
  0 <= R_ABUTt2 <= 999999
@@ -2423,8 +2420,6 @@ Bounds
  0 <= R_FRD2 <= 999999
  0 <= bin_R_EXinput_pi_e <= 1
  0 <= bin_R_EXinput_nh4_e <= 1
- 0 <= bin_R_EXinput_h2o_e <= 1
- 0 <= bin_R_EXinput_ala_L_e <= 1
  0 <= bin_R_EXinput_uri_e <= 1
  0 <= bin_R_EXinput_asp_L_e <= 1
  0 <= bin_R_EXinput_glyclt_e <= 1
@@ -2439,7 +2434,6 @@ Bounds
  0 <= bin_R_EXinput_so4_e <= 1
  0 <= bin_R_EXinput_gam_e <= 1
  0 <= bin_R_EXinput_galct_D_e <= 1
- 0 <= bin_R_EXinput_val_L_e <= 1
  0 <= bin_R_EXinput_3hcinnm_e <= 1
  0 <= bin_R_EXinput_malttr_e <= 1
  0 <= bin_R_EXinput_man6p_e <= 1
@@ -2451,15 +2445,17 @@ Bounds
  0 <= bin_R_EXinput_fe2_e <= 1
  0 <= bin_R_EXinput_succ_e <= 1
  0 <= bin_R_EXinput_acnam_e <= 1
+ 0 <= bin_R_EXinput_val_L_e <= 1
+ 0 <= bin_R_EXinput_ala_L_e <= 1
 Binaries
- bin_R_EXinput_pi_e  bin_R_EXinput_nh4_e  bin_R_EXinput_h2o_e 
- bin_R_EXinput_ala_L_e  bin_R_EXinput_uri_e  bin_R_EXinput_asp_L_e 
- bin_R_EXinput_glyclt_e  bin_R_EXinput_tre_e  bin_R_EXinput_glcn_e 
- bin_R_EXinput_k_e  bin_R_EXinput_glc_e  bin_R_EXinput_dgsn_e 
- bin_R_EXinput_gly_e  bin_R_EXinput_12ppd_S_e  bin_R_EXinput_thm_e 
- bin_R_EXinput_so4_e  bin_R_EXinput_gam_e  bin_R_EXinput_galct_D_e 
- bin_R_EXinput_val_L_e  bin_R_EXinput_3hcinnm_e  bin_R_EXinput_malttr_e 
+ bin_R_EXinput_pi_e  bin_R_EXinput_nh4_e  bin_R_EXinput_uri_e 
+ bin_R_EXinput_asp_L_e  bin_R_EXinput_glyclt_e  bin_R_EXinput_tre_e 
+ bin_R_EXinput_glcn_e  bin_R_EXinput_k_e  bin_R_EXinput_glc_e 
+ bin_R_EXinput_dgsn_e  bin_R_EXinput_gly_e  bin_R_EXinput_12ppd_S_e 
+ bin_R_EXinput_thm_e  bin_R_EXinput_so4_e  bin_R_EXinput_gam_e 
+ bin_R_EXinput_galct_D_e  bin_R_EXinput_3hcinnm_e  bin_R_EXinput_malttr_e 
  bin_R_EXinput_man6p_e  bin_R_EXinput_ile_L_e  bin_R_EXinput_lys_L_e 
  bin_R_EXinput_3hpppn_e  bin_R_EXinput_ura_e  bin_R_EXinput_xan_e 
  bin_R_EXinput_fe2_e  bin_R_EXinput_succ_e  bin_R_EXinput_acnam_e 
+ bin_R_EXinput_val_L_e  bin_R_EXinput_ala_L_e 
 End

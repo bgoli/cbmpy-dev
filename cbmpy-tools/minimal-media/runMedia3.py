@@ -10,7 +10,7 @@ minimizationDir = os.path.join(cDir, 'minimizationsets')
 modelFile = [f for f in os.listdir(modelDir) if f.endswith('.xml')][0]
 
 # bgoli-130813 for present purposes we hardcode input files
-modelFile = 'iAF692.split.xml'
+modelFile = 'Ecoli_split_inter.xml'
 
 # set the SBML level of the input file  (True=3)
 USE_SBML3 = True
@@ -158,7 +158,7 @@ for cset in constraintFiles:
             lpx.write(lpf)
             lpf = os.path.join(lpDir, '(%s)-(%s)-(%s)-(%s).xml' % (modelFile.replace('.xml',''), cset.replace('.csv',''), mset.replace('.csv',''), minCnt))
             if USE_SBML3:
-                cbm.CBWrite.writeSBML3FBC(cmod, lpf)
+                cbm.CBWrite.writeSBML3FBCV2(cmod, lpf)
             else:
                 cbm.CBWrite.writeSBML2FBA(cmod, lpf)
             ## Debug for brett
