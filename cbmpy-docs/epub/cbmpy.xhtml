@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>CBMPy Reference Guide</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" type="text/css" href="_static/epub.css?v=0a53256b" /> 
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="cbmpy-reference-guide">
+<h1>CBMPy Reference Guide</h1>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install_doc.xhtml">CBMPy: Installation Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install_doc.xhtml#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install_doc.xhtml#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install_doc.xhtml#installing-on-ubuntu-linux">Installing on Ubuntu Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install_doc.xhtml#installing-on-microsoft-windows">Installing on Microsoft Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install_doc.xhtml#linux-ubuntu">Linux: Ubuntu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install_doc.xhtml#linux-ubuntu-14-04">Linux: Ubuntu 14.04</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install_doc.xhtml#apple-macintosh-os-x">Apple Macintosh: OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install_doc.xhtml#installing-pysces-cbm-mariner-microsoft-windows-and-linux">Installing PySCeS-CBM Mariner (Microsoft Windows and Linux)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="manual_doc.xhtml">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules_doc.xhtml">CBMPy Module Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbcommon-module">CBMPy: CBCommon module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.ComboGen"><code class="docutils literal notranslate"><span class="pre">ComboGen</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation"><code class="docutils literal notranslate"><span class="pre">MIRIAMannotation</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix"><code class="docutils literal notranslate"><span class="pre">StructMatrix</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.StructMatrixLP"><code class="docutils literal notranslate"><span class="pre">StructMatrixLP</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.checkChemFormula"><code class="docutils literal notranslate"><span class="pre">checkChemFormula</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.checkId"><code class="docutils literal notranslate"><span class="pre">checkId</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.createAssociationDictFromNode"><code class="docutils literal notranslate"><span class="pre">createAssociationDictFromNode</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.extractGeneIdsFromString"><code class="docutils literal notranslate"><span class="pre">extractGeneIdsFromString</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.fixId"><code class="docutils literal notranslate"><span class="pre">fixId</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.func_getAssociationStrFromGprDict"><code class="docutils literal notranslate"><span class="pre">func_getAssociationStrFromGprDict</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.getGPRasDictFromString"><code class="docutils literal notranslate"><span class="pre">getGPRasDictFromString</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.parseGeneAssociation"><code class="docutils literal notranslate"><span class="pre">parseGeneAssociation</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCommon.processSpeciesChargeChemFormulaAnnot"><code class="docutils literal notranslate"><span class="pre">processSpeciesChargeChemFormulaAnnot</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbconfig-module">CBMPy: CBConfig module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBConfig.current_version"><code class="docutils literal notranslate"><span class="pre">current_version</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBConfig.current_version_tuple"><code class="docutils literal notranslate"><span class="pre">current_version_tuple</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbcplex-module">CBMPy: CBCPLEX module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_FluxVariabilityAnalysis"><code class="docutils literal notranslate"><span class="pre">cplx_FluxVariabilityAnalysis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_MinimizeNumActiveFluxes"><code class="docutils literal notranslate"><span class="pre">cplx_MinimizeNumActiveFluxes</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_MinimizeSumOfAbsFluxes"><code class="docutils literal notranslate"><span class="pre">cplx_MinimizeSumOfAbsFluxes</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_MultiFluxVariabilityAnalysis"><code class="docutils literal notranslate"><span class="pre">cplx_MultiFluxVariabilityAnalysis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_SolveMILP"><code class="docutils literal notranslate"><span class="pre">cplx_SolveMILP</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_WriteFVAtoCSV"><code class="docutils literal notranslate"><span class="pre">cplx_WriteFVAtoCSV</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_analyzeModel"><code class="docutils literal notranslate"><span class="pre">cplx_analyzeModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_constructLPfromFBA"><code class="docutils literal notranslate"><span class="pre">cplx_constructLPfromFBA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_fixConSense"><code class="docutils literal notranslate"><span class="pre">cplx_fixConSense</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_func_GetCPXandPresolve"><code class="docutils literal notranslate"><span class="pre">cplx_func_GetCPXandPresolve</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_func_SetObjectiveFunctionAsConstraint"><code class="docutils literal notranslate"><span class="pre">cplx_func_SetObjectiveFunctionAsConstraint</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getCPLEXModelFromLP"><code class="docutils literal notranslate"><span class="pre">cplx_getCPLEXModelFromLP</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getDualValues"><code class="docutils literal notranslate"><span class="pre">cplx_getDualValues</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getModelFromLP"><code class="docutils literal notranslate"><span class="pre">cplx_getModelFromLP</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getModelFromObj"><code class="docutils literal notranslate"><span class="pre">cplx_getModelFromObj</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getOptimalSolution"><code class="docutils literal notranslate"><span class="pre">cplx_getOptimalSolution</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getOptimalSolution2"><code class="docutils literal notranslate"><span class="pre">cplx_getOptimalSolution2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getReducedCosts"><code class="docutils literal notranslate"><span class="pre">cplx_getReducedCosts</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getSensitivities"><code class="docutils literal notranslate"><span class="pre">cplx_getSensitivities</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getShadowPrices"><code class="docutils literal notranslate"><span class="pre">cplx_getShadowPrices</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getSolutionStatus"><code class="docutils literal notranslate"><span class="pre">cplx_getSolutionStatus</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_runInputScan"><code class="docutils literal notranslate"><span class="pre">cplx_runInputScan</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setFBAsolutionToModel"><code class="docutils literal notranslate"><span class="pre">cplx_setFBAsolutionToModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setMIPGapTolerance"><code class="docutils literal notranslate"><span class="pre">cplx_setMIPGapTolerance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setObjective"><code class="docutils literal notranslate"><span class="pre">cplx_setObjective</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setObjective2"><code class="docutils literal notranslate"><span class="pre">cplx_setObjective2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setOutputStreams"><code class="docutils literal notranslate"><span class="pre">cplx_setOutputStreams</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setSolutionStatusToModel"><code class="docutils literal notranslate"><span class="pre">cplx_setSolutionStatusToModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_singleGeneScan"><code class="docutils literal notranslate"><span class="pre">cplx_singleGeneScan</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_singleReactionDeletionScan"><code class="docutils literal notranslate"><span class="pre">cplx_singleReactionDeletionScan</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_writeLPsolution"><code class="docutils literal notranslate"><span class="pre">cplx_writeLPsolution</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_writeLPtoLPTfile"><code class="docutils literal notranslate"><span class="pre">cplx_writeLPtoLPTfile</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.getReducedCosts"><code class="docutils literal notranslate"><span class="pre">getReducedCosts</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBCPLEX.setReducedCosts"><code class="docutils literal notranslate"><span class="pre">setReducedCosts</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbdatastruct-module">CBMPy: CBDataStruct module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbgui-module">CBMPy: CBGUI module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBGUI.loadCBGUI"><code class="docutils literal notranslate"><span class="pre">loadCBGUI</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbmodel-module">CBMPy: CBModel module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Compartment"><code class="docutils literal notranslate"><span class="pre">Compartment</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.ConstraintComponent"><code class="docutils literal notranslate"><span class="pre">ConstraintComponent</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Fbase"><code class="docutils literal notranslate"><span class="pre">Fbase</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.FluxBound"><code class="docutils literal notranslate"><span class="pre">FluxBound</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.FluxBoundBase"><code class="docutils literal notranslate"><span class="pre">FluxBoundBase</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.FluxBoundLower"><code class="docutils literal notranslate"><span class="pre">FluxBoundLower</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.FluxBoundUpper"><code class="docutils literal notranslate"><span class="pre">FluxBoundUpper</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.FluxObjective"><code class="docutils literal notranslate"><span class="pre">FluxObjective</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.FluxObjectiveQuadratic"><code class="docutils literal notranslate"><span class="pre">FluxObjectiveQuadratic</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Gene"><code class="docutils literal notranslate"><span class="pre">Gene</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation"><code class="docutils literal notranslate"><span class="pre">GeneProteinAssociation</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Group"><code class="docutils literal notranslate"><span class="pre">Group</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.GroupMemberAttributes"><code class="docutils literal notranslate"><span class="pre">GroupMemberAttributes</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Model"><code class="docutils literal notranslate"><span class="pre">Model</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Objective"><code class="docutils literal notranslate"><span class="pre">Objective</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Parameter"><code class="docutils literal notranslate"><span class="pre">Parameter</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Reaction"><code class="docutils literal notranslate"><span class="pre">Reaction</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.ReactionNew"><code class="docutils literal notranslate"><span class="pre">ReactionNew</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Reagent"><code class="docutils literal notranslate"><span class="pre">Reagent</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.Species"><code class="docutils literal notranslate"><span class="pre">Species</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint"><code class="docutils literal notranslate"><span class="pre">UserDefinedConstraint</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbmodeltools-module">CBMPy: CBModelTools module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbmulticore-module">CBMPy: CBMultiCore module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBMultiCore.grouper"><code class="docutils literal notranslate"><span class="pre">grouper</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBMultiCore.runMultiCoreFVA"><code class="docutils literal notranslate"><span class="pre">runMultiCoreFVA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbmultienv-module">CBMPy: CBMultiEnv module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbnetdb-module">CBMPy: CBNetDB module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBNetDB.DBTools"><code class="docutils literal notranslate"><span class="pre">DBTools</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBNetDB.KeGGSequenceTools"><code class="docutils literal notranslate"><span class="pre">KeGGSequenceTools</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBNetDB.KeGGTools"><code class="docutils literal notranslate"><span class="pre">KeGGTools</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBNetDB.MIRIAMTools"><code class="docutils literal notranslate"><span class="pre">MIRIAMTools</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBNetDB.RESTClient"><code class="docutils literal notranslate"><span class="pre">RESTClient</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBNetDB.SemanticSBML"><code class="docutils literal notranslate"><span class="pre">SemanticSBML</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbplot-module">CBMPy: CBPlot module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBPlot.plotFluxVariability"><code class="docutils literal notranslate"><span class="pre">plotFluxVariability</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbread-module">CBMPy: CBRead module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBRead.loadModel"><code class="docutils literal notranslate"><span class="pre">loadModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBRead.readCOBRASBML"><code class="docutils literal notranslate"><span class="pre">readCOBRASBML</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBRead.readExcel97Model"><code class="docutils literal notranslate"><span class="pre">readExcel97Model</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBRead.readSBML2FBA"><code class="docutils literal notranslate"><span class="pre">readSBML2FBA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBRead.readSBML3FBC"><code class="docutils literal notranslate"><span class="pre">readSBML3FBC</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBRead.readSK_FVA"><code class="docutils literal notranslate"><span class="pre">readSK_FVA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBRead.readSK_vertex"><code class="docutils literal notranslate"><span class="pre">readSK_vertex</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBRead.readSK_vertexOld"><code class="docutils literal notranslate"><span class="pre">readSK_vertexOld</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbreadtxt-module">CBMPy: CBReadtxt module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBReadtxt.readCSV"><code class="docutils literal notranslate"><span class="pre">readCSV</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbsolver-module">CBMPy: CBSolver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbtools-module">CBMPy: CBTools module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.addFluxAsActiveObjective"><code class="docutils literal notranslate"><span class="pre">addFluxAsActiveObjective</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.addGenesFromAnnotations"><code class="docutils literal notranslate"><span class="pre">addGenesFromAnnotations</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.addSinkReaction"><code class="docutils literal notranslate"><span class="pre">addSinkReaction</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.addSourceReaction"><code class="docutils literal notranslate"><span class="pre">addSourceReaction</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.addStoichToFBAModel"><code class="docutils literal notranslate"><span class="pre">addStoichToFBAModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.checkExchangeReactions"><code class="docutils literal notranslate"><span class="pre">checkExchangeReactions</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.checkFluxBoundConsistency"><code class="docutils literal notranslate"><span class="pre">checkFluxBoundConsistency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.checkIds"><code class="docutils literal notranslate"><span class="pre">checkIds</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.checkReactionBalanceElemental"><code class="docutils literal notranslate"><span class="pre">checkReactionBalanceElemental</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.createTempFileName"><code class="docutils literal notranslate"><span class="pre">createTempFileName</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.createZipArchive"><code class="docutils literal notranslate"><span class="pre">createZipArchive</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.deSerialize"><code class="docutils literal notranslate"><span class="pre">deSerialize</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.deSerializeFromDisk"><code class="docutils literal notranslate"><span class="pre">deSerializeFromDisk</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.exportArray2CSV"><code class="docutils literal notranslate"><span class="pre">exportArray2CSV</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.exportArray2TXT"><code class="docutils literal notranslate"><span class="pre">exportArray2TXT</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArray"><code class="docutils literal notranslate"><span class="pre">exportLabelledArray</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArray2CSV"><code class="docutils literal notranslate"><span class="pre">exportLabelledArray2CSV</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArray2TXT"><code class="docutils literal notranslate"><span class="pre">exportLabelledArray2TXT</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArrayWithHeader"><code class="docutils literal notranslate"><span class="pre">exportLabelledArrayWithHeader</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArrayWithHeader2CSV"><code class="docutils literal notranslate"><span class="pre">exportLabelledArrayWithHeader2CSV</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArrayWithHeader2TXT"><code class="docutils literal notranslate"><span class="pre">exportLabelledArrayWithHeader2TXT</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.exportLabelledLinkedList"><code class="docutils literal notranslate"><span class="pre">exportLabelledLinkedList</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.findDeadEndMetabolites"><code class="docutils literal notranslate"><span class="pre">findDeadEndMetabolites</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.findDeadEndReactions"><code class="docutils literal notranslate"><span class="pre">findDeadEndReactions</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.fixReversibility"><code class="docutils literal notranslate"><span class="pre">fixReversibility</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.getBoundsDict"><code class="docutils literal notranslate"><span class="pre">getBoundsDict</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.getExchBoundsDict"><code class="docutils literal notranslate"><span class="pre">getExchBoundsDict</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.getModelGenesPerReaction"><code class="docutils literal notranslate"><span class="pre">getModelGenesPerReaction</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.loadObj"><code class="docutils literal notranslate"><span class="pre">loadObj</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.merge2Models"><code class="docutils literal notranslate"><span class="pre">merge2Models</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.mergeGroups"><code class="docutils literal notranslate"><span class="pre">mergeGroups</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.processBiGGannotationNote"><code class="docutils literal notranslate"><span class="pre">processBiGGannotationNote</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.processBiGGchemFormula"><code class="docutils literal notranslate"><span class="pre">processBiGGchemFormula</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.processExchangeReactions"><code class="docutils literal notranslate"><span class="pre">processExchangeReactions</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.processSBMLAnnotationNotes"><code class="docutils literal notranslate"><span class="pre">processSBMLAnnotationNotes</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.removeFixedSpeciesReactions"><code class="docutils literal notranslate"><span class="pre">removeFixedSpeciesReactions</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.roundOffWithSense"><code class="docutils literal notranslate"><span class="pre">roundOffWithSense</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.scanForReactionDuplicates"><code class="docutils literal notranslate"><span class="pre">scanForReactionDuplicates</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.scanForUnbalancedReactions"><code class="docutils literal notranslate"><span class="pre">scanForUnbalancedReactions</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.setSpeciesPropertiesFromAnnotations"><code class="docutils literal notranslate"><span class="pre">setSpeciesPropertiesFromAnnotations</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.splitReversibleReactions"><code class="docutils literal notranslate"><span class="pre">splitReversibleReactions</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.splitSingleReversibleReaction"><code class="docutils literal notranslate"><span class="pre">splitSingleReversibleReaction</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.storeObj"><code class="docutils literal notranslate"><span class="pre">storeObj</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBTools.stringReplace"><code class="docutils literal notranslate"><span class="pre">stringReplace</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbwrite-module">CBMPy: CBWrite module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.BuildHformatFluxBounds"><code class="docutils literal notranslate"><span class="pre">BuildHformatFluxBounds</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.BuildLPConstraints"><code class="docutils literal notranslate"><span class="pre">BuildLPConstraints</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.BuildLPConstraintsMath"><code class="docutils literal notranslate"><span class="pre">BuildLPConstraintsMath</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.BuildLPConstraintsRelaxed"><code class="docutils literal notranslate"><span class="pre">BuildLPConstraintsRelaxed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.BuildLPConstraintsStrict"><code class="docutils literal notranslate"><span class="pre">BuildLPConstraintsStrict</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.BuildLPFluxBounds"><code class="docutils literal notranslate"><span class="pre">BuildLPFluxBounds</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.BuildLPUserConstraints"><code class="docutils literal notranslate"><span class="pre">BuildLPUserConstraints</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.WriteFVAdata"><code class="docutils literal notranslate"><span class="pre">WriteFVAdata</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.WriteFVAtoCSV"><code class="docutils literal notranslate"><span class="pre">WriteFVAtoCSV</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.WriteModelHFormatFBA"><code class="docutils literal notranslate"><span class="pre">WriteModelHFormatFBA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.WriteModelHFormatFBA2"><code class="docutils literal notranslate"><span class="pre">WriteModelHFormatFBA2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.WriteModelLP"><code class="docutils literal notranslate"><span class="pre">WriteModelLP</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.WriteModelLPOld"><code class="docutils literal notranslate"><span class="pre">WriteModelLPOld</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.WriteModelRaw"><code class="docutils literal notranslate"><span class="pre">WriteModelRaw</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.convertExcelToFloat"><code class="docutils literal notranslate"><span class="pre">convertExcelToFloat</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.convertFloatToExcel"><code class="docutils literal notranslate"><span class="pre">convertFloatToExcel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.exportModel"><code class="docutils literal notranslate"><span class="pre">exportModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.generateBGID"><code class="docutils literal notranslate"><span class="pre">generateBGID</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.printFBASolution"><code class="docutils literal notranslate"><span class="pre">printFBASolution</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.saveModel"><code class="docutils literal notranslate"><span class="pre">saveModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeCOBRASBML"><code class="docutils literal notranslate"><span class="pre">writeCOBRASBML</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeFVAdata"><code class="docutils literal notranslate"><span class="pre">writeFVAdata</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeFVAtoCSV"><code class="docutils literal notranslate"><span class="pre">writeFVAtoCSV</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeMinDistanceLPwithCost"><code class="docutils literal notranslate"><span class="pre">writeMinDistanceLPwithCost</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeModelHFormatFBA"><code class="docutils literal notranslate"><span class="pre">writeModelHFormatFBA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeModelHFormatFBA2"><code class="docutils literal notranslate"><span class="pre">writeModelHFormatFBA2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeModelInfoToFile"><code class="docutils literal notranslate"><span class="pre">writeModelInfoToFile</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeModelLP"><code class="docutils literal notranslate"><span class="pre">writeModelLP</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeModelLPOld"><code class="docutils literal notranslate"><span class="pre">writeModelLPOld</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeModelRaw"><code class="docutils literal notranslate"><span class="pre">writeModelRaw</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeModelToCOMBINEarchive"><code class="docutils literal notranslate"><span class="pre">writeModelToCOMBINEarchive</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeModelToExcel97"><code class="docutils literal notranslate"><span class="pre">writeModelToExcel97</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeOptimalSolution"><code class="docutils literal notranslate"><span class="pre">writeOptimalSolution</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeProteinCostToCSV"><code class="docutils literal notranslate"><span class="pre">writeProteinCostToCSV</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeReactionInfoToFile"><code class="docutils literal notranslate"><span class="pre">writeReactionInfoToFile</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeSBML2FBA"><code class="docutils literal notranslate"><span class="pre">writeSBML2FBA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeSBML3FBC"><code class="docutils literal notranslate"><span class="pre">writeSBML3FBC</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeSBML3FBCV2"><code class="docutils literal notranslate"><span class="pre">writeSBML3FBCV2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeSBML3FBCV3"><code class="docutils literal notranslate"><span class="pre">writeSBML3FBCV3</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeSensitivitiesToCSV"><code class="docutils literal notranslate"><span class="pre">writeSensitivitiesToCSV</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeSolutions"><code class="docutils literal notranslate"><span class="pre">writeSolutions</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeSpeciesInfoToFile"><code class="docutils literal notranslate"><span class="pre">writeSpeciesInfoToFile</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBWrite.writeStoichiometricMatrix"><code class="docutils literal notranslate"><span class="pre">writeStoichiometricMatrix</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbwx-module">CBMPy: CBWx module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-cbxml-module">CBMPy: CBXML module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.MLStripper"><code class="docutils literal notranslate"><span class="pre">MLStripper</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.SBML_NS"><code class="docutils literal notranslate"><span class="pre">SBML_NS</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_convertCOBRASBMLtoFBC"><code class="docutils literal notranslate"><span class="pre">sbml_convertCOBRASBMLtoFBC</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_convertSBML3FBCToCOBRA"><code class="docutils literal notranslate"><span class="pre">sbml_convertSBML3FBCToCOBRA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_createAssociationFromAST"><code class="docutils literal notranslate"><span class="pre">sbml_createAssociationFromAST</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_createAssociationFromTreeV2"><code class="docutils literal notranslate"><span class="pre">sbml_createAssociationFromTreeV2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_createModelL2"><code class="docutils literal notranslate"><span class="pre">sbml_createModelL2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_exportSBML2FBAModel"><code class="docutils literal notranslate"><span class="pre">sbml_exportSBML2FBAModel</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_fileFindVersion"><code class="docutils literal notranslate"><span class="pre">sbml_fileFindVersion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_fileValidate"><code class="docutils literal notranslate"><span class="pre">sbml_fileValidate</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_getCVterms"><code class="docutils literal notranslate"><span class="pre">sbml_getCVterms</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_getGPRasDictFBCv1"><code class="docutils literal notranslate"><span class="pre">sbml_getGPRasDictFBCv1</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_getGPRasDictFBCv2"><code class="docutils literal notranslate"><span class="pre">sbml_getGPRasDictFBCv2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_getGeneRefs"><code class="docutils literal notranslate"><span class="pre">sbml_getGeneRefs</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_getNotes"><code class="docutils literal notranslate"><span class="pre">sbml_getNotes</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_readCOBRANote"><code class="docutils literal notranslate"><span class="pre">sbml_readCOBRANote</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_readCOBRASBML"><code class="docutils literal notranslate"><span class="pre">sbml_readCOBRASBML</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_readFBCv3KeyValuePairs"><code class="docutils literal notranslate"><span class="pre">sbml_readFBCv3KeyValuePairs</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_readKeyValueDataAnnotation"><code class="docutils literal notranslate"><span class="pre">sbml_readKeyValueDataAnnotation</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_readSBML2FBA"><code class="docutils literal notranslate"><span class="pre">sbml_readSBML2FBA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_readSBML3FBC"><code class="docutils literal notranslate"><span class="pre">sbml_readSBML3FBC</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setAnnotationsL3Fbc"><code class="docutils literal notranslate"><span class="pre">sbml_setAnnotationsL3Fbc</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setCVterms"><code class="docutils literal notranslate"><span class="pre">sbml_setCVterms</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setCompartmentsL3"><code class="docutils literal notranslate"><span class="pre">sbml_setCompartmentsL3</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setDescription"><code class="docutils literal notranslate"><span class="pre">sbml_setDescription</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setFBCv3KeyValuePairs"><code class="docutils literal notranslate"><span class="pre">sbml_setFBCv3KeyValuePairs</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setGroupsL3"><code class="docutils literal notranslate"><span class="pre">sbml_setGroupsL3</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setNotes3"><code class="docutils literal notranslate"><span class="pre">sbml_setNotes3</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setParametersL3Fbc"><code class="docutils literal notranslate"><span class="pre">sbml_setParametersL3Fbc</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setReactionsL2"><code class="docutils literal notranslate"><span class="pre">sbml_setReactionsL2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setReactionsL3Fbc"><code class="docutils literal notranslate"><span class="pre">sbml_setReactionsL3Fbc</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setSpeciesL2"><code class="docutils literal notranslate"><span class="pre">sbml_setSpeciesL2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setSpeciesL3"><code class="docutils literal notranslate"><span class="pre">sbml_setSpeciesL3</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setUnits"><code class="docutils literal notranslate"><span class="pre">sbml_setUnits</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_setValidationOptions"><code class="docutils literal notranslate"><span class="pre">sbml_setValidationOptions</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_validateDocument"><code class="docutils literal notranslate"><span class="pre">sbml_validateDocument</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_writeAnnotationsAsCOBRANote"><code class="docutils literal notranslate"><span class="pre">sbml_writeAnnotationsAsCOBRANote</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_writeCOBRASBML"><code class="docutils literal notranslate"><span class="pre">sbml_writeCOBRASBML</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_writeKeyValueDataAnnotation"><code class="docutils literal notranslate"><span class="pre">sbml_writeKeyValueDataAnnotation</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_writeSBML2FBA"><code class="docutils literal notranslate"><span class="pre">sbml_writeSBML2FBA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.sbml_writeSBML3FBC"><code class="docutils literal notranslate"><span class="pre">sbml_writeSBML3FBC</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.setCBSBOterm"><code class="docutils literal notranslate"><span class="pre">setCBSBOterm</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.with_metaclass"><code class="docutils literal notranslate"><span class="pre">with_metaclass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.xml_addSBML2FBAFluxBound"><code class="docutils literal notranslate"><span class="pre">xml_addSBML2FBAFluxBound</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.xml_addSBML2FBAObjective"><code class="docutils literal notranslate"><span class="pre">xml_addSBML2FBAObjective</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.xml_createListOfFluxObjectives"><code class="docutils literal notranslate"><span class="pre">xml_createListOfFluxObjectives</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.xml_createSBML2FBADoc"><code class="docutils literal notranslate"><span class="pre">xml_createSBML2FBADoc</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.xml_createSBML2FBAObjective"><code class="docutils literal notranslate"><span class="pre">xml_createSBML2FBAObjective</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.xml_getSBML2FBAannotation"><code class="docutils literal notranslate"><span class="pre">xml_getSBML2FBAannotation</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.xml_stripTags"><code class="docutils literal notranslate"><span class="pre">xml_stripTags</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy.CBXML.xml_viewSBML2FBAXML"><code class="docutils literal notranslate"><span class="pre">xml_viewSBML2FBAXML</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-multicorefva-module">CBMPy: MultiCoreFVA module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules_doc.xhtml#cbmpy-multicoreenvfva-module">CBMPy: MultiCoreEnvFVA module</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables</h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.xhtml"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.xhtml"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.xhtml"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

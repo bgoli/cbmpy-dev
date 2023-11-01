@@ -1,0 +1,4106 @@
+<?xml version="1.0"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="unknown"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>CBMPy Documentation</text>
+  </docTitle>
+  <navMap>    
+    <navPoint id="navPoint1" playOrder="1">
+      <navLabel>
+        <text>CBMPy Reference Guide</text>
+      </navLabel>
+      <content src="cbmpy.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint2" playOrder="2">
+      <navLabel>
+        <text>CBMPy: Installation Guide</text>
+      </navLabel>
+      <content src="install_doc.xhtml" />  
+      <navPoint id="navPoint3" playOrder="2">
+        <navLabel>
+          <text>CBMPy: Installation Guide</text>
+        </navLabel>
+        <content src="install_doc.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint4" playOrder="3">
+        <navLabel>
+          <text>Introduction</text>
+        </navLabel>
+        <content src="install_doc.xhtml#introduction" />  
+        <navPoint id="navPoint5" playOrder="3">
+          <navLabel>
+            <text>Introduction</text>
+          </navLabel>
+          <content src="install_doc.xhtml#introduction" />  
+        </navPoint>
+        <navPoint id="navPoint6" playOrder="4">
+          <navLabel>
+            <text>Support</text>
+          </navLabel>
+          <content src="install_doc.xhtml#support" />  
+        </navPoint>
+        <navPoint id="navPoint7" playOrder="5">
+          <navLabel>
+            <text>Python standard library modules</text>
+          </navLabel>
+          <content src="install_doc.xhtml#python-standard-library-modules" />  
+        </navPoint>
+        <navPoint id="navPoint8" playOrder="6">
+          <navLabel>
+            <text>Required libraries (Python bindings)</text>
+          </navLabel>
+          <content src="install_doc.xhtml#required-libraries-python-bindings" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint9" playOrder="7">
+        <navLabel>
+          <text>Overview</text>
+        </navLabel>
+        <content src="install_doc.xhtml#overview" />  
+        <navPoint id="navPoint10" playOrder="7">
+          <navLabel>
+            <text>Overview</text>
+          </navLabel>
+          <content src="install_doc.xhtml#overview" />  
+        </navPoint>
+        <navPoint id="navPoint11" playOrder="8">
+          <navLabel>
+            <text>PyPI</text>
+          </navLabel>
+          <content src="install_doc.xhtml#pypi" />  
+        </navPoint>
+        <navPoint id="navPoint12" playOrder="9">
+          <navLabel>
+            <text>Minimal</text>
+          </navLabel>
+          <content src="install_doc.xhtml#minimal" />  
+        </navPoint>
+        <navPoint id="navPoint13" playOrder="10">
+          <navLabel>
+            <text>Normal</text>
+          </navLabel>
+          <content src="install_doc.xhtml#normal" />  
+        </navPoint>
+        <navPoint id="navPoint14" playOrder="11">
+          <navLabel>
+            <text>Full</text>
+          </navLabel>
+          <content src="install_doc.xhtml#full" />  
+        </navPoint>
+        <navPoint id="navPoint15" playOrder="12">
+          <navLabel>
+            <text>User tools</text>
+          </navLabel>
+          <content src="install_doc.xhtml#user-tools" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint16" playOrder="13">
+        <navLabel>
+          <text>Installing on Ubuntu Linux</text>
+        </navLabel>
+        <content src="install_doc.xhtml#installing-on-ubuntu-linux" />  
+        <navPoint id="navPoint17" playOrder="13">
+          <navLabel>
+            <text>Installing on Ubuntu Linux</text>
+          </navLabel>
+          <content src="install_doc.xhtml#installing-on-ubuntu-linux" />  
+        </navPoint>
+        <navPoint id="navPoint18" playOrder="14">
+          <navLabel>
+            <text>Python 2.7 (full install)</text>
+          </navLabel>
+          <content src="install_doc.xhtml#python-2-7-full-install" />  
+        </navPoint>
+        <navPoint id="navPoint19" playOrder="15">
+          <navLabel>
+            <text>libSBML</text>
+          </navLabel>
+          <content src="install_doc.xhtml#libsbml" />  
+        </navPoint>
+        <navPoint id="navPoint20" playOrder="16">
+          <navLabel>
+            <text>glpk/python-glpk</text>
+          </navLabel>
+          <content src="install_doc.xhtml#glpk-python-glpk" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint21" playOrder="17">
+        <navLabel>
+          <text>Installing on Microsoft Windows</text>
+        </navLabel>
+        <content src="install_doc.xhtml#installing-on-microsoft-windows" />  
+        <navPoint id="navPoint22" playOrder="17">
+          <navLabel>
+            <text>Installing on Microsoft Windows</text>
+          </navLabel>
+          <content src="install_doc.xhtml#installing-on-microsoft-windows" />  
+        </navPoint>
+        <navPoint id="navPoint23" playOrder="18">
+          <navLabel>
+            <text>Anaconda</text>
+          </navLabel>
+          <content src="install_doc.xhtml#anaconda" />  
+        </navPoint>
+        <navPoint id="navPoint24" playOrder="19">
+          <navLabel>
+            <text>Python(x,y)</text>
+          </navLabel>
+          <content src="install_doc.xhtml#python-x-y" />  
+        </navPoint>
+        <navPoint id="navPoint25" playOrder="20">
+          <navLabel>
+            <text>Installing CBMPy</text>
+          </navLabel>
+          <content src="install_doc.xhtml#installing-cbmpy" />  
+        </navPoint>
+        <navPoint id="navPoint26" playOrder="21">
+          <navLabel>
+            <text>Installing libSBML with Python bindings</text>
+          </navLabel>
+          <content src="install_doc.xhtml#installing-libsbml-with-python-bindings" />  
+        </navPoint>
+        <navPoint id="navPoint27" playOrder="22">
+          <navLabel>
+            <text>Optmization (1): IBM cplex optimization studio (Academic)</text>
+          </navLabel>
+          <content src="install_doc.xhtml#optmization-1-ibm-cplex-optimization-studio-academic" />  
+        </navPoint>
+        <navPoint id="navPoint28" playOrder="23">
+          <navLabel>
+            <text>Optmization (2): GLPK</text>
+          </navLabel>
+          <content src="install_doc.xhtml#optmization-2-glpk" />  
+        </navPoint>
+        <navPoint id="navPoint29" playOrder="24">
+          <navLabel>
+            <text>Testing your new installation</text>
+          </navLabel>
+          <content src="install_doc.xhtml#testing-your-new-installation" />  
+        </navPoint>
+        <navPoint id="navPoint30" playOrder="25">
+          <navLabel>
+            <text>Install CBMPy (http://cbmpy.sourceforge.net)</text>
+          </navLabel>
+          <content src="install_doc.xhtml#install-cbmpy-http-cbmpy-sourceforge-net" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint31" playOrder="26">
+        <navLabel>
+          <text>Linux: Ubuntu</text>
+        </navLabel>
+        <content src="install_doc.xhtml#linux-ubuntu" />  
+      </navPoint>
+      <navPoint id="navPoint32" playOrder="27">
+        <navLabel>
+          <text>Linux: Ubuntu 14.04</text>
+        </navLabel>
+        <content src="install_doc.xhtml#linux-ubuntu-14-04" />  
+        <navPoint id="navPoint33" playOrder="27">
+          <navLabel>
+            <text>Linux: Ubuntu 14.04</text>
+          </navLabel>
+          <content src="install_doc.xhtml#linux-ubuntu-14-04" />  
+        </navPoint>
+        <navPoint id="navPoint34" playOrder="28">
+          <navLabel>
+            <text>Python2</text>
+          </navLabel>
+          <content src="install_doc.xhtml#python2" />  
+        </navPoint>
+        <navPoint id="navPoint35" playOrder="29">
+          <navLabel>
+            <text>libSBML</text>
+          </navLabel>
+          <content src="install_doc.xhtml#id1" />  
+        </navPoint>
+        <navPoint id="navPoint36" playOrder="30">
+          <navLabel>
+            <text>glpk/python-glpk</text>
+          </navLabel>
+          <content src="install_doc.xhtml#id2" />  
+        </navPoint>
+        <navPoint id="navPoint37" playOrder="31">
+          <navLabel>
+            <text>CBMPy</text>
+          </navLabel>
+          <content src="install_doc.xhtml#cbmpy" />  
+        </navPoint>
+        <navPoint id="navPoint38" playOrder="32">
+          <navLabel>
+            <text>Installing PyscesMarinerCBM</text>
+          </navLabel>
+          <content src="install_doc.xhtml#installing-pyscesmarinercbm" />  
+        </navPoint>
+        <navPoint id="navPoint39" playOrder="33">
+          <navLabel>
+            <text>Install soaplib</text>
+          </navLabel>
+          <content src="install_doc.xhtml#install-soaplib" />  
+        </navPoint>
+        <navPoint id="navPoint40" playOrder="34">
+          <navLabel>
+            <text>Install Mariner</text>
+          </navLabel>
+          <content src="install_doc.xhtml#install-mariner" />  
+        </navPoint>
+        <navPoint id="navPoint41" playOrder="35">
+          <navLabel>
+            <text>Test installation</text>
+          </navLabel>
+          <content src="install_doc.xhtml#test-installation" />  
+        </navPoint>
+        <navPoint id="navPoint42" playOrder="36">
+          <navLabel>
+            <text>Python3</text>
+          </navLabel>
+          <content src="install_doc.xhtml#python3" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint43" playOrder="37">
+        <navLabel>
+          <text>Apple Macintosh: OS X</text>
+        </navLabel>
+        <content src="install_doc.xhtml#apple-macintosh-os-x" />  
+      </navPoint>
+      <navPoint id="navPoint44" playOrder="38">
+        <navLabel>
+          <text>Installing PySCeS-CBM Mariner (Microsoft Windows and Linux)</text>
+        </navLabel>
+        <content src="install_doc.xhtml#installing-pysces-cbm-mariner-microsoft-windows-and-linux" />  
+        <navPoint id="navPoint45" playOrder="38">
+          <navLabel>
+            <text>Installing PySCeS-CBM Mariner (Microsoft Windows and Linux)</text>
+          </navLabel>
+          <content src="install_doc.xhtml#installing-pysces-cbm-mariner-microsoft-windows-and-linux" />  
+        </navPoint>
+        <navPoint id="navPoint46" playOrder="39">
+          <navLabel>
+            <text>Dependencies: CherryPy, libXML and SOAPlib</text>
+          </navLabel>
+          <content src="install_doc.xhtml#dependencies-cherrypy-libxml-and-soaplib" />  
+        </navPoint>
+        <navPoint id="navPoint47" playOrder="40">
+          <navLabel>
+            <text>PySCeS-CBM Mariner (http://cbmpy.sourceforge.net)</text>
+          </navLabel>
+          <content src="install_doc.xhtml#pysces-cbm-mariner-http-cbmpy-sourceforge-net" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint48" playOrder="41">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="manual_doc.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint49" playOrder="42">
+      <navLabel>
+        <text>CBMPy Module Reference</text>
+      </navLabel>
+      <content src="modules_doc.xhtml" />  
+      <navPoint id="navPoint50" playOrder="42">
+        <navLabel>
+          <text>CBMPy Module Reference</text>
+        </navLabel>
+        <content src="modules_doc.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint51" playOrder="43">
+        <navLabel>
+          <text>CBMPy: CBCommon module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbcommon-module" />  
+      </navPoint>
+      <navPoint id="navPoint52" playOrder="44">
+        <navLabel>
+          <text>ComboGen</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.ComboGen" />  
+      </navPoint>
+      <navPoint id="navPoint53" playOrder="45">
+        <navLabel>
+          <text>MIRIAMannotation</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation" />  
+        <navPoint id="navPoint54" playOrder="45">
+          <navLabel>
+            <text>MIRIAMannotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation" />  
+        </navPoint>
+        <navPoint id="navPoint55" playOrder="46">
+          <navLabel>
+            <text>MIRIAMannotation.addIDorgURI</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.addIDorgURI" />  
+        </navPoint>
+        <navPoint id="navPoint56" playOrder="47">
+          <navLabel>
+            <text>MIRIAMannotation.addMIRIAMannotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.addMIRIAMannotation" />  
+        </navPoint>
+        <navPoint id="navPoint57" playOrder="48">
+          <navLabel>
+            <text>MIRIAMannotation.checkEntity</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.checkEntity" />  
+        </navPoint>
+        <navPoint id="navPoint58" playOrder="49">
+          <navLabel>
+            <text>MIRIAMannotation.checkEntityPattern</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.checkEntityPattern" />  
+        </navPoint>
+        <navPoint id="navPoint59" playOrder="50">
+          <navLabel>
+            <text>MIRIAMannotation.checkId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.checkId" />  
+        </navPoint>
+        <navPoint id="navPoint60" playOrder="51">
+          <navLabel>
+            <text>MIRIAMannotation.deleteMIRIAMannotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.deleteMIRIAMannotation" />  
+        </navPoint>
+        <navPoint id="navPoint61" playOrder="52">
+          <navLabel>
+            <text>MIRIAMannotation.getAllMIRIAMUris</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.getAllMIRIAMUris" />  
+        </navPoint>
+        <navPoint id="navPoint62" playOrder="53">
+          <navLabel>
+            <text>MIRIAMannotation.getAndViewUrisForQualifier</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.getAndViewUrisForQualifier" />  
+        </navPoint>
+        <navPoint id="navPoint63" playOrder="54">
+          <navLabel>
+            <text>MIRIAMannotation.getMIRIAMUrisForQualifier</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.getMIRIAMUrisForQualifier" />  
+        </navPoint>
+        <navPoint id="navPoint64" playOrder="55">
+          <navLabel>
+            <text>MIRIAMannotation.viewURL</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.MIRIAMannotation.viewURL" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint65" playOrder="56">
+        <navLabel>
+          <text>StructMatrix</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix" />  
+        <navPoint id="navPoint66" playOrder="56">
+          <navLabel>
+            <text>StructMatrix</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix" />  
+        </navPoint>
+        <navPoint id="navPoint67" playOrder="57">
+          <navLabel>
+            <text>StructMatrix.getColsByIdx</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix.getColsByIdx" />  
+        </navPoint>
+        <navPoint id="navPoint68" playOrder="58">
+          <navLabel>
+            <text>StructMatrix.getColsByName</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix.getColsByName" />  
+        </navPoint>
+        <navPoint id="navPoint69" playOrder="59">
+          <navLabel>
+            <text>StructMatrix.getIndexes</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix.getIndexes" />  
+        </navPoint>
+        <navPoint id="navPoint70" playOrder="60">
+          <navLabel>
+            <text>StructMatrix.getLabels</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix.getLabels" />  
+        </navPoint>
+        <navPoint id="navPoint71" playOrder="61">
+          <navLabel>
+            <text>StructMatrix.getRowsByIdx</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix.getRowsByIdx" />  
+        </navPoint>
+        <navPoint id="navPoint72" playOrder="62">
+          <navLabel>
+            <text>StructMatrix.getRowsByName</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix.getRowsByName" />  
+        </navPoint>
+        <navPoint id="navPoint73" playOrder="63">
+          <navLabel>
+            <text>StructMatrix.setCol</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix.setCol" />  
+        </navPoint>
+        <navPoint id="navPoint74" playOrder="64">
+          <navLabel>
+            <text>StructMatrix.setRow</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrix.setRow" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint75" playOrder="65">
+        <navLabel>
+          <text>StructMatrixLP</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrixLP" />  
+        <navPoint id="navPoint76" playOrder="65">
+          <navLabel>
+            <text>StructMatrixLP</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrixLP" />  
+        </navPoint>
+        <navPoint id="navPoint77" playOrder="66">
+          <navLabel>
+            <text>StructMatrixLP.getCopy</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBCommon.StructMatrixLP.getCopy" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint78" playOrder="67">
+        <navLabel>
+          <text>checkChemFormula</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.checkChemFormula" />  
+      </navPoint>
+      <navPoint id="navPoint79" playOrder="68">
+        <navLabel>
+          <text>checkId</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.checkId" />  
+      </navPoint>
+      <navPoint id="navPoint80" playOrder="69">
+        <navLabel>
+          <text>createAssociationDictFromNode</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.createAssociationDictFromNode" />  
+      </navPoint>
+      <navPoint id="navPoint81" playOrder="70">
+        <navLabel>
+          <text>extractGeneIdsFromString</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.extractGeneIdsFromString" />  
+      </navPoint>
+      <navPoint id="navPoint82" playOrder="71">
+        <navLabel>
+          <text>fixId</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.fixId" />  
+      </navPoint>
+      <navPoint id="navPoint83" playOrder="72">
+        <navLabel>
+          <text>func_getAssociationStrFromGprDict</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.func_getAssociationStrFromGprDict" />  
+      </navPoint>
+      <navPoint id="navPoint84" playOrder="73">
+        <navLabel>
+          <text>getGPRasDictFromString</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.getGPRasDictFromString" />  
+      </navPoint>
+      <navPoint id="navPoint85" playOrder="74">
+        <navLabel>
+          <text>parseGeneAssociation</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.parseGeneAssociation" />  
+      </navPoint>
+      <navPoint id="navPoint86" playOrder="75">
+        <navLabel>
+          <text>processSpeciesChargeChemFormulaAnnot</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCommon.processSpeciesChargeChemFormulaAnnot" />  
+      </navPoint>
+      <navPoint id="navPoint87" playOrder="76">
+        <navLabel>
+          <text>CBMPy: CBConfig module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbconfig-module" />  
+      </navPoint>
+      <navPoint id="navPoint88" playOrder="77">
+        <navLabel>
+          <text>current_version</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBConfig.current_version" />  
+      </navPoint>
+      <navPoint id="navPoint89" playOrder="78">
+        <navLabel>
+          <text>current_version_tuple</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBConfig.current_version_tuple" />  
+      </navPoint>
+      <navPoint id="navPoint90" playOrder="79">
+        <navLabel>
+          <text>CBMPy: CBCPLEX module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbcplex-module" />  
+      </navPoint>
+      <navPoint id="navPoint91" playOrder="80">
+        <navLabel>
+          <text>cplx_FluxVariabilityAnalysis</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_FluxVariabilityAnalysis" />  
+      </navPoint>
+      <navPoint id="navPoint92" playOrder="81">
+        <navLabel>
+          <text>cplx_MinimizeNumActiveFluxes</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_MinimizeNumActiveFluxes" />  
+      </navPoint>
+      <navPoint id="navPoint93" playOrder="82">
+        <navLabel>
+          <text>cplx_MinimizeSumOfAbsFluxes</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_MinimizeSumOfAbsFluxes" />  
+      </navPoint>
+      <navPoint id="navPoint94" playOrder="83">
+        <navLabel>
+          <text>cplx_MultiFluxVariabilityAnalysis</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_MultiFluxVariabilityAnalysis" />  
+      </navPoint>
+      <navPoint id="navPoint95" playOrder="84">
+        <navLabel>
+          <text>cplx_SolveMILP</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_SolveMILP" />  
+      </navPoint>
+      <navPoint id="navPoint96" playOrder="85">
+        <navLabel>
+          <text>cplx_WriteFVAtoCSV</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_WriteFVAtoCSV" />  
+      </navPoint>
+      <navPoint id="navPoint97" playOrder="86">
+        <navLabel>
+          <text>cplx_analyzeModel</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_analyzeModel" />  
+      </navPoint>
+      <navPoint id="navPoint98" playOrder="87">
+        <navLabel>
+          <text>cplx_constructLPfromFBA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_constructLPfromFBA" />  
+      </navPoint>
+      <navPoint id="navPoint99" playOrder="88">
+        <navLabel>
+          <text>cplx_fixConSense</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_fixConSense" />  
+      </navPoint>
+      <navPoint id="navPoint100" playOrder="89">
+        <navLabel>
+          <text>cplx_func_GetCPXandPresolve</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_func_GetCPXandPresolve" />  
+      </navPoint>
+      <navPoint id="navPoint101" playOrder="90">
+        <navLabel>
+          <text>cplx_func_SetObjectiveFunctionAsConstraint</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_func_SetObjectiveFunctionAsConstraint" />  
+      </navPoint>
+      <navPoint id="navPoint102" playOrder="91">
+        <navLabel>
+          <text>cplx_getCPLEXModelFromLP</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getCPLEXModelFromLP" />  
+      </navPoint>
+      <navPoint id="navPoint103" playOrder="92">
+        <navLabel>
+          <text>cplx_getDualValues</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getDualValues" />  
+      </navPoint>
+      <navPoint id="navPoint104" playOrder="93">
+        <navLabel>
+          <text>cplx_getModelFromLP</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getModelFromLP" />  
+      </navPoint>
+      <navPoint id="navPoint105" playOrder="94">
+        <navLabel>
+          <text>cplx_getModelFromObj</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getModelFromObj" />  
+      </navPoint>
+      <navPoint id="navPoint106" playOrder="95">
+        <navLabel>
+          <text>cplx_getOptimalSolution</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getOptimalSolution" />  
+      </navPoint>
+      <navPoint id="navPoint107" playOrder="96">
+        <navLabel>
+          <text>cplx_getOptimalSolution2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getOptimalSolution2" />  
+      </navPoint>
+      <navPoint id="navPoint108" playOrder="97">
+        <navLabel>
+          <text>cplx_getReducedCosts</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getReducedCosts" />  
+      </navPoint>
+      <navPoint id="navPoint109" playOrder="98">
+        <navLabel>
+          <text>cplx_getSensitivities</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getSensitivities" />  
+      </navPoint>
+      <navPoint id="navPoint110" playOrder="99">
+        <navLabel>
+          <text>cplx_getShadowPrices</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getShadowPrices" />  
+      </navPoint>
+      <navPoint id="navPoint111" playOrder="100">
+        <navLabel>
+          <text>cplx_getSolutionStatus</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_getSolutionStatus" />  
+      </navPoint>
+      <navPoint id="navPoint112" playOrder="101">
+        <navLabel>
+          <text>cplx_runInputScan</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_runInputScan" />  
+      </navPoint>
+      <navPoint id="navPoint113" playOrder="102">
+        <navLabel>
+          <text>cplx_setFBAsolutionToModel</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setFBAsolutionToModel" />  
+      </navPoint>
+      <navPoint id="navPoint114" playOrder="103">
+        <navLabel>
+          <text>cplx_setMIPGapTolerance</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setMIPGapTolerance" />  
+      </navPoint>
+      <navPoint id="navPoint115" playOrder="104">
+        <navLabel>
+          <text>cplx_setObjective</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setObjective" />  
+      </navPoint>
+      <navPoint id="navPoint116" playOrder="105">
+        <navLabel>
+          <text>cplx_setObjective2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setObjective2" />  
+      </navPoint>
+      <navPoint id="navPoint117" playOrder="106">
+        <navLabel>
+          <text>cplx_setOutputStreams</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setOutputStreams" />  
+      </navPoint>
+      <navPoint id="navPoint118" playOrder="107">
+        <navLabel>
+          <text>cplx_setSolutionStatusToModel</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_setSolutionStatusToModel" />  
+      </navPoint>
+      <navPoint id="navPoint119" playOrder="108">
+        <navLabel>
+          <text>cplx_singleGeneScan</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_singleGeneScan" />  
+      </navPoint>
+      <navPoint id="navPoint120" playOrder="109">
+        <navLabel>
+          <text>cplx_singleReactionDeletionScan</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_singleReactionDeletionScan" />  
+      </navPoint>
+      <navPoint id="navPoint121" playOrder="110">
+        <navLabel>
+          <text>cplx_writeLPsolution</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_writeLPsolution" />  
+      </navPoint>
+      <navPoint id="navPoint122" playOrder="111">
+        <navLabel>
+          <text>cplx_writeLPtoLPTfile</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.cplx_writeLPtoLPTfile" />  
+      </navPoint>
+      <navPoint id="navPoint123" playOrder="112">
+        <navLabel>
+          <text>getReducedCosts</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.getReducedCosts" />  
+      </navPoint>
+      <navPoint id="navPoint124" playOrder="113">
+        <navLabel>
+          <text>setReducedCosts</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBCPLEX.setReducedCosts" />  
+      </navPoint>
+      <navPoint id="navPoint125" playOrder="114">
+        <navLabel>
+          <text>CBMPy: CBDataStruct module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbdatastruct-module" />  
+      </navPoint>
+      <navPoint id="navPoint126" playOrder="115">
+        <navLabel>
+          <text>CBMPy: CBGUI module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbgui-module" />  
+      </navPoint>
+      <navPoint id="navPoint127" playOrder="116">
+        <navLabel>
+          <text>loadCBGUI</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBGUI.loadCBGUI" />  
+      </navPoint>
+      <navPoint id="navPoint128" playOrder="117">
+        <navLabel>
+          <text>CBMPy: CBModel module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbmodel-module" />  
+      </navPoint>
+      <navPoint id="navPoint129" playOrder="118">
+        <navLabel>
+          <text>Compartment</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Compartment" />  
+        <navPoint id="navPoint130" playOrder="118">
+          <navLabel>
+            <text>Compartment</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Compartment" />  
+        </navPoint>
+        <navPoint id="navPoint131" playOrder="119">
+          <navLabel>
+            <text>Compartment.containsReactions</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Compartment.containsReactions" />  
+        </navPoint>
+        <navPoint id="navPoint132" playOrder="120">
+          <navLabel>
+            <text>Compartment.containsSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Compartment.containsSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint133" playOrder="121">
+          <navLabel>
+            <text>Compartment.getDimensions</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Compartment.getDimensions" />  
+        </navPoint>
+        <navPoint id="navPoint134" playOrder="122">
+          <navLabel>
+            <text>Compartment.getSize</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Compartment.getSize" />  
+        </navPoint>
+        <navPoint id="navPoint135" playOrder="123">
+          <navLabel>
+            <text>Compartment.setDimensions</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Compartment.setDimensions" />  
+        </navPoint>
+        <navPoint id="navPoint136" playOrder="124">
+          <navLabel>
+            <text>Compartment.setId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Compartment.setId" />  
+        </navPoint>
+        <navPoint id="navPoint137" playOrder="125">
+          <navLabel>
+            <text>Compartment.setSize</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Compartment.setSize" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint138" playOrder="126">
+        <navLabel>
+          <text>ConstraintComponent</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.ConstraintComponent" />  
+      </navPoint>
+      <navPoint id="navPoint139" playOrder="127">
+        <navLabel>
+          <text>Fbase</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase" />  
+        <navPoint id="navPoint140" playOrder="127">
+          <navLabel>
+            <text>Fbase</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase" />  
+        </navPoint>
+        <navPoint id="navPoint141" playOrder="128">
+          <navLabel>
+            <text>Fbase.addMIRIAMannotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.addMIRIAMannotation" />  
+        </navPoint>
+        <navPoint id="navPoint142" playOrder="129">
+          <navLabel>
+            <text>Fbase.addMIRIAMuri</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.addMIRIAMuri" />  
+        </navPoint>
+        <navPoint id="navPoint143" playOrder="130">
+          <navLabel>
+            <text>Fbase.clone</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.clone" />  
+        </navPoint>
+        <navPoint id="navPoint144" playOrder="131">
+          <navLabel>
+            <text>Fbase.deleteAnnotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.deleteAnnotation" />  
+        </navPoint>
+        <navPoint id="navPoint145" playOrder="132">
+          <navLabel>
+            <text>Fbase.deleteMIRIAMannotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.deleteMIRIAMannotation" />  
+        </navPoint>
+        <navPoint id="navPoint146" playOrder="133">
+          <navLabel>
+            <text>Fbase.getAnnotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getAnnotation" />  
+        </navPoint>
+        <navPoint id="navPoint147" playOrder="134">
+          <navLabel>
+            <text>Fbase.getAnnotations</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getAnnotations" />  
+        </navPoint>
+        <navPoint id="navPoint148" playOrder="135">
+          <navLabel>
+            <text>Fbase.getCompartmentId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getCompartmentId" />  
+        </navPoint>
+        <navPoint id="navPoint149" playOrder="136">
+          <navLabel>
+            <text>Fbase.getId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getId" />  
+        </navPoint>
+        <navPoint id="navPoint150" playOrder="137">
+          <navLabel>
+            <text>Fbase.getMIRIAMannotations</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getMIRIAMannotations" />  
+        </navPoint>
+        <navPoint id="navPoint151" playOrder="138">
+          <navLabel>
+            <text>Fbase.getMetaId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getMetaId" />  
+        </navPoint>
+        <navPoint id="navPoint152" playOrder="139">
+          <navLabel>
+            <text>Fbase.getModel</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getModel" />  
+        </navPoint>
+        <navPoint id="navPoint153" playOrder="140">
+          <navLabel>
+            <text>Fbase.getName</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getName" />  
+        </navPoint>
+        <navPoint id="navPoint154" playOrder="141">
+          <navLabel>
+            <text>Fbase.getNotes</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getNotes" />  
+        </navPoint>
+        <navPoint id="navPoint155" playOrder="142">
+          <navLabel>
+            <text>Fbase.getPid</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getPid" />  
+        </navPoint>
+        <navPoint id="navPoint156" playOrder="143">
+          <navLabel>
+            <text>Fbase.getSBOterm</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.getSBOterm" />  
+        </navPoint>
+        <navPoint id="navPoint157" playOrder="144">
+          <navLabel>
+            <text>Fbase.hasAnnotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.hasAnnotation" />  
+        </navPoint>
+        <navPoint id="navPoint158" playOrder="145">
+          <navLabel>
+            <text>Fbase.serialize</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.serialize" />  
+        </navPoint>
+        <navPoint id="navPoint159" playOrder="146">
+          <navLabel>
+            <text>Fbase.serializeToDisk</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.serializeToDisk" />  
+        </navPoint>
+        <navPoint id="navPoint160" playOrder="147">
+          <navLabel>
+            <text>Fbase.setAnnotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.setAnnotation" />  
+        </navPoint>
+        <navPoint id="navPoint161" playOrder="148">
+          <navLabel>
+            <text>Fbase.setCompartmentId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.setCompartmentId" />  
+        </navPoint>
+        <navPoint id="navPoint162" playOrder="149">
+          <navLabel>
+            <text>Fbase.setId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.setId" />  
+        </navPoint>
+        <navPoint id="navPoint163" playOrder="150">
+          <navLabel>
+            <text>Fbase.setMetaId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.setMetaId" />  
+        </navPoint>
+        <navPoint id="navPoint164" playOrder="151">
+          <navLabel>
+            <text>Fbase.setName</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.setName" />  
+        </navPoint>
+        <navPoint id="navPoint165" playOrder="152">
+          <navLabel>
+            <text>Fbase.setNotes</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.setNotes" />  
+        </navPoint>
+        <navPoint id="navPoint166" playOrder="153">
+          <navLabel>
+            <text>Fbase.setPid</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.setPid" />  
+        </navPoint>
+        <navPoint id="navPoint167" playOrder="154">
+          <navLabel>
+            <text>Fbase.setSBOterm</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Fbase.setSBOterm" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint168" playOrder="155">
+        <navLabel>
+          <text>FluxBound</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBound" />  
+        <navPoint id="navPoint169" playOrder="155">
+          <navLabel>
+            <text>FluxBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBound" />  
+        </navPoint>
+        <navPoint id="navPoint170" playOrder="156">
+          <navLabel>
+            <text>FluxBound.getType</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBound.getType" />  
+        </navPoint>
+        <navPoint id="navPoint171" playOrder="157">
+          <navLabel>
+            <text>FluxBound.getValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBound.getValue" />  
+        </navPoint>
+        <navPoint id="navPoint172" playOrder="158">
+          <navLabel>
+            <text>FluxBound.setReactionId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBound.setReactionId" />  
+        </navPoint>
+        <navPoint id="navPoint173" playOrder="159">
+          <navLabel>
+            <text>FluxBound.setValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBound.setValue" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint174" playOrder="160">
+        <navLabel>
+          <text>FluxBoundBase</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBoundBase" />  
+        <navPoint id="navPoint175" playOrder="160">
+          <navLabel>
+            <text>FluxBoundBase</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBoundBase" />  
+        </navPoint>
+        <navPoint id="navPoint176" playOrder="161">
+          <navLabel>
+            <text>FluxBoundBase.getType</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBoundBase.getType" />  
+        </navPoint>
+        <navPoint id="navPoint177" playOrder="162">
+          <navLabel>
+            <text>FluxBoundBase.getValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBoundBase.getValue" />  
+        </navPoint>
+        <navPoint id="navPoint178" playOrder="163">
+          <navLabel>
+            <text>FluxBoundBase.setValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBoundBase.setValue" />  
+        </navPoint>
+        <navPoint id="navPoint179" playOrder="164">
+          <navLabel>
+            <text>FluxBoundBase.value</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBoundBase.value" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint180" playOrder="165">
+        <navLabel>
+          <text>FluxBoundLower</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBoundLower" />  
+      </navPoint>
+      <navPoint id="navPoint181" playOrder="166">
+        <navLabel>
+          <text>FluxBoundUpper</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.FluxBoundUpper" />  
+      </navPoint>
+      <navPoint id="navPoint182" playOrder="167">
+        <navLabel>
+          <text>FluxObjective</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.FluxObjective" />  
+      </navPoint>
+      <navPoint id="navPoint183" playOrder="168">
+        <navLabel>
+          <text>FluxObjectiveQuadratic</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.FluxObjectiveQuadratic" />  
+      </navPoint>
+      <navPoint id="navPoint184" playOrder="169">
+        <navLabel>
+          <text>Gene</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Gene" />  
+        <navPoint id="navPoint185" playOrder="169">
+          <navLabel>
+            <text>Gene</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Gene" />  
+        </navPoint>
+        <navPoint id="navPoint186" playOrder="170">
+          <navLabel>
+            <text>Gene.getLabel</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Gene.getLabel" />  
+        </navPoint>
+        <navPoint id="navPoint187" playOrder="171">
+          <navLabel>
+            <text>Gene.isActive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Gene.isActive" />  
+        </navPoint>
+        <navPoint id="navPoint188" playOrder="172">
+          <navLabel>
+            <text>Gene.resetActivity</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Gene.resetActivity" />  
+        </navPoint>
+        <navPoint id="navPoint189" playOrder="173">
+          <navLabel>
+            <text>Gene.setActive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Gene.setActive" />  
+        </navPoint>
+        <navPoint id="navPoint190" playOrder="174">
+          <navLabel>
+            <text>Gene.setId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Gene.setId" />  
+        </navPoint>
+        <navPoint id="navPoint191" playOrder="175">
+          <navLabel>
+            <text>Gene.setInactive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Gene.setInactive" />  
+        </navPoint>
+        <navPoint id="navPoint192" playOrder="176">
+          <navLabel>
+            <text>Gene.setLabel</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Gene.setLabel" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint193" playOrder="177">
+        <navLabel>
+          <text>GeneProteinAssociation</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation" />  
+        <navPoint id="navPoint194" playOrder="177">
+          <navLabel>
+            <text>GeneProteinAssociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation" />  
+        </navPoint>
+        <navPoint id="navPoint195" playOrder="178">
+          <navLabel>
+            <text>GeneProteinAssociation.addAssociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.addAssociation" />  
+        </navPoint>
+        <navPoint id="navPoint196" playOrder="179">
+          <navLabel>
+            <text>GeneProteinAssociation.addGeneref</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.addGeneref" />  
+        </navPoint>
+        <navPoint id="navPoint197" playOrder="180">
+          <navLabel>
+            <text>GeneProteinAssociation.createAssociationAndGeneRefsFromString</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.createAssociationAndGeneRefsFromString" />  
+        </navPoint>
+        <navPoint id="navPoint198" playOrder="181">
+          <navLabel>
+            <text>GeneProteinAssociation.createAssociationAndGeneRefsFromTree</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.createAssociationAndGeneRefsFromTree" />  
+        </navPoint>
+        <navPoint id="navPoint199" playOrder="182">
+          <navLabel>
+            <text>GeneProteinAssociation.deleteGeneFromAssociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.deleteGeneFromAssociation" />  
+        </navPoint>
+        <navPoint id="navPoint200" playOrder="183">
+          <navLabel>
+            <text>GeneProteinAssociation.deleteGeneref</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.deleteGeneref" />  
+        </navPoint>
+        <navPoint id="navPoint201" playOrder="184">
+          <navLabel>
+            <text>GeneProteinAssociation.evalAssociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.evalAssociation" />  
+        </navPoint>
+        <navPoint id="navPoint202" playOrder="185">
+          <navLabel>
+            <text>GeneProteinAssociation.getActiveGenes</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.getActiveGenes" />  
+        </navPoint>
+        <navPoint id="navPoint203" playOrder="186">
+          <navLabel>
+            <text>GeneProteinAssociation.getAssociationStr</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.getAssociationStr" />  
+        </navPoint>
+        <navPoint id="navPoint204" playOrder="187">
+          <navLabel>
+            <text>GeneProteinAssociation.getGene</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.getGene" />  
+        </navPoint>
+        <navPoint id="navPoint205" playOrder="188">
+          <navLabel>
+            <text>GeneProteinAssociation.getGeneIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.getGeneIds" />  
+        </navPoint>
+        <navPoint id="navPoint206" playOrder="189">
+          <navLabel>
+            <text>GeneProteinAssociation.getGeneLabels</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.getGeneLabels" />  
+        </navPoint>
+        <navPoint id="navPoint207" playOrder="190">
+          <navLabel>
+            <text>GeneProteinAssociation.getGenes</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.getGenes" />  
+        </navPoint>
+        <navPoint id="navPoint208" playOrder="191">
+          <navLabel>
+            <text>GeneProteinAssociation.getProtein</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.getProtein" />  
+        </navPoint>
+        <navPoint id="navPoint209" playOrder="192">
+          <navLabel>
+            <text>GeneProteinAssociation.getTree</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.getTree" />  
+        </navPoint>
+        <navPoint id="navPoint210" playOrder="193">
+          <navLabel>
+            <text>GeneProteinAssociation.getTreeCopy</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.getTreeCopy" />  
+        </navPoint>
+        <navPoint id="navPoint211" playOrder="194">
+          <navLabel>
+            <text>GeneProteinAssociation.isProteinActive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.isProteinActive" />  
+        </navPoint>
+        <navPoint id="navPoint212" playOrder="195">
+          <navLabel>
+            <text>GeneProteinAssociation.setAllGenesActive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.setAllGenesActive" />  
+        </navPoint>
+        <navPoint id="navPoint213" playOrder="196">
+          <navLabel>
+            <text>GeneProteinAssociation.setAllGenesInactive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.setAllGenesInactive" />  
+        </navPoint>
+        <navPoint id="navPoint214" playOrder="197">
+          <navLabel>
+            <text>GeneProteinAssociation.setGeneActive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.setGeneActive" />  
+        </navPoint>
+        <navPoint id="navPoint215" playOrder="198">
+          <navLabel>
+            <text>GeneProteinAssociation.setGeneInactive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.setGeneInactive" />  
+        </navPoint>
+        <navPoint id="navPoint216" playOrder="199">
+          <navLabel>
+            <text>GeneProteinAssociation.setProtein</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.setProtein" />  
+        </navPoint>
+        <navPoint id="navPoint217" playOrder="200">
+          <navLabel>
+            <text>GeneProteinAssociation.setTree</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.GeneProteinAssociation.setTree" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint218" playOrder="201">
+        <navLabel>
+          <text>Group</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Group" />  
+        <navPoint id="navPoint219" playOrder="201">
+          <navLabel>
+            <text>Group</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group" />  
+        </navPoint>
+        <navPoint id="navPoint220" playOrder="202">
+          <navLabel>
+            <text>Group.addMember</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.addMember" />  
+        </navPoint>
+        <navPoint id="navPoint221" playOrder="203">
+          <navLabel>
+            <text>Group.addSharedMIRIAMannotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.addSharedMIRIAMannotation" />  
+        </navPoint>
+        <navPoint id="navPoint222" playOrder="204">
+          <navLabel>
+            <text>Group.assignAllSharedPropertiesToMembers</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.assignAllSharedPropertiesToMembers" />  
+        </navPoint>
+        <navPoint id="navPoint223" playOrder="205">
+          <navLabel>
+            <text>Group.assignSharedAnnotationToMembers</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.assignSharedAnnotationToMembers" />  
+        </navPoint>
+        <navPoint id="navPoint224" playOrder="206">
+          <navLabel>
+            <text>Group.assignSharedMIRIAMannotationToMembers</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.assignSharedMIRIAMannotationToMembers" />  
+        </navPoint>
+        <navPoint id="navPoint225" playOrder="207">
+          <navLabel>
+            <text>Group.assignSharedNotesToMembers</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.assignSharedNotesToMembers" />  
+        </navPoint>
+        <navPoint id="navPoint226" playOrder="208">
+          <navLabel>
+            <text>Group.assignSharedSBOtermsToMembers</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.assignSharedSBOtermsToMembers" />  
+        </navPoint>
+        <navPoint id="navPoint227" playOrder="209">
+          <navLabel>
+            <text>Group.clone</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.clone" />  
+        </navPoint>
+        <navPoint id="navPoint228" playOrder="210">
+          <navLabel>
+            <text>Group.deleteMember</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.deleteMember" />  
+        </navPoint>
+        <navPoint id="navPoint229" playOrder="211">
+          <navLabel>
+            <text>Group.getKind</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.getKind" />  
+        </navPoint>
+        <navPoint id="navPoint230" playOrder="212">
+          <navLabel>
+            <text>Group.getMember</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.getMember" />  
+        </navPoint>
+        <navPoint id="navPoint231" playOrder="213">
+          <navLabel>
+            <text>Group.getMemberIDs</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.getMemberIDs" />  
+        </navPoint>
+        <navPoint id="navPoint232" playOrder="214">
+          <navLabel>
+            <text>Group.getMembers</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.getMembers" />  
+        </navPoint>
+        <navPoint id="navPoint233" playOrder="215">
+          <navLabel>
+            <text>Group.getSharedAnnotations</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.getSharedAnnotations" />  
+        </navPoint>
+        <navPoint id="navPoint234" playOrder="216">
+          <navLabel>
+            <text>Group.getSharedMIRIAMannotations</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.getSharedMIRIAMannotations" />  
+        </navPoint>
+        <navPoint id="navPoint235" playOrder="217">
+          <navLabel>
+            <text>Group.getSharedNotes</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.getSharedNotes" />  
+        </navPoint>
+        <navPoint id="navPoint236" playOrder="218">
+          <navLabel>
+            <text>Group.getSharedSBOterm</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.getSharedSBOterm" />  
+        </navPoint>
+        <navPoint id="navPoint237" playOrder="219">
+          <navLabel>
+            <text>Group.hasMember</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.hasMember" />  
+        </navPoint>
+        <navPoint id="navPoint238" playOrder="220">
+          <navLabel>
+            <text>Group.serialize</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.serialize" />  
+        </navPoint>
+        <navPoint id="navPoint239" playOrder="221">
+          <navLabel>
+            <text>Group.serializeToDisk</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.serializeToDisk" />  
+        </navPoint>
+        <navPoint id="navPoint240" playOrder="222">
+          <navLabel>
+            <text>Group.setKind</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.setKind" />  
+        </navPoint>
+        <navPoint id="navPoint241" playOrder="223">
+          <navLabel>
+            <text>Group.setSharedAnnotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.setSharedAnnotation" />  
+        </navPoint>
+        <navPoint id="navPoint242" playOrder="224">
+          <navLabel>
+            <text>Group.setSharedNotes</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.setSharedNotes" />  
+        </navPoint>
+        <navPoint id="navPoint243" playOrder="225">
+          <navLabel>
+            <text>Group.setSharedSBOterm</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Group.setSharedSBOterm" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint244" playOrder="226">
+        <navLabel>
+          <text>GroupMemberAttributes</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.GroupMemberAttributes" />  
+      </navPoint>
+      <navPoint id="navPoint245" playOrder="227">
+        <navLabel>
+          <text>Model</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Model" />  
+        <navPoint id="navPoint246" playOrder="227">
+          <navLabel>
+            <text>Model</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model" />  
+        </navPoint>
+        <navPoint id="navPoint247" playOrder="228">
+          <navLabel>
+            <text>Model.addCompartment</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addCompartment" />  
+        </navPoint>
+        <navPoint id="navPoint248" playOrder="229">
+          <navLabel>
+            <text>Model.addFluxBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addFluxBound" />  
+        </navPoint>
+        <navPoint id="navPoint249" playOrder="230">
+          <navLabel>
+            <text>Model.addGPRAssociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addGPRAssociation" />  
+        </navPoint>
+        <navPoint id="navPoint250" playOrder="231">
+          <navLabel>
+            <text>Model.addGene</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addGene" />  
+        </navPoint>
+        <navPoint id="navPoint251" playOrder="232">
+          <navLabel>
+            <text>Model.addGroup</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addGroup" />  
+        </navPoint>
+        <navPoint id="navPoint252" playOrder="233">
+          <navLabel>
+            <text>Model.addMIRIAMannotation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addMIRIAMannotation" />  
+        </navPoint>
+        <navPoint id="navPoint253" playOrder="234">
+          <navLabel>
+            <text>Model.addModelCreator</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addModelCreator" />  
+        </navPoint>
+        <navPoint id="navPoint254" playOrder="235">
+          <navLabel>
+            <text>Model.addObjective</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addObjective" />  
+        </navPoint>
+        <navPoint id="navPoint255" playOrder="236">
+          <navLabel>
+            <text>Model.addParameter</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addParameter" />  
+        </navPoint>
+        <navPoint id="navPoint256" playOrder="237">
+          <navLabel>
+            <text>Model.addReaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addReaction" />  
+        </navPoint>
+        <navPoint id="navPoint257" playOrder="238">
+          <navLabel>
+            <text>Model.addSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint258" playOrder="239">
+          <navLabel>
+            <text>Model.addUserConstraint</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addUserConstraint" />  
+        </navPoint>
+        <navPoint id="navPoint259" playOrder="240">
+          <navLabel>
+            <text>Model.addUserDefinedConstraint</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.addUserDefinedConstraint" />  
+        </navPoint>
+        <navPoint id="navPoint260" playOrder="241">
+          <navLabel>
+            <text>Model.buildStoichMatrix</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.buildStoichMatrix" />  
+        </navPoint>
+        <navPoint id="navPoint261" playOrder="242">
+          <navLabel>
+            <text>Model.changeAllFluxBoundsWithValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.changeAllFluxBoundsWithValue" />  
+        </navPoint>
+        <navPoint id="navPoint262" playOrder="243">
+          <navLabel>
+            <text>Model.clone</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.clone" />  
+        </navPoint>
+        <navPoint id="navPoint263" playOrder="244">
+          <navLabel>
+            <text>Model.convertUserConstraintsToUserDefinedConstraints</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.convertUserConstraintsToUserDefinedConstraints" />  
+        </navPoint>
+        <navPoint id="navPoint264" playOrder="245">
+          <navLabel>
+            <text>Model.copyUserDefinedConstraintsToUserConstraints</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.copyUserDefinedConstraintsToUserConstraints" />  
+        </navPoint>
+        <navPoint id="navPoint265" playOrder="246">
+          <navLabel>
+            <text>Model.createCompartment</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createCompartment" />  
+        </navPoint>
+        <navPoint id="navPoint266" playOrder="247">
+          <navLabel>
+            <text>Model.createGeneAssociationsFromAnnotations</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createGeneAssociationsFromAnnotations" />  
+        </navPoint>
+        <navPoint id="navPoint267" playOrder="248">
+          <navLabel>
+            <text>Model.createGeneProteinAssociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createGeneProteinAssociation" />  
+        </navPoint>
+        <navPoint id="navPoint268" playOrder="249">
+          <navLabel>
+            <text>Model.createGeneProteinAssociationFromTree</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createGeneProteinAssociationFromTree" />  
+        </navPoint>
+        <navPoint id="navPoint269" playOrder="250">
+          <navLabel>
+            <text>Model.createGroup</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createGroup" />  
+        </navPoint>
+        <navPoint id="navPoint270" playOrder="251">
+          <navLabel>
+            <text>Model.createObjectiveFunction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createObjectiveFunction" />  
+        </navPoint>
+        <navPoint id="navPoint271" playOrder="252">
+          <navLabel>
+            <text>Model.createParameter</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createParameter" />  
+        </navPoint>
+        <navPoint id="navPoint272" playOrder="253">
+          <navLabel>
+            <text>Model.createReaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createReaction" />  
+        </navPoint>
+        <navPoint id="navPoint273" playOrder="254">
+          <navLabel>
+            <text>Model.createReactionBounds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createReactionBounds" />  
+        </navPoint>
+        <navPoint id="navPoint274" playOrder="255">
+          <navLabel>
+            <text>Model.createReactionLowerBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createReactionLowerBound" />  
+        </navPoint>
+        <navPoint id="navPoint275" playOrder="256">
+          <navLabel>
+            <text>Model.createReactionNew</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createReactionNew" />  
+        </navPoint>
+        <navPoint id="navPoint276" playOrder="257">
+          <navLabel>
+            <text>Model.createReactionReagent</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createReactionReagent" />  
+        </navPoint>
+        <navPoint id="navPoint277" playOrder="258">
+          <navLabel>
+            <text>Model.createReactionUpperBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createReactionUpperBound" />  
+        </navPoint>
+        <navPoint id="navPoint278" playOrder="259">
+          <navLabel>
+            <text>Model.createSingleGeneEffectMap</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createSingleGeneEffectMap" />  
+        </navPoint>
+        <navPoint id="navPoint279" playOrder="260">
+          <navLabel>
+            <text>Model.createSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint280" playOrder="261">
+          <navLabel>
+            <text>Model.createUserDefinedConstraint</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.createUserDefinedConstraint" />  
+        </navPoint>
+        <navPoint id="navPoint281" playOrder="262">
+          <navLabel>
+            <text>Model.deleteAllFluxBoundsWithValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteAllFluxBoundsWithValue" />  
+        </navPoint>
+        <navPoint id="navPoint282" playOrder="263">
+          <navLabel>
+            <text>Model.deleteBoundsForReactionId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteBoundsForReactionId" />  
+        </navPoint>
+        <navPoint id="navPoint283" playOrder="264">
+          <navLabel>
+            <text>Model.deleteCompartment</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteCompartment" />  
+        </navPoint>
+        <navPoint id="navPoint284" playOrder="265">
+          <navLabel>
+            <text>Model.deleteGPRAssociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteGPRAssociation" />  
+        </navPoint>
+        <navPoint id="navPoint285" playOrder="266">
+          <navLabel>
+            <text>Model.deleteGene</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteGene" />  
+        </navPoint>
+        <navPoint id="navPoint286" playOrder="267">
+          <navLabel>
+            <text>Model.deleteGeneByLabel</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteGeneByLabel" />  
+        </navPoint>
+        <navPoint id="navPoint287" playOrder="268">
+          <navLabel>
+            <text>Model.deleteGroup</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteGroup" />  
+        </navPoint>
+        <navPoint id="navPoint288" playOrder="269">
+          <navLabel>
+            <text>Model.deleteNonReactingSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteNonReactingSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint289" playOrder="270">
+          <navLabel>
+            <text>Model.deleteObjective</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteObjective" />  
+        </navPoint>
+        <navPoint id="navPoint290" playOrder="271">
+          <navLabel>
+            <text>Model.deleteReactionAndBounds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteReactionAndBounds" />  
+        </navPoint>
+        <navPoint id="navPoint291" playOrder="272">
+          <navLabel>
+            <text>Model.deleteSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.deleteSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint292" playOrder="273">
+          <navLabel>
+            <text>Model.emptyUndelete</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.emptyUndelete" />  
+        </navPoint>
+        <navPoint id="navPoint293" playOrder="274">
+          <navLabel>
+            <text>Model.exportFVAdata</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.exportFVAdata" />  
+        </navPoint>
+        <navPoint id="navPoint294" playOrder="275">
+          <navLabel>
+            <text>Model.exportUserConstraints</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.exportUserConstraints" />  
+        </navPoint>
+        <navPoint id="navPoint295" playOrder="276">
+          <navLabel>
+            <text>Model.findFluxesForConnectedSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.findFluxesForConnectedSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint296" playOrder="277">
+          <navLabel>
+            <text>Model.getActiveObjective</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getActiveObjective" />  
+        </navPoint>
+        <navPoint id="navPoint297" playOrder="278">
+          <navLabel>
+            <text>Model.getActiveObjectiveReactionIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getActiveObjectiveReactionIds" />  
+        </navPoint>
+        <navPoint id="navPoint298" playOrder="279">
+          <navLabel>
+            <text>Model.getActiveObjectiveStoichiometry</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getActiveObjectiveStoichiometry" />  
+        </navPoint>
+        <navPoint id="navPoint299" playOrder="280">
+          <navLabel>
+            <text>Model.getAllFluxBounds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getAllFluxBounds" />  
+        </navPoint>
+        <navPoint id="navPoint300" playOrder="281">
+          <navLabel>
+            <text>Model.getAllGeneActivities</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getAllGeneActivities" />  
+        </navPoint>
+        <navPoint id="navPoint301" playOrder="282">
+          <navLabel>
+            <text>Model.getAllGeneProteinAssociations</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getAllGeneProteinAssociations" />  
+        </navPoint>
+        <navPoint id="navPoint302" playOrder="283">
+          <navLabel>
+            <text>Model.getAllProteinActivities</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getAllProteinActivities" />  
+        </navPoint>
+        <navPoint id="navPoint303" playOrder="284">
+          <navLabel>
+            <text>Model.getAllProteinGeneAssociations</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getAllProteinGeneAssociations" />  
+        </navPoint>
+        <navPoint id="navPoint304" playOrder="285">
+          <navLabel>
+            <text>Model.getBoundarySpeciesIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getBoundarySpeciesIds" />  
+        </navPoint>
+        <navPoint id="navPoint305" playOrder="286">
+          <navLabel>
+            <text>Model.getCompartment</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getCompartment" />  
+        </navPoint>
+        <navPoint id="navPoint306" playOrder="287">
+          <navLabel>
+            <text>Model.getCompartmentIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getCompartmentIds" />  
+        </navPoint>
+        <navPoint id="navPoint307" playOrder="288">
+          <navLabel>
+            <text>Model.getCompartmentObjects</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getCompartmentObjects" />  
+        </navPoint>
+        <navPoint id="navPoint308" playOrder="289">
+          <navLabel>
+            <text>Model.getDescription</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getDescription" />  
+        </navPoint>
+        <navPoint id="navPoint309" playOrder="290">
+          <navLabel>
+            <text>Model.getExchangeReactionIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getExchangeReactionIds" />  
+        </navPoint>
+        <navPoint id="navPoint310" playOrder="291">
+          <navLabel>
+            <text>Model.getExchangeReactions</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getExchangeReactions" />  
+        </navPoint>
+        <navPoint id="navPoint311" playOrder="292">
+          <navLabel>
+            <text>Model.getFluxBoundByID</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getFluxBoundByID" />  
+        </navPoint>
+        <navPoint id="navPoint312" playOrder="293">
+          <navLabel>
+            <text>Model.getFluxBoundByReactionID</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getFluxBoundByReactionID" />  
+        </navPoint>
+        <navPoint id="navPoint313" playOrder="294">
+          <navLabel>
+            <text>Model.getFluxBoundIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getFluxBoundIds" />  
+        </navPoint>
+        <navPoint id="navPoint314" playOrder="295">
+          <navLabel>
+            <text>Model.getFluxBoundsByReactionID</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getFluxBoundsByReactionID" />  
+        </navPoint>
+        <navPoint id="navPoint315" playOrder="296">
+          <navLabel>
+            <text>Model.getFluxesAssociatedWithCompartments</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getFluxesAssociatedWithCompartments" />  
+        </navPoint>
+        <navPoint id="navPoint316" playOrder="297">
+          <navLabel>
+            <text>Model.getFluxesAssociatedWithSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getFluxesAssociatedWithSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint317" playOrder="298">
+          <navLabel>
+            <text>Model.getGPRIdAssociatedWithGeneId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGPRIdAssociatedWithGeneId" />  
+        </navPoint>
+        <navPoint id="navPoint318" playOrder="299">
+          <navLabel>
+            <text>Model.getGPRIdAssociatedWithGeneLabel</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGPRIdAssociatedWithGeneLabel" />  
+        </navPoint>
+        <navPoint id="navPoint319" playOrder="300">
+          <navLabel>
+            <text>Model.getGPRIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGPRIds" />  
+        </navPoint>
+        <navPoint id="navPoint320" playOrder="301">
+          <navLabel>
+            <text>Model.getGPRObjects</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGPRObjects" />  
+        </navPoint>
+        <navPoint id="navPoint321" playOrder="302">
+          <navLabel>
+            <text>Model.getGPRassociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGPRassociation" />  
+        </navPoint>
+        <navPoint id="navPoint322" playOrder="303">
+          <navLabel>
+            <text>Model.getGPRforReaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGPRforReaction" />  
+        </navPoint>
+        <navPoint id="navPoint323" playOrder="304">
+          <navLabel>
+            <text>Model.getGPRforReactionAsDict</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGPRforReactionAsDict" />  
+        </navPoint>
+        <navPoint id="navPoint324" playOrder="305">
+          <navLabel>
+            <text>Model.getGene</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGene" />  
+        </navPoint>
+        <navPoint id="navPoint325" playOrder="306">
+          <navLabel>
+            <text>Model.getGeneByLabel</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGeneByLabel" />  
+        </navPoint>
+        <navPoint id="navPoint326" playOrder="307">
+          <navLabel>
+            <text>Model.getGeneIdFromLabel</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGeneIdFromLabel" />  
+        </navPoint>
+        <navPoint id="navPoint327" playOrder="308">
+          <navLabel>
+            <text>Model.getGeneIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGeneIds" />  
+        </navPoint>
+        <navPoint id="navPoint328" playOrder="309">
+          <navLabel>
+            <text>Model.getGeneLabels</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGeneLabels" />  
+        </navPoint>
+        <navPoint id="navPoint329" playOrder="310">
+          <navLabel>
+            <text>Model.getGeneObjects</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGeneObjects" />  
+        </navPoint>
+        <navPoint id="navPoint330" playOrder="311">
+          <navLabel>
+            <text>Model.getGeneObjectsByLabel</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGeneObjectsByLabel" />  
+        </navPoint>
+        <navPoint id="navPoint331" playOrder="312">
+          <navLabel>
+            <text>Model.getGroup</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGroup" />  
+        </navPoint>
+        <navPoint id="navPoint332" playOrder="313">
+          <navLabel>
+            <text>Model.getGroupIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGroupIds" />  
+        </navPoint>
+        <navPoint id="navPoint333" playOrder="314">
+          <navLabel>
+            <text>Model.getGroupMembership</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGroupMembership" />  
+        </navPoint>
+        <navPoint id="navPoint334" playOrder="315">
+          <navLabel>
+            <text>Model.getGroupNames</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getGroupNames" />  
+        </navPoint>
+        <navPoint id="navPoint335" playOrder="316">
+          <navLabel>
+            <text>Model.getIrreversibleReactionIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getIrreversibleReactionIds" />  
+        </navPoint>
+        <navPoint id="navPoint336" playOrder="317">
+          <navLabel>
+            <text>Model.getModel</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getModel" />  
+        </navPoint>
+        <navPoint id="navPoint337" playOrder="318">
+          <navLabel>
+            <text>Model.getModelCreators</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getModelCreators" />  
+        </navPoint>
+        <navPoint id="navPoint338" playOrder="319">
+          <navLabel>
+            <text>Model.getObjFuncValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getObjFuncValue" />  
+        </navPoint>
+        <navPoint id="navPoint339" playOrder="320">
+          <navLabel>
+            <text>Model.getObject</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getObject" />  
+        </navPoint>
+        <navPoint id="navPoint340" playOrder="321">
+          <navLabel>
+            <text>Model.getObjectiveIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getObjectiveIds" />  
+        </navPoint>
+        <navPoint id="navPoint341" playOrder="322">
+          <navLabel>
+            <text>Model.getOptimalValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getOptimalValue" />  
+        </navPoint>
+        <navPoint id="navPoint342" playOrder="323">
+          <navLabel>
+            <text>Model.getParameter</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getParameter" />  
+        </navPoint>
+        <navPoint id="navPoint343" playOrder="324">
+          <navLabel>
+            <text>Model.getReaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReaction" />  
+        </navPoint>
+        <navPoint id="navPoint344" playOrder="325">
+          <navLabel>
+            <text>Model.getReactionActivity</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReactionActivity" />  
+        </navPoint>
+        <navPoint id="navPoint345" playOrder="326">
+          <navLabel>
+            <text>Model.getReactionBounds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReactionBounds" />  
+        </navPoint>
+        <navPoint id="navPoint346" playOrder="327">
+          <navLabel>
+            <text>Model.getReactionIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReactionIds" />  
+        </navPoint>
+        <navPoint id="navPoint347" playOrder="328">
+          <navLabel>
+            <text>Model.getReactionIdsAssociatedWithSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReactionIdsAssociatedWithSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint348" playOrder="329">
+          <navLabel>
+            <text>Model.getReactionLowerBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReactionLowerBound" />  
+        </navPoint>
+        <navPoint id="navPoint349" playOrder="330">
+          <navLabel>
+            <text>Model.getReactionNames</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReactionNames" />  
+        </navPoint>
+        <navPoint id="navPoint350" playOrder="331">
+          <navLabel>
+            <text>Model.getReactionObjects</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReactionObjects" />  
+        </navPoint>
+        <navPoint id="navPoint351" playOrder="332">
+          <navLabel>
+            <text>Model.getReactionUpperBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReactionUpperBound" />  
+        </navPoint>
+        <navPoint id="navPoint352" playOrder="333">
+          <navLabel>
+            <text>Model.getReactionValues</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReactionValues" />  
+        </navPoint>
+        <navPoint id="navPoint353" playOrder="334">
+          <navLabel>
+            <text>Model.getReversibleReactionIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getReversibleReactionIds" />  
+        </navPoint>
+        <navPoint id="navPoint354" playOrder="335">
+          <navLabel>
+            <text>Model.getSolutionVector</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getSolutionVector" />  
+        </navPoint>
+        <navPoint id="navPoint355" playOrder="336">
+          <navLabel>
+            <text>Model.getSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint356" playOrder="337">
+          <navLabel>
+            <text>Model.getSpeciesIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getSpeciesIds" />  
+        </navPoint>
+        <navPoint id="navPoint357" playOrder="338">
+          <navLabel>
+            <text>Model.getSpeciesObjects</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.getSpeciesObjects" />  
+        </navPoint>
+        <navPoint id="navPoint358" playOrder="339">
+          <navLabel>
+            <text>Model.hasObject</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.hasObject" />  
+        </navPoint>
+        <navPoint id="navPoint359" playOrder="340">
+          <navLabel>
+            <text>Model.importUserConstraints</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.importUserConstraints" />  
+        </navPoint>
+        <navPoint id="navPoint360" playOrder="341">
+          <navLabel>
+            <text>Model.registerObjectInGlobalStore</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.registerObjectInGlobalStore" />  
+        </navPoint>
+        <navPoint id="navPoint361" playOrder="342">
+          <navLabel>
+            <text>Model.renameObjectIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.renameObjectIds" />  
+        </navPoint>
+        <navPoint id="navPoint362" playOrder="343">
+          <navLabel>
+            <text>Model.resetAllGenes</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.resetAllGenes" />  
+        </navPoint>
+        <navPoint id="navPoint363" playOrder="344">
+          <navLabel>
+            <text>Model.resetAllInactiveGPRBounds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.resetAllInactiveGPRBounds" />  
+        </navPoint>
+        <navPoint id="navPoint364" playOrder="345">
+          <navLabel>
+            <text>Model.serialize</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.serialize" />  
+        </navPoint>
+        <navPoint id="navPoint365" playOrder="346">
+          <navLabel>
+            <text>Model.serializeToDisk</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.serializeToDisk" />  
+        </navPoint>
+        <navPoint id="navPoint366" playOrder="347">
+          <navLabel>
+            <text>Model.setAllFluxBounds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setAllFluxBounds" />  
+        </navPoint>
+        <navPoint id="navPoint367" playOrder="348">
+          <navLabel>
+            <text>Model.setAllInactiveGPRBounds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setAllInactiveGPRBounds" />  
+        </navPoint>
+        <navPoint id="navPoint368" playOrder="349">
+          <navLabel>
+            <text>Model.setAllProteinActivities</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setAllProteinActivities" />  
+        </navPoint>
+        <navPoint id="navPoint369" playOrder="350">
+          <navLabel>
+            <text>Model.setBoundValueByName</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setBoundValueByName" />  
+        </navPoint>
+        <navPoint id="navPoint370" playOrder="351">
+          <navLabel>
+            <text>Model.setCreatedDate</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setCreatedDate" />  
+        </navPoint>
+        <navPoint id="navPoint371" playOrder="352">
+          <navLabel>
+            <text>Model.setDescription</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setDescription" />  
+        </navPoint>
+        <navPoint id="navPoint372" playOrder="353">
+          <navLabel>
+            <text>Model.setFluxBoundsFromDict</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setFluxBoundsFromDict" />  
+        </navPoint>
+        <navPoint id="navPoint373" playOrder="354">
+          <navLabel>
+            <text>Model.setGeneActive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setGeneActive" />  
+        </navPoint>
+        <navPoint id="navPoint374" playOrder="355">
+          <navLabel>
+            <text>Model.setGeneInactive</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setGeneInactive" />  
+        </navPoint>
+        <navPoint id="navPoint375" playOrder="356">
+          <navLabel>
+            <text>Model.setModifiedDate</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setModifiedDate" />  
+        </navPoint>
+        <navPoint id="navPoint376" playOrder="357">
+          <navLabel>
+            <text>Model.setObjectiveFlux</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setObjectiveFlux" />  
+        </navPoint>
+        <navPoint id="navPoint377" playOrder="358">
+          <navLabel>
+            <text>Model.setPrefix</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setPrefix" />  
+        </navPoint>
+        <navPoint id="navPoint378" playOrder="359">
+          <navLabel>
+            <text>Model.setReactionBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setReactionBound" />  
+        </navPoint>
+        <navPoint id="navPoint379" playOrder="360">
+          <navLabel>
+            <text>Model.setReactionBounds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setReactionBounds" />  
+        </navPoint>
+        <navPoint id="navPoint380" playOrder="361">
+          <navLabel>
+            <text>Model.setReactionLowerBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setReactionLowerBound" />  
+        </navPoint>
+        <navPoint id="navPoint381" playOrder="362">
+          <navLabel>
+            <text>Model.setReactionUpperBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setReactionUpperBound" />  
+        </navPoint>
+        <navPoint id="navPoint382" playOrder="363">
+          <navLabel>
+            <text>Model.setSuffix</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.setSuffix" />  
+        </navPoint>
+        <navPoint id="navPoint383" playOrder="364">
+          <navLabel>
+            <text>Model.sortReactionsById</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.sortReactionsById" />  
+        </navPoint>
+        <navPoint id="navPoint384" playOrder="365">
+          <navLabel>
+            <text>Model.sortSpeciesById</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.sortSpeciesById" />  
+        </navPoint>
+        <navPoint id="navPoint385" playOrder="366">
+          <navLabel>
+            <text>Model.splitEqualityFluxBounds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.splitEqualityFluxBounds" />  
+        </navPoint>
+        <navPoint id="navPoint386" playOrder="367">
+          <navLabel>
+            <text>Model.testGeneProteinAssociations</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.testGeneProteinAssociations" />  
+        </navPoint>
+        <navPoint id="navPoint387" playOrder="368">
+          <navLabel>
+            <text>Model.unRegisterObjectInGlobalStore</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.unRegisterObjectInGlobalStore" />  
+        </navPoint>
+        <navPoint id="navPoint388" playOrder="369">
+          <navLabel>
+            <text>Model.updateNetwork</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Model.updateNetwork" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint389" playOrder="370">
+        <navLabel>
+          <text>Objective</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Objective" />  
+        <navPoint id="navPoint390" playOrder="370">
+          <navLabel>
+            <text>Objective</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective" />  
+        </navPoint>
+        <navPoint id="navPoint391" playOrder="371">
+          <navLabel>
+            <text>Objective.addFluxObjective</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.addFluxObjective" />  
+        </navPoint>
+        <navPoint id="navPoint392" playOrder="372">
+          <navLabel>
+            <text>Objective.createFluxObjectives</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.createFluxObjectives" />  
+        </navPoint>
+        <navPoint id="navPoint393" playOrder="373">
+          <navLabel>
+            <text>Objective.createQuadraticFluxObjectives</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.createQuadraticFluxObjectives" />  
+        </navPoint>
+        <navPoint id="navPoint394" playOrder="374">
+          <navLabel>
+            <text>Objective.deleteAllFluxObjectives</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.deleteAllFluxObjectives" />  
+        </navPoint>
+        <navPoint id="navPoint395" playOrder="375">
+          <navLabel>
+            <text>Objective.getFluxObjective</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getFluxObjective" />  
+        </navPoint>
+        <navPoint id="navPoint396" playOrder="376">
+          <navLabel>
+            <text>Objective.getFluxObjectiveData</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getFluxObjectiveData" />  
+        </navPoint>
+        <navPoint id="navPoint397" playOrder="377">
+          <navLabel>
+            <text>Objective.getFluxObjectiveForReaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getFluxObjectiveForReaction" />  
+        </navPoint>
+        <navPoint id="navPoint398" playOrder="378">
+          <navLabel>
+            <text>Objective.getFluxObjectiveIDs</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getFluxObjectiveIDs" />  
+        </navPoint>
+        <navPoint id="navPoint399" playOrder="379">
+          <navLabel>
+            <text>Objective.getFluxObjectiveReactions</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getFluxObjectiveReactions" />  
+        </navPoint>
+        <navPoint id="navPoint400" playOrder="380">
+          <navLabel>
+            <text>Objective.getFluxObjectives</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getFluxObjectives" />  
+        </navPoint>
+        <navPoint id="navPoint401" playOrder="381">
+          <navLabel>
+            <text>Objective.getLinearFluxObjectives</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getLinearFluxObjectives" />  
+        </navPoint>
+        <navPoint id="navPoint402" playOrder="382">
+          <navLabel>
+            <text>Objective.getOperation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getOperation" />  
+        </navPoint>
+        <navPoint id="navPoint403" playOrder="383">
+          <navLabel>
+            <text>Objective.getQuadraticBivariateFluxObjectives</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getQuadraticBivariateFluxObjectives" />  
+        </navPoint>
+        <navPoint id="navPoint404" playOrder="384">
+          <navLabel>
+            <text>Objective.getQuadraticFluxObjectives</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getQuadraticFluxObjectives" />  
+        </navPoint>
+        <navPoint id="navPoint405" playOrder="385">
+          <navLabel>
+            <text>Objective.getValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.getValue" />  
+        </navPoint>
+        <navPoint id="navPoint406" playOrder="386">
+          <navLabel>
+            <text>Objective.setOperation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.setOperation" />  
+        </navPoint>
+        <navPoint id="navPoint407" playOrder="387">
+          <navLabel>
+            <text>Objective.setValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Objective.setValue" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint408" playOrder="388">
+        <navLabel>
+          <text>Parameter</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Parameter" />  
+        <navPoint id="navPoint409" playOrder="388">
+          <navLabel>
+            <text>Parameter</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Parameter" />  
+        </navPoint>
+        <navPoint id="navPoint410" playOrder="389">
+          <navLabel>
+            <text>Parameter.addAssociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Parameter.addAssociation" />  
+        </navPoint>
+        <navPoint id="navPoint411" playOrder="390">
+          <navLabel>
+            <text>Parameter.deleteAssociation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Parameter.deleteAssociation" />  
+        </navPoint>
+        <navPoint id="navPoint412" playOrder="391">
+          <navLabel>
+            <text>Parameter.getAssociations</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Parameter.getAssociations" />  
+        </navPoint>
+        <navPoint id="navPoint413" playOrder="392">
+          <navLabel>
+            <text>Parameter.getValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Parameter.getValue" />  
+        </navPoint>
+        <navPoint id="navPoint414" playOrder="393">
+          <navLabel>
+            <text>Parameter.setValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Parameter.setValue" />  
+        </navPoint>
+        <navPoint id="navPoint415" playOrder="394">
+          <navLabel>
+            <text>Parameter.value</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Parameter.value" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint416" playOrder="395">
+        <navLabel>
+          <text>Reaction</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction" />  
+        <navPoint id="navPoint417" playOrder="395">
+          <navLabel>
+            <text>Reaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction" />  
+        </navPoint>
+        <navPoint id="navPoint418" playOrder="396">
+          <navLabel>
+            <text>Reaction.addReagent</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.addReagent" />  
+        </navPoint>
+        <navPoint id="navPoint419" playOrder="397">
+          <navLabel>
+            <text>Reaction.changeId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.changeId" />  
+        </navPoint>
+        <navPoint id="navPoint420" playOrder="398">
+          <navLabel>
+            <text>Reaction.createReagent</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.createReagent" />  
+        </navPoint>
+        <navPoint id="navPoint421" playOrder="399">
+          <navLabel>
+            <text>Reaction.deactivateReaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.deactivateReaction" />  
+        </navPoint>
+        <navPoint id="navPoint422" playOrder="400">
+          <navLabel>
+            <text>Reaction.deleteReagentWithSpeciesRef</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.deleteReagentWithSpeciesRef" />  
+        </navPoint>
+        <navPoint id="navPoint423" playOrder="401">
+          <navLabel>
+            <text>Reaction.getEquation</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getEquation" />  
+        </navPoint>
+        <navPoint id="navPoint424" playOrder="402">
+          <navLabel>
+            <text>Reaction.getFVAdata</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getFVAdata" />  
+        </navPoint>
+        <navPoint id="navPoint425" playOrder="403">
+          <navLabel>
+            <text>Reaction.getGPRassociationString</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getGPRassociationString" />  
+        </navPoint>
+        <navPoint id="navPoint426" playOrder="404">
+          <navLabel>
+            <text>Reaction.getLowerBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getLowerBound" />  
+        </navPoint>
+        <navPoint id="navPoint427" playOrder="405">
+          <navLabel>
+            <text>Reaction.getProductIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getProductIds" />  
+        </navPoint>
+        <navPoint id="navPoint428" playOrder="406">
+          <navLabel>
+            <text>Reaction.getReagent</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getReagent" />  
+        </navPoint>
+        <navPoint id="navPoint429" playOrder="407">
+          <navLabel>
+            <text>Reaction.getReagentObjIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getReagentObjIds" />  
+        </navPoint>
+        <navPoint id="navPoint430" playOrder="408">
+          <navLabel>
+            <text>Reaction.getReagentRefs</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getReagentRefs" />  
+        </navPoint>
+        <navPoint id="navPoint431" playOrder="409">
+          <navLabel>
+            <text>Reaction.getReagentWithSpeciesRef</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getReagentWithSpeciesRef" />  
+        </navPoint>
+        <navPoint id="navPoint432" playOrder="410">
+          <navLabel>
+            <text>Reaction.getSpeciesIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getSpeciesIds" />  
+        </navPoint>
+        <navPoint id="navPoint433" playOrder="411">
+          <navLabel>
+            <text>Reaction.getSpeciesObj</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getSpeciesObj" />  
+        </navPoint>
+        <navPoint id="navPoint434" playOrder="412">
+          <navLabel>
+            <text>Reaction.getStoichiometry</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getStoichiometry" />  
+        </navPoint>
+        <navPoint id="navPoint435" playOrder="413">
+          <navLabel>
+            <text>Reaction.getSubstrateIds</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getSubstrateIds" />  
+        </navPoint>
+        <navPoint id="navPoint436" playOrder="414">
+          <navLabel>
+            <text>Reaction.getUpperBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getUpperBound" />  
+        </navPoint>
+        <navPoint id="navPoint437" playOrder="415">
+          <navLabel>
+            <text>Reaction.getValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.getValue" />  
+        </navPoint>
+        <navPoint id="navPoint438" playOrder="416">
+          <navLabel>
+            <text>Reaction.reactivateReaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.reactivateReaction" />  
+        </navPoint>
+        <navPoint id="navPoint439" playOrder="417">
+          <navLabel>
+            <text>Reaction.setId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.setId" />  
+        </navPoint>
+        <navPoint id="navPoint440" playOrder="418">
+          <navLabel>
+            <text>Reaction.setLowerBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.setLowerBound" />  
+        </navPoint>
+        <navPoint id="navPoint441" playOrder="419">
+          <navLabel>
+            <text>Reaction.setStoichCoefficient</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.setStoichCoefficient" />  
+        </navPoint>
+        <navPoint id="navPoint442" playOrder="420">
+          <navLabel>
+            <text>Reaction.setUpperBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.setUpperBound" />  
+        </navPoint>
+        <navPoint id="navPoint443" playOrder="421">
+          <navLabel>
+            <text>Reaction.setValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reaction.setValue" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint444" playOrder="422">
+        <navLabel>
+          <text>ReactionNew</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.ReactionNew" />  
+        <navPoint id="navPoint445" playOrder="422">
+          <navLabel>
+            <text>ReactionNew</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.ReactionNew" />  
+        </navPoint>
+        <navPoint id="navPoint446" playOrder="423">
+          <navLabel>
+            <text>ReactionNew.deactivateReaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.ReactionNew.deactivateReaction" />  
+        </navPoint>
+        <navPoint id="navPoint447" playOrder="424">
+          <navLabel>
+            <text>ReactionNew.getLowerBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.ReactionNew.getLowerBound" />  
+        </navPoint>
+        <navPoint id="navPoint448" playOrder="425">
+          <navLabel>
+            <text>ReactionNew.getUpperBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.ReactionNew.getUpperBound" />  
+        </navPoint>
+        <navPoint id="navPoint449" playOrder="426">
+          <navLabel>
+            <text>ReactionNew.reactivateReaction</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.ReactionNew.reactivateReaction" />  
+        </navPoint>
+        <navPoint id="navPoint450" playOrder="427">
+          <navLabel>
+            <text>ReactionNew.setId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.ReactionNew.setId" />  
+        </navPoint>
+        <navPoint id="navPoint451" playOrder="428">
+          <navLabel>
+            <text>ReactionNew.setLowerBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.ReactionNew.setLowerBound" />  
+        </navPoint>
+        <navPoint id="navPoint452" playOrder="429">
+          <navLabel>
+            <text>ReactionNew.setUpperBound</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.ReactionNew.setUpperBound" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint453" playOrder="430">
+        <navLabel>
+          <text>Reagent</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Reagent" />  
+        <navPoint id="navPoint454" playOrder="430">
+          <navLabel>
+            <text>Reagent</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reagent" />  
+        </navPoint>
+        <navPoint id="navPoint455" playOrder="431">
+          <navLabel>
+            <text>Reagent.getCoefficient</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reagent.getCoefficient" />  
+        </navPoint>
+        <navPoint id="navPoint456" playOrder="432">
+          <navLabel>
+            <text>Reagent.getRole</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reagent.getRole" />  
+        </navPoint>
+        <navPoint id="navPoint457" playOrder="433">
+          <navLabel>
+            <text>Reagent.getSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reagent.getSpecies" />  
+        </navPoint>
+        <navPoint id="navPoint458" playOrder="434">
+          <navLabel>
+            <text>Reagent.setCoefficient</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reagent.setCoefficient" />  
+        </navPoint>
+        <navPoint id="navPoint459" playOrder="435">
+          <navLabel>
+            <text>Reagent.setSpecies</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Reagent.setSpecies" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint460" playOrder="436">
+        <navLabel>
+          <text>Species</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.Species" />  
+        <navPoint id="navPoint461" playOrder="436">
+          <navLabel>
+            <text>Species</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species" />  
+        </navPoint>
+        <navPoint id="navPoint462" playOrder="437">
+          <navLabel>
+            <text>Species.getCharge</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.getCharge" />  
+        </navPoint>
+        <navPoint id="navPoint463" playOrder="438">
+          <navLabel>
+            <text>Species.getChemFormula</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.getChemFormula" />  
+        </navPoint>
+        <navPoint id="navPoint464" playOrder="439">
+          <navLabel>
+            <text>Species.getReagentOf</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.getReagentOf" />  
+        </navPoint>
+        <navPoint id="navPoint465" playOrder="440">
+          <navLabel>
+            <text>Species.getValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.getValue" />  
+        </navPoint>
+        <navPoint id="navPoint466" playOrder="441">
+          <navLabel>
+            <text>Species.isReagentOf</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.isReagentOf" />  
+        </navPoint>
+        <navPoint id="navPoint467" playOrder="442">
+          <navLabel>
+            <text>Species.setBoundary</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.setBoundary" />  
+        </navPoint>
+        <navPoint id="navPoint468" playOrder="443">
+          <navLabel>
+            <text>Species.setCharge</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.setCharge" />  
+        </navPoint>
+        <navPoint id="navPoint469" playOrder="444">
+          <navLabel>
+            <text>Species.setChemFormula</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.setChemFormula" />  
+        </navPoint>
+        <navPoint id="navPoint470" playOrder="445">
+          <navLabel>
+            <text>Species.setId</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.setId" />  
+        </navPoint>
+        <navPoint id="navPoint471" playOrder="446">
+          <navLabel>
+            <text>Species.setReagentOf</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.setReagentOf" />  
+        </navPoint>
+        <navPoint id="navPoint472" playOrder="447">
+          <navLabel>
+            <text>Species.setValue</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.setValue" />  
+        </navPoint>
+        <navPoint id="navPoint473" playOrder="448">
+          <navLabel>
+            <text>Species.unsetBoundary</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.Species.unsetBoundary" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint474" playOrder="449">
+        <navLabel>
+          <text>UserDefinedConstraint</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint" />  
+        <navPoint id="navPoint475" playOrder="449">
+          <navLabel>
+            <text>UserDefinedConstraint</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint" />  
+        </navPoint>
+        <navPoint id="navPoint476" playOrder="450">
+          <navLabel>
+            <text>UserDefinedConstraint.addConstraintComponent</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint.addConstraintComponent" />  
+        </navPoint>
+        <navPoint id="navPoint477" playOrder="451">
+          <navLabel>
+            <text>UserDefinedConstraint.createConstraintComponent</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint.createConstraintComponent" />  
+        </navPoint>
+        <navPoint id="navPoint478" playOrder="452">
+          <navLabel>
+            <text>UserDefinedConstraint.getConstraintComponent</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint.getConstraintComponent" />  
+        </navPoint>
+        <navPoint id="navPoint479" playOrder="453">
+          <navLabel>
+            <text>UserDefinedConstraint.getConstraintComponentData</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint.getConstraintComponentData" />  
+        </navPoint>
+        <navPoint id="navPoint480" playOrder="454">
+          <navLabel>
+            <text>UserDefinedConstraint.getConstraintComponentForVariable</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint.getConstraintComponentForVariable" />  
+        </navPoint>
+        <navPoint id="navPoint481" playOrder="455">
+          <navLabel>
+            <text>UserDefinedConstraint.getConstraintComponentIDs</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint.getConstraintComponentIDs" />  
+        </navPoint>
+        <navPoint id="navPoint482" playOrder="456">
+          <navLabel>
+            <text>UserDefinedConstraint.getConstraintComponentVariableTypes</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint.getConstraintComponentVariableTypes" />  
+        </navPoint>
+        <navPoint id="navPoint483" playOrder="457">
+          <navLabel>
+            <text>UserDefinedConstraint.getConstraintComponentVariables</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint.getConstraintComponentVariables" />  
+        </navPoint>
+        <navPoint id="navPoint484" playOrder="458">
+          <navLabel>
+            <text>UserDefinedConstraint.getConstraintComponents</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBModel.UserDefinedConstraint.getConstraintComponents" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint485" playOrder="459">
+        <navLabel>
+          <text>CBMPy: CBModelTools module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbmodeltools-module" />  
+      </navPoint>
+      <navPoint id="navPoint486" playOrder="460">
+        <navLabel>
+          <text>CBMPy: CBMultiCore module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbmulticore-module" />  
+      </navPoint>
+      <navPoint id="navPoint487" playOrder="461">
+        <navLabel>
+          <text>grouper</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBMultiCore.grouper" />  
+      </navPoint>
+      <navPoint id="navPoint488" playOrder="462">
+        <navLabel>
+          <text>runMultiCoreFVA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBMultiCore.runMultiCoreFVA" />  
+      </navPoint>
+      <navPoint id="navPoint489" playOrder="463">
+        <navLabel>
+          <text>CBMPy: CBMultiEnv module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbmultienv-module" />  
+      </navPoint>
+      <navPoint id="navPoint490" playOrder="464">
+        <navLabel>
+          <text>CBMPy: CBNetDB module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbnetdb-module" />  
+      </navPoint>
+      <navPoint id="navPoint491" playOrder="465">
+        <navLabel>
+          <text>DBTools</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools" />  
+        <navPoint id="navPoint492" playOrder="465">
+          <navLabel>
+            <text>DBTools</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools" />  
+        </navPoint>
+        <navPoint id="navPoint493" playOrder="466">
+          <navLabel>
+            <text>DBTools.checkEntryInColumn</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.checkEntryInColumn" />  
+        </navPoint>
+        <navPoint id="navPoint494" playOrder="467">
+          <navLabel>
+            <text>DBTools.closeDB</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.closeDB" />  
+        </navPoint>
+        <navPoint id="navPoint495" playOrder="468">
+          <navLabel>
+            <text>DBTools.commitDB</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.commitDB" />  
+        </navPoint>
+        <navPoint id="navPoint496" playOrder="469">
+          <navLabel>
+            <text>DBTools.connectSQLiteDB</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.connectSQLiteDB" />  
+        </navPoint>
+        <navPoint id="navPoint497" playOrder="470">
+          <navLabel>
+            <text>DBTools.createDBTable</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.createDBTable" />  
+        </navPoint>
+        <navPoint id="navPoint498" playOrder="471">
+          <navLabel>
+            <text>DBTools.dumpTableToCSV</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.dumpTableToCSV" />  
+        </navPoint>
+        <navPoint id="navPoint499" playOrder="472">
+          <navLabel>
+            <text>DBTools.dumpTableToTxt</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.dumpTableToTxt" />  
+        </navPoint>
+        <navPoint id="navPoint500" playOrder="473">
+          <navLabel>
+            <text>DBTools.executeSQL</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.executeSQL" />  
+        </navPoint>
+        <navPoint id="navPoint501" playOrder="474">
+          <navLabel>
+            <text>DBTools.fetchAll</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.fetchAll" />  
+        </navPoint>
+        <navPoint id="navPoint502" playOrder="475">
+          <navLabel>
+            <text>DBTools.getCell</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.getCell" />  
+        </navPoint>
+        <navPoint id="navPoint503" playOrder="476">
+          <navLabel>
+            <text>DBTools.getColumns</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.getColumns" />  
+        </navPoint>
+        <navPoint id="navPoint504" playOrder="477">
+          <navLabel>
+            <text>DBTools.getRow</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.getRow" />  
+        </navPoint>
+        <navPoint id="navPoint505" playOrder="478">
+          <navLabel>
+            <text>DBTools.getTable</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.getTable" />  
+        </navPoint>
+        <navPoint id="navPoint506" playOrder="479">
+          <navLabel>
+            <text>DBTools.insertData</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.insertData" />  
+        </navPoint>
+        <navPoint id="navPoint507" playOrder="480">
+          <navLabel>
+            <text>DBTools.updateData</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.DBTools.updateData" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint508" playOrder="481">
+        <navLabel>
+          <text>KeGGSequenceTools</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBNetDB.KeGGSequenceTools" />  
+      </navPoint>
+      <navPoint id="navPoint509" playOrder="482">
+        <navLabel>
+          <text>KeGGTools</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBNetDB.KeGGTools" />  
+        <navPoint id="navPoint510" playOrder="482">
+          <navLabel>
+            <text>KeGGTools</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.KeGGTools" />  
+        </navPoint>
+        <navPoint id="navPoint511" playOrder="483">
+          <navLabel>
+            <text>KeGGTools.fetchSeqfromKeGG</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.KeGGTools.fetchSeqfromKeGG" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint512" playOrder="484">
+        <navLabel>
+          <text>MIRIAMTools</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBNetDB.MIRIAMTools" />  
+      </navPoint>
+      <navPoint id="navPoint513" playOrder="485">
+        <navLabel>
+          <text>RESTClient</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBNetDB.RESTClient" />  
+        <navPoint id="navPoint514" playOrder="485">
+          <navLabel>
+            <text>RESTClient</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.RESTClient" />  
+        </navPoint>
+        <navPoint id="navPoint515" playOrder="486">
+          <navLabel>
+            <text>RESTClient.Close</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.RESTClient.Close" />  
+        </navPoint>
+        <navPoint id="navPoint516" playOrder="487">
+          <navLabel>
+            <text>RESTClient.Connect</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.RESTClient.Connect" />  
+        </navPoint>
+        <navPoint id="navPoint517" playOrder="488">
+          <navLabel>
+            <text>RESTClient.Get</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.RESTClient.Get" />  
+        </navPoint>
+        <navPoint id="navPoint518" playOrder="489">
+          <navLabel>
+            <text>RESTClient.GetLog</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.RESTClient.GetLog" />  
+        </navPoint>
+        <navPoint id="navPoint519" playOrder="490">
+          <navLabel>
+            <text>RESTClient.Log</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.RESTClient.Log" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint520" playOrder="491">
+        <navLabel>
+          <text>SemanticSBML</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBNetDB.SemanticSBML" />  
+        <navPoint id="navPoint521" playOrder="491">
+          <navLabel>
+            <text>SemanticSBML</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.SemanticSBML" />  
+        </navPoint>
+        <navPoint id="navPoint522" playOrder="492">
+          <navLabel>
+            <text>SemanticSBML.parseXMLtoText</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.SemanticSBML.parseXMLtoText" />  
+        </navPoint>
+        <navPoint id="navPoint523" playOrder="493">
+          <navLabel>
+            <text>SemanticSBML.quickLookup</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.SemanticSBML.quickLookup" />  
+        </navPoint>
+        <navPoint id="navPoint524" playOrder="494">
+          <navLabel>
+            <text>SemanticSBML.viewDataInWebrowser</text>
+          </navLabel>
+          <content src="modules_doc.xhtml#cbmpy.CBNetDB.SemanticSBML.viewDataInWebrowser" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint525" playOrder="495">
+        <navLabel>
+          <text>CBMPy: CBPlot module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbplot-module" />  
+      </navPoint>
+      <navPoint id="navPoint526" playOrder="496">
+        <navLabel>
+          <text>plotFluxVariability</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBPlot.plotFluxVariability" />  
+      </navPoint>
+      <navPoint id="navPoint527" playOrder="497">
+        <navLabel>
+          <text>CBMPy: CBRead module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbread-module" />  
+      </navPoint>
+      <navPoint id="navPoint528" playOrder="498">
+        <navLabel>
+          <text>loadModel</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBRead.loadModel" />  
+      </navPoint>
+      <navPoint id="navPoint529" playOrder="499">
+        <navLabel>
+          <text>readCOBRASBML</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBRead.readCOBRASBML" />  
+      </navPoint>
+      <navPoint id="navPoint530" playOrder="500">
+        <navLabel>
+          <text>readExcel97Model</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBRead.readExcel97Model" />  
+      </navPoint>
+      <navPoint id="navPoint531" playOrder="501">
+        <navLabel>
+          <text>readSBML2FBA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBRead.readSBML2FBA" />  
+      </navPoint>
+      <navPoint id="navPoint532" playOrder="502">
+        <navLabel>
+          <text>readSBML3FBC</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBRead.readSBML3FBC" />  
+      </navPoint>
+      <navPoint id="navPoint533" playOrder="503">
+        <navLabel>
+          <text>readSK_FVA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBRead.readSK_FVA" />  
+      </navPoint>
+      <navPoint id="navPoint534" playOrder="504">
+        <navLabel>
+          <text>readSK_vertex</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBRead.readSK_vertex" />  
+      </navPoint>
+      <navPoint id="navPoint535" playOrder="505">
+        <navLabel>
+          <text>readSK_vertexOld</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBRead.readSK_vertexOld" />  
+      </navPoint>
+      <navPoint id="navPoint536" playOrder="506">
+        <navLabel>
+          <text>CBMPy: CBReadtxt module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbreadtxt-module" />  
+      </navPoint>
+      <navPoint id="navPoint537" playOrder="507">
+        <navLabel>
+          <text>readCSV</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBReadtxt.readCSV" />  
+      </navPoint>
+      <navPoint id="navPoint538" playOrder="508">
+        <navLabel>
+          <text>CBMPy: CBSolver module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbsolver-module" />  
+      </navPoint>
+      <navPoint id="navPoint539" playOrder="509">
+        <navLabel>
+          <text>CBMPy: CBTools module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbtools-module" />  
+      </navPoint>
+      <navPoint id="navPoint540" playOrder="510">
+        <navLabel>
+          <text>addFluxAsActiveObjective</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.addFluxAsActiveObjective" />  
+      </navPoint>
+      <navPoint id="navPoint541" playOrder="511">
+        <navLabel>
+          <text>addGenesFromAnnotations</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.addGenesFromAnnotations" />  
+      </navPoint>
+      <navPoint id="navPoint542" playOrder="512">
+        <navLabel>
+          <text>addSinkReaction</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.addSinkReaction" />  
+      </navPoint>
+      <navPoint id="navPoint543" playOrder="513">
+        <navLabel>
+          <text>addSourceReaction</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.addSourceReaction" />  
+      </navPoint>
+      <navPoint id="navPoint544" playOrder="514">
+        <navLabel>
+          <text>addStoichToFBAModel</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.addStoichToFBAModel" />  
+      </navPoint>
+      <navPoint id="navPoint545" playOrder="515">
+        <navLabel>
+          <text>checkExchangeReactions</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.checkExchangeReactions" />  
+      </navPoint>
+      <navPoint id="navPoint546" playOrder="516">
+        <navLabel>
+          <text>checkFluxBoundConsistency</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.checkFluxBoundConsistency" />  
+      </navPoint>
+      <navPoint id="navPoint547" playOrder="517">
+        <navLabel>
+          <text>checkIds</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.checkIds" />  
+      </navPoint>
+      <navPoint id="navPoint548" playOrder="518">
+        <navLabel>
+          <text>checkReactionBalanceElemental</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.checkReactionBalanceElemental" />  
+      </navPoint>
+      <navPoint id="navPoint549" playOrder="519">
+        <navLabel>
+          <text>createTempFileName</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.createTempFileName" />  
+      </navPoint>
+      <navPoint id="navPoint550" playOrder="520">
+        <navLabel>
+          <text>createZipArchive</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.createZipArchive" />  
+      </navPoint>
+      <navPoint id="navPoint551" playOrder="521">
+        <navLabel>
+          <text>deSerialize</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.deSerialize" />  
+      </navPoint>
+      <navPoint id="navPoint552" playOrder="522">
+        <navLabel>
+          <text>deSerializeFromDisk</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.deSerializeFromDisk" />  
+      </navPoint>
+      <navPoint id="navPoint553" playOrder="523">
+        <navLabel>
+          <text>exportArray2CSV</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.exportArray2CSV" />  
+      </navPoint>
+      <navPoint id="navPoint554" playOrder="524">
+        <navLabel>
+          <text>exportArray2TXT</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.exportArray2TXT" />  
+      </navPoint>
+      <navPoint id="navPoint555" playOrder="525">
+        <navLabel>
+          <text>exportLabelledArray</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArray" />  
+      </navPoint>
+      <navPoint id="navPoint556" playOrder="526">
+        <navLabel>
+          <text>exportLabelledArray2CSV</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArray2CSV" />  
+      </navPoint>
+      <navPoint id="navPoint557" playOrder="527">
+        <navLabel>
+          <text>exportLabelledArray2TXT</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArray2TXT" />  
+      </navPoint>
+      <navPoint id="navPoint558" playOrder="528">
+        <navLabel>
+          <text>exportLabelledArrayWithHeader</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArrayWithHeader" />  
+      </navPoint>
+      <navPoint id="navPoint559" playOrder="529">
+        <navLabel>
+          <text>exportLabelledArrayWithHeader2CSV</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArrayWithHeader2CSV" />  
+      </navPoint>
+      <navPoint id="navPoint560" playOrder="530">
+        <navLabel>
+          <text>exportLabelledArrayWithHeader2TXT</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.exportLabelledArrayWithHeader2TXT" />  
+      </navPoint>
+      <navPoint id="navPoint561" playOrder="531">
+        <navLabel>
+          <text>exportLabelledLinkedList</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.exportLabelledLinkedList" />  
+      </navPoint>
+      <navPoint id="navPoint562" playOrder="532">
+        <navLabel>
+          <text>findDeadEndMetabolites</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.findDeadEndMetabolites" />  
+      </navPoint>
+      <navPoint id="navPoint563" playOrder="533">
+        <navLabel>
+          <text>findDeadEndReactions</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.findDeadEndReactions" />  
+      </navPoint>
+      <navPoint id="navPoint564" playOrder="534">
+        <navLabel>
+          <text>fixReversibility</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.fixReversibility" />  
+      </navPoint>
+      <navPoint id="navPoint565" playOrder="535">
+        <navLabel>
+          <text>getBoundsDict</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.getBoundsDict" />  
+      </navPoint>
+      <navPoint id="navPoint566" playOrder="536">
+        <navLabel>
+          <text>getExchBoundsDict</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.getExchBoundsDict" />  
+      </navPoint>
+      <navPoint id="navPoint567" playOrder="537">
+        <navLabel>
+          <text>getModelGenesPerReaction</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.getModelGenesPerReaction" />  
+      </navPoint>
+      <navPoint id="navPoint568" playOrder="538">
+        <navLabel>
+          <text>loadObj</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.loadObj" />  
+      </navPoint>
+      <navPoint id="navPoint569" playOrder="539">
+        <navLabel>
+          <text>merge2Models</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.merge2Models" />  
+      </navPoint>
+      <navPoint id="navPoint570" playOrder="540">
+        <navLabel>
+          <text>mergeGroups</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.mergeGroups" />  
+      </navPoint>
+      <navPoint id="navPoint571" playOrder="541">
+        <navLabel>
+          <text>processBiGGannotationNote</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.processBiGGannotationNote" />  
+      </navPoint>
+      <navPoint id="navPoint572" playOrder="542">
+        <navLabel>
+          <text>processBiGGchemFormula</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.processBiGGchemFormula" />  
+      </navPoint>
+      <navPoint id="navPoint573" playOrder="543">
+        <navLabel>
+          <text>processExchangeReactions</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.processExchangeReactions" />  
+      </navPoint>
+      <navPoint id="navPoint574" playOrder="544">
+        <navLabel>
+          <text>processSBMLAnnotationNotes</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.processSBMLAnnotationNotes" />  
+      </navPoint>
+      <navPoint id="navPoint575" playOrder="545">
+        <navLabel>
+          <text>removeFixedSpeciesReactions</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.removeFixedSpeciesReactions" />  
+      </navPoint>
+      <navPoint id="navPoint576" playOrder="546">
+        <navLabel>
+          <text>roundOffWithSense</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.roundOffWithSense" />  
+      </navPoint>
+      <navPoint id="navPoint577" playOrder="547">
+        <navLabel>
+          <text>scanForReactionDuplicates</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.scanForReactionDuplicates" />  
+      </navPoint>
+      <navPoint id="navPoint578" playOrder="548">
+        <navLabel>
+          <text>scanForUnbalancedReactions</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.scanForUnbalancedReactions" />  
+      </navPoint>
+      <navPoint id="navPoint579" playOrder="549">
+        <navLabel>
+          <text>setSpeciesPropertiesFromAnnotations</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.setSpeciesPropertiesFromAnnotations" />  
+      </navPoint>
+      <navPoint id="navPoint580" playOrder="550">
+        <navLabel>
+          <text>splitReversibleReactions</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.splitReversibleReactions" />  
+      </navPoint>
+      <navPoint id="navPoint581" playOrder="551">
+        <navLabel>
+          <text>splitSingleReversibleReaction</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.splitSingleReversibleReaction" />  
+      </navPoint>
+      <navPoint id="navPoint582" playOrder="552">
+        <navLabel>
+          <text>storeObj</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.storeObj" />  
+      </navPoint>
+      <navPoint id="navPoint583" playOrder="553">
+        <navLabel>
+          <text>stringReplace</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBTools.stringReplace" />  
+      </navPoint>
+      <navPoint id="navPoint584" playOrder="554">
+        <navLabel>
+          <text>CBMPy: CBWrite module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbwrite-module" />  
+      </navPoint>
+      <navPoint id="navPoint585" playOrder="555">
+        <navLabel>
+          <text>BuildHformatFluxBounds</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.BuildHformatFluxBounds" />  
+      </navPoint>
+      <navPoint id="navPoint586" playOrder="556">
+        <navLabel>
+          <text>BuildLPConstraints</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.BuildLPConstraints" />  
+      </navPoint>
+      <navPoint id="navPoint587" playOrder="557">
+        <navLabel>
+          <text>BuildLPConstraintsMath</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.BuildLPConstraintsMath" />  
+      </navPoint>
+      <navPoint id="navPoint588" playOrder="558">
+        <navLabel>
+          <text>BuildLPConstraintsRelaxed</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.BuildLPConstraintsRelaxed" />  
+      </navPoint>
+      <navPoint id="navPoint589" playOrder="559">
+        <navLabel>
+          <text>BuildLPConstraintsStrict</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.BuildLPConstraintsStrict" />  
+      </navPoint>
+      <navPoint id="navPoint590" playOrder="560">
+        <navLabel>
+          <text>BuildLPFluxBounds</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.BuildLPFluxBounds" />  
+      </navPoint>
+      <navPoint id="navPoint591" playOrder="561">
+        <navLabel>
+          <text>BuildLPUserConstraints</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.BuildLPUserConstraints" />  
+      </navPoint>
+      <navPoint id="navPoint592" playOrder="562">
+        <navLabel>
+          <text>WriteFVAdata</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.WriteFVAdata" />  
+      </navPoint>
+      <navPoint id="navPoint593" playOrder="563">
+        <navLabel>
+          <text>WriteFVAtoCSV</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.WriteFVAtoCSV" />  
+      </navPoint>
+      <navPoint id="navPoint594" playOrder="564">
+        <navLabel>
+          <text>WriteModelHFormatFBA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.WriteModelHFormatFBA" />  
+      </navPoint>
+      <navPoint id="navPoint595" playOrder="565">
+        <navLabel>
+          <text>WriteModelHFormatFBA2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.WriteModelHFormatFBA2" />  
+      </navPoint>
+      <navPoint id="navPoint596" playOrder="566">
+        <navLabel>
+          <text>WriteModelLP</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.WriteModelLP" />  
+      </navPoint>
+      <navPoint id="navPoint597" playOrder="567">
+        <navLabel>
+          <text>WriteModelLPOld</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.WriteModelLPOld" />  
+      </navPoint>
+      <navPoint id="navPoint598" playOrder="568">
+        <navLabel>
+          <text>WriteModelRaw</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.WriteModelRaw" />  
+      </navPoint>
+      <navPoint id="navPoint599" playOrder="569">
+        <navLabel>
+          <text>convertExcelToFloat</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.convertExcelToFloat" />  
+      </navPoint>
+      <navPoint id="navPoint600" playOrder="570">
+        <navLabel>
+          <text>convertFloatToExcel</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.convertFloatToExcel" />  
+      </navPoint>
+      <navPoint id="navPoint601" playOrder="571">
+        <navLabel>
+          <text>exportModel</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.exportModel" />  
+      </navPoint>
+      <navPoint id="navPoint602" playOrder="572">
+        <navLabel>
+          <text>generateBGID</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.generateBGID" />  
+      </navPoint>
+      <navPoint id="navPoint603" playOrder="573">
+        <navLabel>
+          <text>printFBASolution</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.printFBASolution" />  
+      </navPoint>
+      <navPoint id="navPoint604" playOrder="574">
+        <navLabel>
+          <text>saveModel</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.saveModel" />  
+      </navPoint>
+      <navPoint id="navPoint605" playOrder="575">
+        <navLabel>
+          <text>writeCOBRASBML</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeCOBRASBML" />  
+      </navPoint>
+      <navPoint id="navPoint606" playOrder="576">
+        <navLabel>
+          <text>writeFVAdata</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeFVAdata" />  
+      </navPoint>
+      <navPoint id="navPoint607" playOrder="577">
+        <navLabel>
+          <text>writeFVAtoCSV</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeFVAtoCSV" />  
+      </navPoint>
+      <navPoint id="navPoint608" playOrder="578">
+        <navLabel>
+          <text>writeMinDistanceLPwithCost</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeMinDistanceLPwithCost" />  
+      </navPoint>
+      <navPoint id="navPoint609" playOrder="579">
+        <navLabel>
+          <text>writeModelHFormatFBA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeModelHFormatFBA" />  
+      </navPoint>
+      <navPoint id="navPoint610" playOrder="580">
+        <navLabel>
+          <text>writeModelHFormatFBA2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeModelHFormatFBA2" />  
+      </navPoint>
+      <navPoint id="navPoint611" playOrder="581">
+        <navLabel>
+          <text>writeModelInfoToFile</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeModelInfoToFile" />  
+      </navPoint>
+      <navPoint id="navPoint612" playOrder="582">
+        <navLabel>
+          <text>writeModelLP</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeModelLP" />  
+      </navPoint>
+      <navPoint id="navPoint613" playOrder="583">
+        <navLabel>
+          <text>writeModelLPOld</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeModelLPOld" />  
+      </navPoint>
+      <navPoint id="navPoint614" playOrder="584">
+        <navLabel>
+          <text>writeModelRaw</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeModelRaw" />  
+      </navPoint>
+      <navPoint id="navPoint615" playOrder="585">
+        <navLabel>
+          <text>writeModelToCOMBINEarchive</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeModelToCOMBINEarchive" />  
+      </navPoint>
+      <navPoint id="navPoint616" playOrder="586">
+        <navLabel>
+          <text>writeModelToExcel97</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeModelToExcel97" />  
+      </navPoint>
+      <navPoint id="navPoint617" playOrder="587">
+        <navLabel>
+          <text>writeOptimalSolution</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeOptimalSolution" />  
+      </navPoint>
+      <navPoint id="navPoint618" playOrder="588">
+        <navLabel>
+          <text>writeProteinCostToCSV</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeProteinCostToCSV" />  
+      </navPoint>
+      <navPoint id="navPoint619" playOrder="589">
+        <navLabel>
+          <text>writeReactionInfoToFile</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeReactionInfoToFile" />  
+      </navPoint>
+      <navPoint id="navPoint620" playOrder="590">
+        <navLabel>
+          <text>writeSBML2FBA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeSBML2FBA" />  
+      </navPoint>
+      <navPoint id="navPoint621" playOrder="591">
+        <navLabel>
+          <text>writeSBML3FBC</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeSBML3FBC" />  
+      </navPoint>
+      <navPoint id="navPoint622" playOrder="592">
+        <navLabel>
+          <text>writeSBML3FBCV2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeSBML3FBCV2" />  
+      </navPoint>
+      <navPoint id="navPoint623" playOrder="593">
+        <navLabel>
+          <text>writeSBML3FBCV3</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeSBML3FBCV3" />  
+      </navPoint>
+      <navPoint id="navPoint624" playOrder="594">
+        <navLabel>
+          <text>writeSensitivitiesToCSV</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeSensitivitiesToCSV" />  
+      </navPoint>
+      <navPoint id="navPoint625" playOrder="595">
+        <navLabel>
+          <text>writeSolutions</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeSolutions" />  
+      </navPoint>
+      <navPoint id="navPoint626" playOrder="596">
+        <navLabel>
+          <text>writeSpeciesInfoToFile</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeSpeciesInfoToFile" />  
+      </navPoint>
+      <navPoint id="navPoint627" playOrder="597">
+        <navLabel>
+          <text>writeStoichiometricMatrix</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBWrite.writeStoichiometricMatrix" />  
+      </navPoint>
+      <navPoint id="navPoint628" playOrder="598">
+        <navLabel>
+          <text>CBMPy: CBWx module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbwx-module" />  
+      </navPoint>
+      <navPoint id="navPoint629" playOrder="599">
+        <navLabel>
+          <text>CBMPy: CBXML module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-cbxml-module" />  
+      </navPoint>
+      <navPoint id="navPoint630" playOrder="600">
+        <navLabel>
+          <text>MLStripper</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.MLStripper" />  
+      </navPoint>
+      <navPoint id="navPoint631" playOrder="601">
+        <navLabel>
+          <text>SBML_NS</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.SBML_NS" />  
+      </navPoint>
+      <navPoint id="navPoint632" playOrder="602">
+        <navLabel>
+          <text>sbml_convertCOBRASBMLtoFBC</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_convertCOBRASBMLtoFBC" />  
+      </navPoint>
+      <navPoint id="navPoint633" playOrder="603">
+        <navLabel>
+          <text>sbml_convertSBML3FBCToCOBRA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_convertSBML3FBCToCOBRA" />  
+      </navPoint>
+      <navPoint id="navPoint634" playOrder="604">
+        <navLabel>
+          <text>sbml_createAssociationFromAST</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_createAssociationFromAST" />  
+      </navPoint>
+      <navPoint id="navPoint635" playOrder="605">
+        <navLabel>
+          <text>sbml_createAssociationFromTreeV2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_createAssociationFromTreeV2" />  
+      </navPoint>
+      <navPoint id="navPoint636" playOrder="606">
+        <navLabel>
+          <text>sbml_createModelL2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_createModelL2" />  
+      </navPoint>
+      <navPoint id="navPoint637" playOrder="607">
+        <navLabel>
+          <text>sbml_exportSBML2FBAModel</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_exportSBML2FBAModel" />  
+      </navPoint>
+      <navPoint id="navPoint638" playOrder="608">
+        <navLabel>
+          <text>sbml_fileFindVersion</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_fileFindVersion" />  
+      </navPoint>
+      <navPoint id="navPoint639" playOrder="609">
+        <navLabel>
+          <text>sbml_fileValidate</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_fileValidate" />  
+      </navPoint>
+      <navPoint id="navPoint640" playOrder="610">
+        <navLabel>
+          <text>sbml_getCVterms</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_getCVterms" />  
+      </navPoint>
+      <navPoint id="navPoint641" playOrder="611">
+        <navLabel>
+          <text>sbml_getGPRasDictFBCv1</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_getGPRasDictFBCv1" />  
+      </navPoint>
+      <navPoint id="navPoint642" playOrder="612">
+        <navLabel>
+          <text>sbml_getGPRasDictFBCv2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_getGPRasDictFBCv2" />  
+      </navPoint>
+      <navPoint id="navPoint643" playOrder="613">
+        <navLabel>
+          <text>sbml_getGeneRefs</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_getGeneRefs" />  
+      </navPoint>
+      <navPoint id="navPoint644" playOrder="614">
+        <navLabel>
+          <text>sbml_getNotes</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_getNotes" />  
+      </navPoint>
+      <navPoint id="navPoint645" playOrder="615">
+        <navLabel>
+          <text>sbml_readCOBRANote</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_readCOBRANote" />  
+      </navPoint>
+      <navPoint id="navPoint646" playOrder="616">
+        <navLabel>
+          <text>sbml_readCOBRASBML</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_readCOBRASBML" />  
+      </navPoint>
+      <navPoint id="navPoint647" playOrder="617">
+        <navLabel>
+          <text>sbml_readFBCv3KeyValuePairs</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_readFBCv3KeyValuePairs" />  
+      </navPoint>
+      <navPoint id="navPoint648" playOrder="618">
+        <navLabel>
+          <text>sbml_readKeyValueDataAnnotation</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_readKeyValueDataAnnotation" />  
+      </navPoint>
+      <navPoint id="navPoint649" playOrder="619">
+        <navLabel>
+          <text>sbml_readSBML2FBA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_readSBML2FBA" />  
+      </navPoint>
+      <navPoint id="navPoint650" playOrder="620">
+        <navLabel>
+          <text>sbml_readSBML3FBC</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_readSBML3FBC" />  
+      </navPoint>
+      <navPoint id="navPoint651" playOrder="621">
+        <navLabel>
+          <text>sbml_setAnnotationsL3Fbc</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setAnnotationsL3Fbc" />  
+      </navPoint>
+      <navPoint id="navPoint652" playOrder="622">
+        <navLabel>
+          <text>sbml_setCVterms</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setCVterms" />  
+      </navPoint>
+      <navPoint id="navPoint653" playOrder="623">
+        <navLabel>
+          <text>sbml_setCompartmentsL3</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setCompartmentsL3" />  
+      </navPoint>
+      <navPoint id="navPoint654" playOrder="624">
+        <navLabel>
+          <text>sbml_setDescription</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setDescription" />  
+      </navPoint>
+      <navPoint id="navPoint655" playOrder="625">
+        <navLabel>
+          <text>sbml_setFBCv3KeyValuePairs</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setFBCv3KeyValuePairs" />  
+      </navPoint>
+      <navPoint id="navPoint656" playOrder="626">
+        <navLabel>
+          <text>sbml_setGroupsL3</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setGroupsL3" />  
+      </navPoint>
+      <navPoint id="navPoint657" playOrder="627">
+        <navLabel>
+          <text>sbml_setNotes3</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setNotes3" />  
+      </navPoint>
+      <navPoint id="navPoint658" playOrder="628">
+        <navLabel>
+          <text>sbml_setParametersL3Fbc</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setParametersL3Fbc" />  
+      </navPoint>
+      <navPoint id="navPoint659" playOrder="629">
+        <navLabel>
+          <text>sbml_setReactionsL2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setReactionsL2" />  
+      </navPoint>
+      <navPoint id="navPoint660" playOrder="630">
+        <navLabel>
+          <text>sbml_setReactionsL3Fbc</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setReactionsL3Fbc" />  
+      </navPoint>
+      <navPoint id="navPoint661" playOrder="631">
+        <navLabel>
+          <text>sbml_setSpeciesL2</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setSpeciesL2" />  
+      </navPoint>
+      <navPoint id="navPoint662" playOrder="632">
+        <navLabel>
+          <text>sbml_setSpeciesL3</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setSpeciesL3" />  
+      </navPoint>
+      <navPoint id="navPoint663" playOrder="633">
+        <navLabel>
+          <text>sbml_setUnits</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setUnits" />  
+      </navPoint>
+      <navPoint id="navPoint664" playOrder="634">
+        <navLabel>
+          <text>sbml_setValidationOptions</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_setValidationOptions" />  
+      </navPoint>
+      <navPoint id="navPoint665" playOrder="635">
+        <navLabel>
+          <text>sbml_validateDocument</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_validateDocument" />  
+      </navPoint>
+      <navPoint id="navPoint666" playOrder="636">
+        <navLabel>
+          <text>sbml_writeAnnotationsAsCOBRANote</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_writeAnnotationsAsCOBRANote" />  
+      </navPoint>
+      <navPoint id="navPoint667" playOrder="637">
+        <navLabel>
+          <text>sbml_writeCOBRASBML</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_writeCOBRASBML" />  
+      </navPoint>
+      <navPoint id="navPoint668" playOrder="638">
+        <navLabel>
+          <text>sbml_writeKeyValueDataAnnotation</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_writeKeyValueDataAnnotation" />  
+      </navPoint>
+      <navPoint id="navPoint669" playOrder="639">
+        <navLabel>
+          <text>sbml_writeSBML2FBA</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_writeSBML2FBA" />  
+      </navPoint>
+      <navPoint id="navPoint670" playOrder="640">
+        <navLabel>
+          <text>sbml_writeSBML3FBC</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.sbml_writeSBML3FBC" />  
+      </navPoint>
+      <navPoint id="navPoint671" playOrder="641">
+        <navLabel>
+          <text>setCBSBOterm</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.setCBSBOterm" />  
+      </navPoint>
+      <navPoint id="navPoint672" playOrder="642">
+        <navLabel>
+          <text>with_metaclass</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.with_metaclass" />  
+      </navPoint>
+      <navPoint id="navPoint673" playOrder="643">
+        <navLabel>
+          <text>xml_addSBML2FBAFluxBound</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.xml_addSBML2FBAFluxBound" />  
+      </navPoint>
+      <navPoint id="navPoint674" playOrder="644">
+        <navLabel>
+          <text>xml_addSBML2FBAObjective</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.xml_addSBML2FBAObjective" />  
+      </navPoint>
+      <navPoint id="navPoint675" playOrder="645">
+        <navLabel>
+          <text>xml_createListOfFluxObjectives</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.xml_createListOfFluxObjectives" />  
+      </navPoint>
+      <navPoint id="navPoint676" playOrder="646">
+        <navLabel>
+          <text>xml_createSBML2FBADoc</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.xml_createSBML2FBADoc" />  
+      </navPoint>
+      <navPoint id="navPoint677" playOrder="647">
+        <navLabel>
+          <text>xml_createSBML2FBAObjective</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.xml_createSBML2FBAObjective" />  
+      </navPoint>
+      <navPoint id="navPoint678" playOrder="648">
+        <navLabel>
+          <text>xml_getSBML2FBAannotation</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.xml_getSBML2FBAannotation" />  
+      </navPoint>
+      <navPoint id="navPoint679" playOrder="649">
+        <navLabel>
+          <text>xml_stripTags</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.xml_stripTags" />  
+      </navPoint>
+      <navPoint id="navPoint680" playOrder="650">
+        <navLabel>
+          <text>xml_viewSBML2FBAXML</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy.CBXML.xml_viewSBML2FBAXML" />  
+      </navPoint>
+      <navPoint id="navPoint681" playOrder="651">
+        <navLabel>
+          <text>CBMPy: MultiCoreFVA module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-multicorefva-module" />  
+      </navPoint>
+      <navPoint id="navPoint682" playOrder="652">
+        <navLabel>
+          <text>CBMPy: MultiCoreEnvFVA module</text>
+        </navLabel>
+        <content src="modules_doc.xhtml#cbmpy-multicoreenvfva-module" />  
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

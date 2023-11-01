@@ -1,0 +1,1237 @@
+\begin{theindex}
+
+  \item \spxentry{addAssociation()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{36}
+  \item \spxentry{addAssociation()}\spxextra{Parameter method}, 
+		\hyperpage{56}
+  \item \spxentry{addCompartment()}\spxextra{Model method}, 
+		\hyperpage{40}
+  \item \spxentry{addConstraintComponent()}\spxextra{UserDefinedConstraint method}, 
+		\hyperpage{61}
+  \item \spxentry{addFluxAsActiveObjective()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{70}
+  \item \spxentry{addFluxBound()}\spxextra{Model method}, 
+		\hyperpage{40}
+  \item \spxentry{addFluxObjective()}\spxextra{Objective method}, 
+		\hyperpage{55}
+  \item \spxentry{addGene()}\spxextra{Model method}, \hyperpage{41}
+  \item \spxentry{addGeneref()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{36}
+  \item \spxentry{addGenesFromAnnotations()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{70}
+  \item \spxentry{addGPRAssociation()}\spxextra{Model method}, 
+		\hyperpage{41}
+  \item \spxentry{addGroup()}\spxextra{Model method}, \hyperpage{41}
+  \item \spxentry{addIDorgURI()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{19}
+  \item \spxentry{addMember()}\spxextra{Group method}, \hyperpage{38}
+  \item \spxentry{addMIRIAMannotation()}\spxextra{Fbase method}, 
+		\hyperpage{33}
+  \item \spxentry{addMIRIAMannotation()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{19}
+  \item \spxentry{addMIRIAMannotation()}\spxextra{Model method}, 
+		\hyperpage{41}
+  \item \spxentry{addMIRIAMuri()}\spxextra{Fbase method}, 
+		\hyperpage{33}
+  \item \spxentry{addModelCreator()}\spxextra{Model method}, 
+		\hyperpage{41}
+  \item \spxentry{addObjective()}\spxextra{Model method}, 
+		\hyperpage{41}
+  \item \spxentry{addParameter()}\spxextra{Model method}, 
+		\hyperpage{41}
+  \item \spxentry{addReaction()}\spxextra{Model method}, \hyperpage{41}
+  \item \spxentry{addReagent()}\spxextra{Reaction method}, 
+		\hyperpage{57}
+  \item \spxentry{addSharedMIRIAMannotation()}\spxextra{Group method}, 
+		\hyperpage{38}
+  \item \spxentry{addSinkReaction()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{70}
+  \item \spxentry{addSourceReaction()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{71}
+  \item \spxentry{addSpecies()}\spxextra{Model method}, \hyperpage{42}
+  \item \spxentry{addStoichToFBAModel()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{71}
+  \item \spxentry{addUserConstraint()}\spxextra{Model method}, 
+		\hyperpage{42}
+  \item \spxentry{addUserDefinedConstraint()}\spxextra{Model method}, 
+		\hyperpage{42}
+  \item \spxentry{assignAllSharedPropertiesToMembers()}\spxextra{Group method}, 
+		\hyperpage{38}
+  \item \spxentry{assignSharedAnnotationToMembers()}\spxextra{Group method}, 
+		\hyperpage{38}
+  \item \spxentry{assignSharedMIRIAMannotationToMembers()}\spxextra{Group method}, 
+		\hyperpage{38}
+  \item \spxentry{assignSharedNotesToMembers()}\spxextra{Group method}, 
+		\hyperpage{38}
+  \item \spxentry{assignSharedSBOtermsToMembers()}\spxextra{Group method}, 
+		\hyperpage{38}
+
+  \indexspace
+
+  \item \spxentry{BuildHformatFluxBounds()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{76}
+  \item \spxentry{BuildLPConstraints()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{76}
+  \item \spxentry{BuildLPConstraintsMath()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{BuildLPConstraintsRelaxed()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{BuildLPConstraintsStrict()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{BuildLPFluxBounds()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{BuildLPUserConstraints()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{buildStoichMatrix()}\spxextra{Model method}, 
+		\hyperpage{42}
+
+  \indexspace
+
+  \item \spxentry{cbmpy.\_multicoreenvfva}
+    \subitem \spxentry{module}, \hyperpage{92}
+  \item \spxentry{cbmpy.\_multicorefva}
+    \subitem \spxentry{module}, \hyperpage{92}
+  \item \spxentry{cbmpy.CBCommon}
+    \subitem \spxentry{module}, \hyperpage{19}
+  \item \spxentry{cbmpy.CBConfig}
+    \subitem \spxentry{module}, \hyperpage{22}
+  \item \spxentry{cbmpy.CBCPLEX}
+    \subitem \spxentry{module}, \hyperpage{22}
+  \item \spxentry{cbmpy.CBDataStruct}
+    \subitem \spxentry{module}, \hyperpage{31}
+  \item \spxentry{cbmpy.CBGUI}
+    \subitem \spxentry{module}, \hyperpage{31}
+  \item \spxentry{cbmpy.CBModel}
+    \subitem \spxentry{module}, \hyperpage{32}
+  \item \spxentry{cbmpy.CBModelTools}
+    \subitem \spxentry{module}, \hyperpage{61}
+  \item \spxentry{cbmpy.CBMultiCore}
+    \subitem \spxentry{module}, \hyperpage{61}
+  \item \spxentry{cbmpy.CBMultiEnv}
+    \subitem \spxentry{module}, \hyperpage{62}
+  \item \spxentry{cbmpy.CBNetDB}
+    \subitem \spxentry{module}, \hyperpage{62}
+  \item \spxentry{cbmpy.CBPlot}
+    \subitem \spxentry{module}, \hyperpage{66}
+  \item \spxentry{cbmpy.CBRead}
+    \subitem \spxentry{module}, \hyperpage{66}
+  \item \spxentry{cbmpy.CBReadtxt}
+    \subitem \spxentry{module}, \hyperpage{69}
+  \item \spxentry{cbmpy.CBSolver}
+    \subitem \spxentry{module}, \hyperpage{69}
+  \item \spxentry{cbmpy.CBTools}
+    \subitem \spxentry{module}, \hyperpage{70}
+  \item \spxentry{cbmpy.CBWrite}
+    \subitem \spxentry{module}, \hyperpage{76}
+  \item \spxentry{cbmpy.CBWx}
+    \subitem \spxentry{module}, \hyperpage{84}
+  \item \spxentry{cbmpy.CBXML}
+    \subitem \spxentry{module}, \hyperpage{84}
+  \item \spxentry{cbmpy.miriamids}
+    \subitem \spxentry{module}, \hyperpage{93}
+  \item \spxentry{changeAllFluxBoundsWithValue()}\spxextra{Model method}, 
+		\hyperpage{42}
+  \item \spxentry{changeId()}\spxextra{Reaction method}, \hyperpage{57}
+  \item \spxentry{checkChemFormula()}\spxextra{in module cbmpy.CBCommon}, 
+		\hyperpage{21}
+  \item \spxentry{checkEntity()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{19}
+  \item \spxentry{checkEntityPattern()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{20}
+  \item \spxentry{checkEntryInColumn()}\spxextra{DBTools method}, 
+		\hyperpage{63}
+  \item \spxentry{checkExchangeReactions()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{71}
+  \item \spxentry{checkFluxBoundConsistency()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{71}
+  \item \spxentry{checkId()}\spxextra{in module cbmpy.CBCommon}, 
+		\hyperpage{21}
+  \item \spxentry{checkId()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{20}
+  \item \spxentry{checkIds()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{71}
+  \item \spxentry{checkReactionBalanceElemental()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{71}
+  \item \spxentry{clone()}\spxextra{Fbase method}, \hyperpage{33}
+  \item \spxentry{clone()}\spxextra{Group method}, \hyperpage{39}
+  \item \spxentry{clone()}\spxextra{Model method}, \hyperpage{42}
+  \item \spxentry{Close()}\spxextra{RESTClient method}, \hyperpage{65}
+  \item \spxentry{closeDB()}\spxextra{DBTools method}, \hyperpage{63}
+  \item \spxentry{ComboGen}\spxextra{class in cbmpy.CBCommon}, 
+		\hyperpage{19}
+  \item \spxentry{commitDB()}\spxextra{DBTools method}, \hyperpage{63}
+  \item \spxentry{Compartment}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{32}
+  \item \spxentry{Connect()}\spxextra{RESTClient method}, 
+		\hyperpage{65}
+  \item \spxentry{connectSQLiteDB()}\spxextra{DBTools method}, 
+		\hyperpage{63}
+  \item \spxentry{ConstraintComponent}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{33}
+  \item \spxentry{containsReactions()}\spxextra{Compartment method}, 
+		\hyperpage{32}
+  \item \spxentry{containsSpecies()}\spxextra{Compartment method}, 
+		\hyperpage{32}
+  \item \spxentry{convertExcelToFloat()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{convertFloatToExcel()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{convertUserConstraintsToUserDefinedConstraints()}\spxextra{Model method}, 
+		\hyperpage{42}
+  \item \spxentry{copyUserDefinedConstraintsToUserConstraints()}\spxextra{Model method}, 
+		\hyperpage{42}
+  \item \spxentry{cplx\_analyzeModel()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{27}
+  \item \spxentry{cplx\_constructLPfromFBA()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{27}
+  \item \spxentry{cplx\_fixConSense()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{27}
+  \item \spxentry{cplx\_FluxVariabilityAnalysis()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{23}
+  \item \spxentry{cplx\_func\_GetCPXandPresolve()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{27}
+  \item \spxentry{cplx\_func\_SetObjectiveFunctionAsConstraint()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{28}
+  \item \spxentry{cplx\_getCPLEXModelFromLP()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{28}
+  \item \spxentry{cplx\_getDualValues()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{28}
+  \item \spxentry{cplx\_getModelFromLP()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{28}
+  \item \spxentry{cplx\_getModelFromObj()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{28}
+  \item \spxentry{cplx\_getOptimalSolution()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{28}
+  \item \spxentry{cplx\_getOptimalSolution2()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{29}
+  \item \spxentry{cplx\_getReducedCosts()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{29}
+  \item \spxentry{cplx\_getSensitivities()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{29}
+  \item \spxentry{cplx\_getShadowPrices()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{29}
+  \item \spxentry{cplx\_getSolutionStatus()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{29}
+  \item \spxentry{cplx\_MinimizeNumActiveFluxes()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{24}
+  \item \spxentry{cplx\_MinimizeSumOfAbsFluxes()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{25}
+  \item \spxentry{cplx\_MultiFluxVariabilityAnalysis()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{26}
+  \item \spxentry{cplx\_runInputScan()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{29}
+  \item \spxentry{cplx\_setFBAsolutionToModel()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{29}
+  \item \spxentry{cplx\_setMIPGapTolerance()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{30}
+  \item \spxentry{cplx\_setObjective()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{30}
+  \item \spxentry{cplx\_setObjective2()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{30}
+  \item \spxentry{cplx\_setOutputStreams()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{30}
+  \item \spxentry{cplx\_setSolutionStatusToModel()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{30}
+  \item \spxentry{cplx\_singleGeneScan()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{30}
+  \item \spxentry{cplx\_singleReactionDeletionScan()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{30}
+  \item \spxentry{cplx\_SolveMILP()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{26}
+  \item \spxentry{cplx\_WriteFVAtoCSV()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{26}
+  \item \spxentry{cplx\_writeLPsolution()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{30}
+  \item \spxentry{cplx\_writeLPtoLPTfile()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{31}
+  \item \spxentry{createAssociationAndGeneRefsFromString()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{36}
+  \item \spxentry{createAssociationAndGeneRefsFromTree()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{createAssociationDictFromNode()}\spxextra{in module cbmpy.CBCommon}, 
+		\hyperpage{21}
+  \item \spxentry{createCompartment()}\spxextra{Model method}, 
+		\hyperpage{42}
+  \item \spxentry{createConstraintComponent()}\spxextra{UserDefinedConstraint method}, 
+		\hyperpage{61}
+  \item \spxentry{createDBTable()}\spxextra{DBTools method}, 
+		\hyperpage{63}
+  \item \spxentry{createFluxObjectives()}\spxextra{Objective method}, 
+		\hyperpage{55}
+  \item \spxentry{createGeneAssociationsFromAnnotations()}\spxextra{Model method}, 
+		\hyperpage{43}
+  \item \spxentry{createGeneProteinAssociation()}\spxextra{Model method}, 
+		\hyperpage{43}
+  \item \spxentry{createGeneProteinAssociationFromTree()}\spxextra{Model method}, 
+		\hyperpage{43}
+  \item \spxentry{createGroup()}\spxextra{Model method}, \hyperpage{43}
+  \item \spxentry{createObjectiveFunction()}\spxextra{Model method}, 
+		\hyperpage{43}
+  \item \spxentry{createParameter()}\spxextra{Model method}, 
+		\hyperpage{44}
+  \item \spxentry{createQuadraticFluxObjectives()}\spxextra{Objective method}, 
+		\hyperpage{55}
+  \item \spxentry{createReaction()}\spxextra{Model method}, 
+		\hyperpage{44}
+  \item \spxentry{createReactionBounds()}\spxextra{Model method}, 
+		\hyperpage{44}
+  \item \spxentry{createReactionLowerBound()}\spxextra{Model method}, 
+		\hyperpage{44}
+  \item \spxentry{createReactionNew()}\spxextra{Model method}, 
+		\hyperpage{44}
+  \item \spxentry{createReactionReagent()}\spxextra{Model method}, 
+		\hyperpage{44}
+  \item \spxentry{createReactionUpperBound()}\spxextra{Model method}, 
+		\hyperpage{45}
+  \item \spxentry{createReagent()}\spxextra{Reaction method}, 
+		\hyperpage{57}
+  \item \spxentry{createSingleGeneEffectMap()}\spxextra{Model method}, 
+		\hyperpage{45}
+  \item \spxentry{createSpecies()}\spxextra{Model method}, 
+		\hyperpage{45}
+  \item \spxentry{createTempFileName()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{71}
+  \item \spxentry{createUserDefinedConstraint()}\spxextra{Model method}, 
+		\hyperpage{45}
+  \item \spxentry{createZipArchive()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{71}
+  \item \spxentry{current\_version()}\spxextra{in module cbmpy.CBConfig}, 
+		\hyperpage{22}
+  \item \spxentry{current\_version\_tuple()}\spxextra{in module cbmpy.CBConfig}, 
+		\hyperpage{22}
+
+  \indexspace
+
+  \item \spxentry{DBTools}\spxextra{class in cbmpy.CBNetDB}, 
+		\hyperpage{63}
+  \item \spxentry{deactivateReaction()}\spxextra{Reaction method}, 
+		\hyperpage{57}
+  \item \spxentry{deactivateReaction()}\spxextra{ReactionNew method}, 
+		\hyperpage{59}
+  \item \spxentry{deleteAllFluxBoundsWithValue()}\spxextra{Model method}, 
+		\hyperpage{45}
+  \item \spxentry{deleteAllFluxObjectives()}\spxextra{Objective method}, 
+		\hyperpage{55}
+  \item \spxentry{deleteAnnotation()}\spxextra{Fbase method}, 
+		\hyperpage{33}
+  \item \spxentry{deleteAssociation()}\spxextra{Parameter method}, 
+		\hyperpage{56}
+  \item \spxentry{deleteBoundsForReactionId()}\spxextra{Model method}, 
+		\hyperpage{45}
+  \item \spxentry{deleteCompartment()}\spxextra{Model method}, 
+		\hyperpage{45}
+  \item \spxentry{deleteGene()}\spxextra{Model method}, \hyperpage{46}
+  \item \spxentry{deleteGeneByLabel()}\spxextra{Model method}, 
+		\hyperpage{46}
+  \item \spxentry{deleteGeneFromAssociation()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{deleteGeneref()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{deleteGPRAssociation()}\spxextra{Model method}, 
+		\hyperpage{46}
+  \item \spxentry{deleteGroup()}\spxextra{Model method}, \hyperpage{46}
+  \item \spxentry{deleteMember()}\spxextra{Group method}, 
+		\hyperpage{39}
+  \item \spxentry{deleteMIRIAMannotation()}\spxextra{Fbase method}, 
+		\hyperpage{33}
+  \item \spxentry{deleteMIRIAMannotation()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{20}
+  \item \spxentry{deleteNonReactingSpecies()}\spxextra{Model method}, 
+		\hyperpage{46}
+  \item \spxentry{deleteObjective()}\spxextra{Model method}, 
+		\hyperpage{46}
+  \item \spxentry{deleteReactionAndBounds()}\spxextra{Model method}, 
+		\hyperpage{46}
+  \item \spxentry{deleteReagentWithSpeciesRef()}\spxextra{Reaction method}, 
+		\hyperpage{57}
+  \item \spxentry{deleteSpecies()}\spxextra{Model method}, 
+		\hyperpage{46}
+  \item \spxentry{deSerialize()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{72}
+  \item \spxentry{deSerializeFromDisk()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{72}
+  \item \spxentry{dumpTableToCSV()}\spxextra{DBTools method}, 
+		\hyperpage{63}
+  \item \spxentry{dumpTableToTxt()}\spxextra{DBTools method}, 
+		\hyperpage{63}
+
+  \indexspace
+
+  \item \spxentry{emptyUndelete()}\spxextra{Model method}, 
+		\hyperpage{46}
+  \item \spxentry{evalAssociation()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{executeSQL()}\spxextra{DBTools method}, 
+		\hyperpage{64}
+  \item \spxentry{exportArray2CSV()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{72}
+  \item \spxentry{exportArray2TXT()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{72}
+  \item \spxentry{exportFVAdata()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{exportLabelledArray()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{72}
+  \item \spxentry{exportLabelledArray2CSV()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{72}
+  \item \spxentry{exportLabelledArray2TXT()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{72}
+  \item \spxentry{exportLabelledArrayWithHeader()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{72}
+  \item \spxentry{exportLabelledArrayWithHeader2CSV()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{73}
+  \item \spxentry{exportLabelledArrayWithHeader2TXT()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{73}
+  \item \spxentry{exportLabelledLinkedList()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{73}
+  \item \spxentry{exportModel()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{78}
+  \item \spxentry{exportUserConstraints()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{extractGeneIdsFromString()}\spxextra{in module cbmpy.CBCommon}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item \spxentry{Fbase}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{33}
+  \item \spxentry{fetchAll()}\spxextra{DBTools method}, \hyperpage{64}
+  \item \spxentry{fetchSeqfromKeGG()}\spxextra{KeGGTools method}, 
+		\hyperpage{65}
+  \item \spxentry{findDeadEndMetabolites()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{73}
+  \item \spxentry{findDeadEndReactions()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{73}
+  \item \spxentry{findFluxesForConnectedSpecies()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{fixId()}\spxextra{in module cbmpy.CBCommon}, 
+		\hyperpage{21}
+  \item \spxentry{fixReversibility()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{73}
+  \item \spxentry{FluxBound}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{35}
+  \item \spxentry{FluxBoundBase}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{35}
+  \item \spxentry{FluxBoundLower}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{36}
+  \item \spxentry{FluxBoundUpper}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{36}
+  \item \spxentry{FluxObjective}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{36}
+  \item \spxentry{FluxObjectiveQuadratic}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{36}
+  \item \spxentry{func\_getAssociationStrFromGprDict()}\spxextra{in module cbmpy.CBCommon}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item \spxentry{Gene}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{36}
+  \item \spxentry{GeneProteinAssociation}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{36}
+  \item \spxentry{generateBGID()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{78}
+  \item \spxentry{Get()}\spxextra{RESTClient method}, \hyperpage{65}
+  \item \spxentry{getActiveGenes()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{getActiveObjective()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getActiveObjectiveReactionIds()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getActiveObjectiveStoichiometry()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getAllFluxBounds()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getAllGeneActivities()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getAllGeneProteinAssociations()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getAllMIRIAMUris()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{20}
+  \item \spxentry{getAllProteinActivities()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getAllProteinGeneAssociations()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getAndViewUrisForQualifier()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{20}
+  \item \spxentry{getAnnotation()}\spxextra{Fbase method}, 
+		\hyperpage{33}
+  \item \spxentry{getAnnotations()}\spxextra{Fbase method}, 
+		\hyperpage{33}
+  \item \spxentry{getAssociations()}\spxextra{Parameter method}, 
+		\hyperpage{56}
+  \item \spxentry{getAssociationStr()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{getBoundarySpeciesIds()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getBoundsDict()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{74}
+  \item \spxentry{getCell()}\spxextra{DBTools method}, \hyperpage{64}
+  \item \spxentry{getCharge()}\spxextra{Species method}, \hyperpage{60}
+  \item \spxentry{getChemFormula()}\spxextra{Species method}, 
+		\hyperpage{60}
+  \item \spxentry{getCoefficient()}\spxextra{Reagent method}, 
+		\hyperpage{59}
+  \item \spxentry{getColsByIdx()}\spxextra{StructMatrix method}, 
+		\hyperpage{20}
+  \item \spxentry{getColsByName()}\spxextra{StructMatrix method}, 
+		\hyperpage{20}
+  \item \spxentry{getColumns()}\spxextra{DBTools method}, 
+		\hyperpage{64}
+  \item \spxentry{getCompartment()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getCompartmentId()}\spxextra{Fbase method}, 
+		\hyperpage{33}
+  \item \spxentry{getCompartmentIds()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getCompartmentObjects()}\spxextra{Model method}, 
+		\hyperpage{47}
+  \item \spxentry{getConstraintComponent()}\spxextra{UserDefinedConstraint method}, 
+		\hyperpage{61}
+  \item \spxentry{getConstraintComponentData()}\spxextra{UserDefinedConstraint method}, 
+		\hyperpage{61}
+  \item \spxentry{getConstraintComponentForVariable()}\spxextra{UserDefinedConstraint method}, 
+		\hyperpage{61}
+  \item \spxentry{getConstraintComponentIDs()}\spxextra{UserDefinedConstraint method}, 
+		\hyperpage{61}
+  \item \spxentry{getConstraintComponents()}\spxextra{UserDefinedConstraint method}, 
+		\hyperpage{61}
+  \item \spxentry{getConstraintComponentVariables()}\spxextra{UserDefinedConstraint method}, 
+		\hyperpage{61}
+  \item \spxentry{getConstraintComponentVariableTypes()}\spxextra{UserDefinedConstraint method}, 
+		\hyperpage{61}
+  \item \spxentry{getCopy()}\spxextra{StructMatrixLP method}, 
+		\hyperpage{21}
+  \item \spxentry{getDescription()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getDimensions()}\spxextra{Compartment method}, 
+		\hyperpage{32}
+  \item \spxentry{getEquation()}\spxextra{Reaction method}, 
+		\hyperpage{57}
+  \item \spxentry{getExchangeReactionIds()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getExchangeReactions()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getExchBoundsDict()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{74}
+  \item \spxentry{getFluxBoundByID()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getFluxBoundByReactionID()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getFluxBoundIds()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getFluxBoundsByReactionID()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getFluxesAssociatedWithCompartments()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getFluxesAssociatedWithSpecies()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getFluxObjective()}\spxextra{Objective method}, 
+		\hyperpage{55}
+  \item \spxentry{getFluxObjectiveData()}\spxextra{Objective method}, 
+		\hyperpage{55}
+  \item \spxentry{getFluxObjectiveForReaction()}\spxextra{Objective method}, 
+		\hyperpage{55}
+  \item \spxentry{getFluxObjectiveIDs()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{getFluxObjectiveReactions()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{getFluxObjectives()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{getFVAdata()}\spxextra{Reaction method}, 
+		\hyperpage{57}
+  \item \spxentry{getGene()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{getGene()}\spxextra{Model method}, \hyperpage{49}
+  \item \spxentry{getGeneByLabel()}\spxextra{Model method}, 
+		\hyperpage{49}
+  \item \spxentry{getGeneIdFromLabel()}\spxextra{Model method}, 
+		\hyperpage{49}
+  \item \spxentry{getGeneIds()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{getGeneIds()}\spxextra{Model method}, \hyperpage{49}
+  \item \spxentry{getGeneLabels()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{getGeneLabels()}\spxextra{Model method}, 
+		\hyperpage{49}
+  \item \spxentry{getGeneObjects()}\spxextra{Model method}, 
+		\hyperpage{49}
+  \item \spxentry{getGeneObjectsByLabel()}\spxextra{Model method}, 
+		\hyperpage{49}
+  \item \spxentry{getGenes()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{getGPRasDictFromString()}\spxextra{in module cbmpy.CBCommon}, 
+		\hyperpage{22}
+  \item \spxentry{getGPRassociation()}\spxextra{Model method}, 
+		\hyperpage{49}
+  \item \spxentry{getGPRassociationString()}\spxextra{Reaction method}, 
+		\hyperpage{57}
+  \item \spxentry{getGPRforReaction()}\spxextra{Model method}, 
+		\hyperpage{49}
+  \item \spxentry{getGPRforReactionAsDict()}\spxextra{Model method}, 
+		\hyperpage{49}
+  \item \spxentry{getGPRIdAssociatedWithGeneId()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getGPRIdAssociatedWithGeneLabel()}\spxextra{Model method}, 
+		\hyperpage{48}
+  \item \spxentry{getGPRIds()}\spxextra{Model method}, \hyperpage{49}
+  \item \spxentry{getGPRObjects()}\spxextra{Model method}, 
+		\hyperpage{49}
+  \item \spxentry{getGroup()}\spxextra{Model method}, \hyperpage{50}
+  \item \spxentry{getGroupIds()}\spxextra{Model method}, \hyperpage{50}
+  \item \spxentry{getGroupMembership()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getGroupNames()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getId()}\spxextra{Fbase method}, \hyperpage{33}
+  \item \spxentry{getIndexes()}\spxextra{StructMatrix method}, 
+		\hyperpage{20}
+  \item \spxentry{getIrreversibleReactionIds()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getKind()}\spxextra{Group method}, \hyperpage{39}
+  \item \spxentry{getLabel()}\spxextra{Gene method}, \hyperpage{36}
+  \item \spxentry{getLabels()}\spxextra{StructMatrix method}, 
+		\hyperpage{20}
+  \item \spxentry{getLinearFluxObjectives()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{GetLog()}\spxextra{RESTClient method}, \hyperpage{65}
+  \item \spxentry{getLowerBound()}\spxextra{Reaction method}, 
+		\hyperpage{57}
+  \item \spxentry{getLowerBound()}\spxextra{ReactionNew method}, 
+		\hyperpage{59}
+  \item \spxentry{getMember()}\spxextra{Group method}, \hyperpage{39}
+  \item \spxentry{getMemberIDs()}\spxextra{Group method}, 
+		\hyperpage{39}
+  \item \spxentry{getMembers()}\spxextra{Group method}, \hyperpage{39}
+  \item \spxentry{getMetaId()}\spxextra{Fbase method}, \hyperpage{34}
+  \item \spxentry{getMIRIAMannotations()}\spxextra{Fbase method}, 
+		\hyperpage{33}
+  \item \spxentry{getMIRIAMUrisForQualifier()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{20}
+  \item \spxentry{getModel()}\spxextra{Fbase method}, \hyperpage{34}
+  \item \spxentry{getModel()}\spxextra{Model method}, \hyperpage{50}
+  \item \spxentry{getModelCreators()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getModelGenesPerReaction()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{74}
+  \item \spxentry{getName()}\spxextra{Fbase method}, \hyperpage{34}
+  \item \spxentry{getNotes()}\spxextra{Fbase method}, \hyperpage{34}
+  \item \spxentry{getObject()}\spxextra{Model method}, \hyperpage{50}
+  \item \spxentry{getObjectiveIds()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getObjFuncValue()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getOperation()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{getOptimalValue()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getParameter()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getPid()}\spxextra{Fbase method}, \hyperpage{34}
+  \item \spxentry{getProductIds()}\spxextra{Reaction method}, 
+		\hyperpage{57}
+  \item \spxentry{getProtein()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{getQuadraticBivariateFluxObjectives()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{getQuadraticFluxObjectives()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{getReaction()}\spxextra{Model method}, \hyperpage{50}
+  \item \spxentry{getReactionActivity()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getReactionBounds()}\spxextra{Model method}, 
+		\hyperpage{50}
+  \item \spxentry{getReactionIds()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getReactionIdsAssociatedWithSpecies()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getReactionLowerBound()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getReactionNames()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getReactionObjects()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getReactionUpperBound()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getReactionValues()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getReagent()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{getReagentObjIds()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{getReagentOf()}\spxextra{Species method}, 
+		\hyperpage{60}
+  \item \spxentry{getReagentRefs()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{getReagentWithSpeciesRef()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{getReducedCosts()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{31}
+  \item \spxentry{getReversibleReactionIds()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getRole()}\spxextra{Reagent method}, \hyperpage{60}
+  \item \spxentry{getRow()}\spxextra{DBTools method}, \hyperpage{64}
+  \item \spxentry{getRowsByIdx()}\spxextra{StructMatrix method}, 
+		\hyperpage{20}
+  \item \spxentry{getRowsByName()}\spxextra{StructMatrix method}, 
+		\hyperpage{20}
+  \item \spxentry{getSBOterm()}\spxextra{Fbase method}, \hyperpage{34}
+  \item \spxentry{getSharedAnnotations()}\spxextra{Group method}, 
+		\hyperpage{39}
+  \item \spxentry{getSharedMIRIAMannotations()}\spxextra{Group method}, 
+		\hyperpage{39}
+  \item \spxentry{getSharedNotes()}\spxextra{Group method}, 
+		\hyperpage{39}
+  \item \spxentry{getSharedSBOterm()}\spxextra{Group method}, 
+		\hyperpage{39}
+  \item \spxentry{getSize()}\spxextra{Compartment method}, 
+		\hyperpage{32}
+  \item \spxentry{getSolutionVector()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getSpecies()}\spxextra{Model method}, \hyperpage{51}
+  \item \spxentry{getSpecies()}\spxextra{Reagent method}, 
+		\hyperpage{60}
+  \item \spxentry{getSpeciesIds()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getSpeciesIds()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{getSpeciesObj()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{getSpeciesObjects()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{getStoichiometry()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{getSubstrateIds()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{getTable()}\spxextra{DBTools method}, \hyperpage{64}
+  \item \spxentry{getTree()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{getTreeCopy()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{getType()}\spxextra{FluxBound method}, \hyperpage{35}
+  \item \spxentry{getType()}\spxextra{FluxBoundBase method}, 
+		\hyperpage{35}
+  \item \spxentry{getUpperBound()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{getUpperBound()}\spxextra{ReactionNew method}, 
+		\hyperpage{59}
+  \item \spxentry{getValue()}\spxextra{FluxBound method}, 
+		\hyperpage{35}
+  \item \spxentry{getValue()}\spxextra{FluxBoundBase method}, 
+		\hyperpage{35}
+  \item \spxentry{getValue()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{getValue()}\spxextra{Parameter method}, 
+		\hyperpage{56}
+  \item \spxentry{getValue()}\spxextra{Reaction method}, \hyperpage{58}
+  \item \spxentry{getValue()}\spxextra{Species method}, \hyperpage{60}
+  \item \spxentry{Group}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{38}
+  \item \spxentry{grouper()}\spxextra{in module cbmpy.CBMultiCore}, 
+		\hyperpage{62}
+  \item \spxentry{GroupMemberAttributes}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{40}
+
+  \indexspace
+
+  \item \spxentry{hasAnnotation()}\spxextra{Fbase method}, 
+		\hyperpage{34}
+  \item \spxentry{hasMember()}\spxextra{Group method}, \hyperpage{39}
+  \item \spxentry{hasObject()}\spxextra{Model method}, \hyperpage{51}
+
+  \indexspace
+
+  \item \spxentry{importUserConstraints()}\spxextra{Model method}, 
+		\hyperpage{51}
+  \item \spxentry{insertData()}\spxextra{DBTools method}, 
+		\hyperpage{64}
+  \item \spxentry{isActive()}\spxextra{Gene method}, \hyperpage{36}
+  \item \spxentry{isProteinActive()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{37}
+  \item \spxentry{isReagentOf()}\spxextra{Species method}, 
+		\hyperpage{60}
+
+  \indexspace
+
+  \item \spxentry{KeGGSequenceTools}\spxextra{class in cbmpy.CBNetDB}, 
+		\hyperpage{65}
+  \item \spxentry{KeGGTools}\spxextra{class in cbmpy.CBNetDB}, 
+		\hyperpage{65}
+
+  \indexspace
+
+  \item \spxentry{loadCBGUI()}\spxextra{in module cbmpy.CBGUI}, 
+		\hyperpage{32}
+  \item \spxentry{loadModel()}\spxextra{in module cbmpy.CBRead}, 
+		\hyperpage{67}
+  \item \spxentry{loadObj()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{74}
+  \item \spxentry{Log()}\spxextra{RESTClient method}, \hyperpage{65}
+
+  \indexspace
+
+  \item \spxentry{merge2Models()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{74}
+  \item \spxentry{mergeGroups()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{74}
+  \item \spxentry{MIRIAMannotation}\spxextra{class in cbmpy.CBCommon}, 
+		\hyperpage{19}
+  \item \spxentry{MIRIAMTools}\spxextra{class in cbmpy.CBNetDB}, 
+		\hyperpage{65}
+  \item \spxentry{MLStripper}\spxextra{class in cbmpy.CBXML}, 
+		\hyperpage{84}
+  \item \spxentry{Model}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{40}
+  \item \spxentry{module}
+    \subitem \spxentry{cbmpy.\_multicoreenvfva}, \hyperpage{92}
+    \subitem \spxentry{cbmpy.\_multicorefva}, \hyperpage{92}
+    \subitem \spxentry{cbmpy.CBCommon}, \hyperpage{19}
+    \subitem \spxentry{cbmpy.CBConfig}, \hyperpage{22}
+    \subitem \spxentry{cbmpy.CBCPLEX}, \hyperpage{22}
+    \subitem \spxentry{cbmpy.CBDataStruct}, \hyperpage{31}
+    \subitem \spxentry{cbmpy.CBGUI}, \hyperpage{31}
+    \subitem \spxentry{cbmpy.CBModel}, \hyperpage{32}
+    \subitem \spxentry{cbmpy.CBModelTools}, \hyperpage{61}
+    \subitem \spxentry{cbmpy.CBMultiCore}, \hyperpage{61}
+    \subitem \spxentry{cbmpy.CBMultiEnv}, \hyperpage{62}
+    \subitem \spxentry{cbmpy.CBNetDB}, \hyperpage{62}
+    \subitem \spxentry{cbmpy.CBPlot}, \hyperpage{66}
+    \subitem \spxentry{cbmpy.CBRead}, \hyperpage{66}
+    \subitem \spxentry{cbmpy.CBReadtxt}, \hyperpage{69}
+    \subitem \spxentry{cbmpy.CBSolver}, \hyperpage{69}
+    \subitem \spxentry{cbmpy.CBTools}, \hyperpage{70}
+    \subitem \spxentry{cbmpy.CBWrite}, \hyperpage{76}
+    \subitem \spxentry{cbmpy.CBWx}, \hyperpage{84}
+    \subitem \spxentry{cbmpy.CBXML}, \hyperpage{84}
+    \subitem \spxentry{cbmpy.miriamids}, \hyperpage{93}
+
+  \indexspace
+
+  \item \spxentry{Objective}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{55}
+
+  \indexspace
+
+  \item \spxentry{Parameter}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{56}
+  \item \spxentry{parseGeneAssociation()}\spxextra{in module cbmpy.CBCommon}, 
+		\hyperpage{22}
+  \item \spxentry{parseXMLtoText()}\spxextra{SemanticSBML method}, 
+		\hyperpage{65}
+  \item \spxentry{plotFluxVariability()}\spxextra{in module cbmpy.CBPlot}, 
+		\hyperpage{66}
+  \item \spxentry{printFBASolution()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{78}
+  \item \spxentry{processBiGGannotationNote()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{74}
+  \item \spxentry{processBiGGchemFormula()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{74}
+  \item \spxentry{processExchangeReactions()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{75}
+  \item \spxentry{processSBMLAnnotationNotes()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{75}
+  \item \spxentry{processSpeciesChargeChemFormulaAnnot()}\spxextra{in module cbmpy.CBCommon}, 
+		\hyperpage{22}
+
+  \indexspace
+
+  \item \spxentry{quickLookup()}\spxextra{SemanticSBML method}, 
+		\hyperpage{65}
+
+  \indexspace
+
+  \item \spxentry{Reaction}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{57}
+  \item \spxentry{ReactionNew}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{59}
+  \item \spxentry{reactivateReaction()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{reactivateReaction()}\spxextra{ReactionNew method}, 
+		\hyperpage{59}
+  \item \spxentry{readCOBRASBML()}\spxextra{in module cbmpy.CBRead}, 
+		\hyperpage{67}
+  \item \spxentry{readCSV()}\spxextra{in module cbmpy.CBReadtxt}, 
+		\hyperpage{69}
+  \item \spxentry{readExcel97Model()}\spxextra{in module cbmpy.CBRead}, 
+		\hyperpage{67}
+  \item \spxentry{readSBML2FBA()}\spxextra{in module cbmpy.CBRead}, 
+		\hyperpage{67}
+  \item \spxentry{readSBML3FBC()}\spxextra{in module cbmpy.CBRead}, 
+		\hyperpage{68}
+  \item \spxentry{readSK\_FVA()}\spxextra{in module cbmpy.CBRead}, 
+		\hyperpage{68}
+  \item \spxentry{readSK\_vertex()}\spxextra{in module cbmpy.CBRead}, 
+		\hyperpage{68}
+  \item \spxentry{readSK\_vertexOld()}\spxextra{in module cbmpy.CBRead}, 
+		\hyperpage{69}
+  \item \spxentry{Reagent}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{59}
+  \item \spxentry{registerObjectInGlobalStore()}\spxextra{Model method}, 
+		\hyperpage{52}
+  \item \spxentry{removeFixedSpeciesReactions()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{75}
+  \item \spxentry{renameObjectIds()}\spxextra{Model method}, 
+		\hyperpage{52}
+  \item \spxentry{resetActivity()}\spxextra{Gene method}, 
+		\hyperpage{36}
+  \item \spxentry{resetAllGenes()}\spxextra{Model method}, 
+		\hyperpage{52}
+  \item \spxentry{resetAllInactiveGPRBounds()}\spxextra{Model method}, 
+		\hyperpage{52}
+  \item \spxentry{RESTClient}\spxextra{class in cbmpy.CBNetDB}, 
+		\hyperpage{65}
+  \item \spxentry{roundOffWithSense()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{75}
+  \item \spxentry{runMultiCoreFVA()}\spxextra{in module cbmpy.CBMultiCore}, 
+		\hyperpage{62}
+
+  \indexspace
+
+  \item \spxentry{saveModel()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{78}
+  \item \spxentry{sbml\_convertCOBRASBMLtoFBC()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{85}
+  \item \spxentry{sbml\_convertSBML3FBCToCOBRA()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{85}
+  \item \spxentry{sbml\_createAssociationFromAST()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{85}
+  \item \spxentry{sbml\_createAssociationFromTreeV2()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{85}
+  \item \spxentry{sbml\_createModelL2()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{85}
+  \item \spxentry{sbml\_exportSBML2FBAModel()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{sbml\_fileFindVersion()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{sbml\_fileValidate()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{sbml\_getCVterms()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{sbml\_getGeneRefs()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{sbml\_getGPRasDictFBCv1()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{sbml\_getGPRasDictFBCv2()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{sbml\_getNotes()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{SBML\_NS}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{84}
+  \item \spxentry{sbml\_readCOBRANote()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{sbml\_readCOBRASBML()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{86}
+  \item \spxentry{sbml\_readFBCv3KeyValuePairs()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{87}
+  \item \spxentry{sbml\_readKeyValueDataAnnotation()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{87}
+  \item \spxentry{sbml\_readSBML2FBA()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{87}
+  \item \spxentry{sbml\_readSBML3FBC()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{87}
+  \item \spxentry{sbml\_setAnnotationsL3Fbc()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{88}
+  \item \spxentry{sbml\_setCompartmentsL3()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{88}
+  \item \spxentry{sbml\_setCVterms()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{88}
+  \item \spxentry{sbml\_setDescription()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{88}
+  \item \spxentry{sbml\_setFBCv3KeyValuePairs()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{88}
+  \item \spxentry{sbml\_setGroupsL3()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{88}
+  \item \spxentry{sbml\_setNotes3()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{88}
+  \item \spxentry{sbml\_setParametersL3Fbc()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{88}
+  \item \spxentry{sbml\_setReactionsL2()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{89}
+  \item \spxentry{sbml\_setReactionsL3Fbc()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{89}
+  \item \spxentry{sbml\_setSpeciesL2()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{89}
+  \item \spxentry{sbml\_setSpeciesL3()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{89}
+  \item \spxentry{sbml\_setUnits()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{90}
+  \item \spxentry{sbml\_setValidationOptions()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{90}
+  \item \spxentry{sbml\_validateDocument()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{90}
+  \item \spxentry{sbml\_writeAnnotationsAsCOBRANote()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{90}
+  \item \spxentry{sbml\_writeCOBRASBML()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{90}
+  \item \spxentry{sbml\_writeKeyValueDataAnnotation()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{90}
+  \item \spxentry{sbml\_writeSBML2FBA()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{90}
+  \item \spxentry{sbml\_writeSBML3FBC()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{90}
+  \item \spxentry{scanForReactionDuplicates()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{75}
+  \item \spxentry{scanForUnbalancedReactions()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{75}
+  \item \spxentry{SemanticSBML}\spxextra{class in cbmpy.CBNetDB}, 
+		\hyperpage{65}
+  \item \spxentry{serialize()}\spxextra{Fbase method}, \hyperpage{34}
+  \item \spxentry{serialize()}\spxextra{Group method}, \hyperpage{39}
+  \item \spxentry{serialize()}\spxextra{Model method}, \hyperpage{52}
+  \item \spxentry{serializeToDisk()}\spxextra{Fbase method}, 
+		\hyperpage{34}
+  \item \spxentry{serializeToDisk()}\spxextra{Group method}, 
+		\hyperpage{39}
+  \item \spxentry{serializeToDisk()}\spxextra{Model method}, 
+		\hyperpage{52}
+  \item \spxentry{setActive()}\spxextra{Gene method}, \hyperpage{36}
+  \item \spxentry{setAllFluxBounds()}\spxextra{Model method}, 
+		\hyperpage{52}
+  \item \spxentry{setAllGenesActive()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{38}
+  \item \spxentry{setAllGenesInactive()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{38}
+  \item \spxentry{setAllInactiveGPRBounds()}\spxextra{Model method}, 
+		\hyperpage{52}
+  \item \spxentry{setAllProteinActivities()}\spxextra{Model method}, 
+		\hyperpage{53}
+  \item \spxentry{setAnnotation()}\spxextra{Fbase method}, 
+		\hyperpage{34}
+  \item \spxentry{setBoundary()}\spxextra{Species method}, 
+		\hyperpage{60}
+  \item \spxentry{setBoundValueByName()}\spxextra{Model method}, 
+		\hyperpage{53}
+  \item \spxentry{setCBSBOterm()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{91}
+  \item \spxentry{setCharge()}\spxextra{Species method}, \hyperpage{60}
+  \item \spxentry{setChemFormula()}\spxextra{Species method}, 
+		\hyperpage{60}
+  \item \spxentry{setCoefficient()}\spxextra{Reagent method}, 
+		\hyperpage{60}
+  \item \spxentry{setCol()}\spxextra{StructMatrix method}, 
+		\hyperpage{20}
+  \item \spxentry{setCompartmentId()}\spxextra{Fbase method}, 
+		\hyperpage{34}
+  \item \spxentry{setCreatedDate()}\spxextra{Model method}, 
+		\hyperpage{53}
+  \item \spxentry{setDescription()}\spxextra{Model method}, 
+		\hyperpage{53}
+  \item \spxentry{setDimensions()}\spxextra{Compartment method}, 
+		\hyperpage{32}
+  \item \spxentry{setFluxBoundsFromDict()}\spxextra{Model method}, 
+		\hyperpage{53}
+  \item \spxentry{setGeneActive()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{38}
+  \item \spxentry{setGeneActive()}\spxextra{Model method}, 
+		\hyperpage{53}
+  \item \spxentry{setGeneInactive()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{38}
+  \item \spxentry{setGeneInactive()}\spxextra{Model method}, 
+		\hyperpage{53}
+  \item \spxentry{setId()}\spxextra{Compartment method}, \hyperpage{32}
+  \item \spxentry{setId()}\spxextra{Fbase method}, \hyperpage{34}
+  \item \spxentry{setId()}\spxextra{Gene method}, \hyperpage{36}
+  \item \spxentry{setId()}\spxextra{Reaction method}, \hyperpage{58}
+  \item \spxentry{setId()}\spxextra{ReactionNew method}, \hyperpage{59}
+  \item \spxentry{setId()}\spxextra{Species method}, \hyperpage{60}
+  \item \spxentry{setInactive()}\spxextra{Gene method}, \hyperpage{36}
+  \item \spxentry{setKind()}\spxextra{Group method}, \hyperpage{40}
+  \item \spxentry{setLabel()}\spxextra{Gene method}, \hyperpage{36}
+  \item \spxentry{setLowerBound()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{setLowerBound()}\spxextra{ReactionNew method}, 
+		\hyperpage{59}
+  \item \spxentry{setMetaId()}\spxextra{Fbase method}, \hyperpage{35}
+  \item \spxentry{setModifiedDate()}\spxextra{Model method}, 
+		\hyperpage{53}
+  \item \spxentry{setName()}\spxextra{Fbase method}, \hyperpage{35}
+  \item \spxentry{setNotes()}\spxextra{Fbase method}, \hyperpage{35}
+  \item \spxentry{setObjectiveFlux()}\spxextra{Model method}, 
+		\hyperpage{54}
+  \item \spxentry{setOperation()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{setPid()}\spxextra{Fbase method}, \hyperpage{35}
+  \item \spxentry{setPrefix()}\spxextra{Model method}, \hyperpage{54}
+  \item \spxentry{setProtein()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{38}
+  \item \spxentry{setReactionBound()}\spxextra{Model method}, 
+		\hyperpage{54}
+  \item \spxentry{setReactionBounds()}\spxextra{Model method}, 
+		\hyperpage{54}
+  \item \spxentry{setReactionId()}\spxextra{FluxBound method}, 
+		\hyperpage{35}
+  \item \spxentry{setReactionLowerBound()}\spxextra{Model method}, 
+		\hyperpage{54}
+  \item \spxentry{setReactionUpperBound()}\spxextra{Model method}, 
+		\hyperpage{54}
+  \item \spxentry{setReagentOf()}\spxextra{Species method}, 
+		\hyperpage{60}
+  \item \spxentry{setReducedCosts()}\spxextra{in module cbmpy.CBCPLEX}, 
+		\hyperpage{31}
+  \item \spxentry{setRow()}\spxextra{StructMatrix method}, 
+		\hyperpage{21}
+  \item \spxentry{setSBOterm()}\spxextra{Fbase method}, \hyperpage{35}
+  \item \spxentry{setSharedAnnotation()}\spxextra{Group method}, 
+		\hyperpage{40}
+  \item \spxentry{setSharedNotes()}\spxextra{Group method}, 
+		\hyperpage{40}
+  \item \spxentry{setSharedSBOterm()}\spxextra{Group method}, 
+		\hyperpage{40}
+  \item \spxentry{setSize()}\spxextra{Compartment method}, 
+		\hyperpage{32}
+  \item \spxentry{setSpecies()}\spxextra{Reagent method}, 
+		\hyperpage{60}
+  \item \spxentry{setSpeciesPropertiesFromAnnotations()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{75}
+  \item \spxentry{setStoichCoefficient()}\spxextra{Reaction method}, 
+		\hyperpage{58}
+  \item \spxentry{setSuffix()}\spxextra{Model method}, \hyperpage{54}
+  \item \spxentry{setTree()}\spxextra{GeneProteinAssociation method}, 
+		\hyperpage{38}
+  \item \spxentry{setUpperBound()}\spxextra{Reaction method}, 
+		\hyperpage{59}
+  \item \spxentry{setUpperBound()}\spxextra{ReactionNew method}, 
+		\hyperpage{59}
+  \item \spxentry{setValue()}\spxextra{FluxBound method}, 
+		\hyperpage{35}
+  \item \spxentry{setValue()}\spxextra{FluxBoundBase method}, 
+		\hyperpage{35}
+  \item \spxentry{setValue()}\spxextra{Objective method}, 
+		\hyperpage{56}
+  \item \spxentry{setValue()}\spxextra{Parameter method}, 
+		\hyperpage{56}
+  \item \spxentry{setValue()}\spxextra{Reaction method}, \hyperpage{59}
+  \item \spxentry{setValue()}\spxextra{Species method}, \hyperpage{60}
+  \item \spxentry{sortReactionsById()}\spxextra{Model method}, 
+		\hyperpage{55}
+  \item \spxentry{sortSpeciesById()}\spxextra{Model method}, 
+		\hyperpage{55}
+  \item \spxentry{Species}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{60}
+  \item \spxentry{splitEqualityFluxBounds()}\spxextra{Model method}, 
+		\hyperpage{55}
+  \item \spxentry{splitReversibleReactions()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{75}
+  \item \spxentry{splitSingleReversibleReaction()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{75}
+  \item \spxentry{storeObj()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{76}
+  \item \spxentry{stringReplace()}\spxextra{in module cbmpy.CBTools}, 
+		\hyperpage{76}
+  \item \spxentry{StructMatrix}\spxextra{class in cbmpy.CBCommon}, 
+		\hyperpage{20}
+  \item \spxentry{StructMatrixLP}\spxextra{class in cbmpy.CBCommon}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item \spxentry{testGeneProteinAssociations()}\spxextra{Model method}, 
+		\hyperpage{55}
+
+  \indexspace
+
+  \item \spxentry{unRegisterObjectInGlobalStore()}\spxextra{Model method}, 
+		\hyperpage{55}
+  \item \spxentry{unsetBoundary()}\spxextra{Species method}, 
+		\hyperpage{61}
+  \item \spxentry{updateData()}\spxextra{DBTools method}, 
+		\hyperpage{64}
+  \item \spxentry{updateNetwork()}\spxextra{Model method}, 
+		\hyperpage{55}
+  \item \spxentry{UserDefinedConstraint}\spxextra{class in cbmpy.CBModel}, 
+		\hyperpage{61}
+
+  \indexspace
+
+  \item \spxentry{value}\spxextra{FluxBoundBase property}, 
+		\hyperpage{35}
+  \item \spxentry{value}\spxextra{Parameter property}, \hyperpage{56}
+  \item \spxentry{viewDataInWebrowser()}\spxextra{SemanticSBML method}, 
+		\hyperpage{66}
+  \item \spxentry{viewURL()}\spxextra{MIRIAMannotation method}, 
+		\hyperpage{20}
+
+  \indexspace
+
+  \item \spxentry{with\_metaclass()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{91}
+  \item \spxentry{writeCOBRASBML()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{78}
+  \item \spxentry{WriteFVAdata()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{writeFVAdata()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{78}
+  \item \spxentry{WriteFVAtoCSV()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{writeFVAtoCSV()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{79}
+  \item \spxentry{writeMinDistanceLPwithCost()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{79}
+  \item \spxentry{WriteModelHFormatFBA()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{writeModelHFormatFBA()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{79}
+  \item \spxentry{WriteModelHFormatFBA2()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{writeModelHFormatFBA2()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{79}
+  \item \spxentry{writeModelInfoToFile()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{79}
+  \item \spxentry{WriteModelLP()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{writeModelLP()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{80}
+  \item \spxentry{WriteModelLPOld()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{writeModelLPOld()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{80}
+  \item \spxentry{WriteModelRaw()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{77}
+  \item \spxentry{writeModelRaw()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{80}
+  \item \spxentry{writeModelToCOMBINEarchive()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{80}
+  \item \spxentry{writeModelToExcel97()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{81}
+  \item \spxentry{writeOptimalSolution()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{81}
+  \item \spxentry{writeProteinCostToCSV()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{81}
+  \item \spxentry{writeReactionInfoToFile()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{81}
+  \item \spxentry{writeSBML2FBA()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{81}
+  \item \spxentry{writeSBML3FBC()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{81}
+  \item \spxentry{writeSBML3FBCV2()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{82}
+  \item \spxentry{writeSBML3FBCV3()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{82}
+  \item \spxentry{writeSensitivitiesToCSV()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{83}
+  \item \spxentry{writeSolutions()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{83}
+  \item \spxentry{writeSpeciesInfoToFile()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{83}
+  \item \spxentry{writeStoichiometricMatrix()}\spxextra{in module cbmpy.CBWrite}, 
+		\hyperpage{83}
+
+  \indexspace
+
+  \item \spxentry{xml\_addSBML2FBAFluxBound()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{91}
+  \item \spxentry{xml\_addSBML2FBAObjective()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{91}
+  \item \spxentry{xml\_createListOfFluxObjectives()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{91}
+  \item \spxentry{xml\_createSBML2FBADoc()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{92}
+  \item \spxentry{xml\_createSBML2FBAObjective()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{92}
+  \item \spxentry{xml\_getSBML2FBAannotation()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{92}
+  \item \spxentry{xml\_stripTags()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{92}
+  \item \spxentry{xml\_viewSBML2FBAXML()}\spxextra{in module cbmpy.CBXML}, 
+		\hyperpage{92}
+
+\end{theindex}

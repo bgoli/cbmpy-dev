@@ -3,10 +3,10 @@
 REM Command file for Sphinx documentation
 
 if "%SPHINXBUILD%" == "" (
-	set SPHINXBUILD=c:\Anaconda\Scripts\sphinx-build.exe
+	set SPHINXBUILD=c:\Anaconda3\envs\cbmpy\Scripts\sphinx-build.exe
 )
-set BUILDDIR=d:\code-git\cbmpy\cbmpy-docs-src\build
-set ALLSPHINXOPTS=-a -d %BUILDDIR%\doctrees d:\code-git\cbmpy\cbmpy-docs-src\source
+set BUILDDIR=d:\Development\cbmpy-dev\cbmpy-docs
+set ALLSPHINXOPTS=-a -d %BUILDDIR%\doctrees d:\Development\cbmpy-dev\cbmpy-docs-src\source
 if NOT "%PAPER%" == "" (
 	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%
 )
