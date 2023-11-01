@@ -1,10 +1,13 @@
-# created on 170906:1521
+# created on 231101:1602
 
 miriamids =\
 {'2D-PAGE protein': {'data_entry': 'http://2dbase.techfak.uni-bielefeld.de/cgi-bin/2d/2d.cgi?ac=$id',
                      'example': 'P39172',
                      'name': '2D-PAGE protein',
-                     'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])$" obsolete="true" replacement="MIR:00000005',
+                     'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, '
+                                '0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, '
+                                '0-9][A-Z, 0-9][0-9])$" obsolete="true" '
+                                'replacement="MIR:00000005',
                      'url': 'http://identifiers.org/2d-page.protein/'},
  '3DMET': {'data_entry': 'http://www.3dmet.dna.affrc.go.jp/cgi/show_data.php?acc=$id',
            'example': 'B00162',
@@ -39,7 +42,9 @@ miriamids =\
  'APID Interactomes': {'data_entry': 'http://cicblade.dep.usal.es:8080/APID/Interactions.action?protein=$id',
                        'example': 'P01116',
                        'name': 'APID Interactomes',
-                       'pattern': '^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$',
+                       'pattern': '^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, '
+                                  '0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, '
+                                  '0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$',
                        'url': 'http://identifiers.org/apid.interactions/'},
  'ARK': {'data_entry': 'http://n2t.net/$id',
          'example': 'ark:/12345/fk1234',
@@ -88,7 +93,8 @@ miriamids =\
                                      'url': 'http://identifiers.org/atc/'},
  'Anatomical Therapeutic Chemical Vetinary': {'data_entry': 'http://www.whocc.no/atcvet/atcvet_index/?code=$id',
                                               'example': 'QJ51RV02',
-                                              'name': 'Anatomical Therapeutic Chemical Vetinary',
+                                              'name': 'Anatomical Therapeutic '
+                                                      'Chemical Vetinary',
                                               'pattern': '^Q[A-Z0-9]+$',
                                               'url': 'http://identifiers.org/atcvet/'},
  'Animal Diversity Web': {'data_entry': 'http://animaldiversity.ummz.umich.edu/accounts/$id/',
@@ -128,7 +134,8 @@ miriamids =\
             'url': 'http://identifiers.org/antweb/'},
  'Antibiotic Resistance Genes Database': {'data_entry': 'http://ardb.cbcb.umd.edu/cgi/search.cgi?db=L&amp;amp;field=ni&amp;amp;term=$id',
                                           'example': 'CAE46076',
-                                          'name': 'Antibiotic Resistance Genes Database',
+                                          'name': 'Antibiotic Resistance Genes '
+                                                  'Database',
                                           'pattern': '^[A-Z_]{3}[0-9]{4,}$',
                                           'url': 'http://identifiers.org/ardb/'},
  'Antibody Registry': {'data_entry': 'http://antibodyregistry.org/AB_$id',
@@ -389,7 +396,8 @@ miriamids =\
  'CMR Gene': {'data_entry': 'http://cmr.jcvi.org/cgi-bin/CMR/shared/GenePage.cgi?locus=$id',
               'example': 'NTL15EF2281',
               'name': 'CMR Gene',
-              'pattern': '^\\w+(\\_)?\\w+$" obsolete="true" replacement="MIR:00000202',
+              'pattern': '^\\w+(\\_)?\\w+$" obsolete="true" '
+                         'replacement="MIR:00000202',
               'url': 'http://identifiers.org/cmr.gene/'},
  'COGs': {'data_entry': 'http://www.ncbi.nlm.nih.gov/COG/grace/wiew.cgi?$id',
           'example': 'COG0001',
@@ -399,7 +407,8 @@ miriamids =\
  'COGs Function': {'data_entry': 'http://www.ncbi.nlm.nih.gov/COG/grace/wiew.cgi?fun=$id',
                    'example': 'A',
                    'name': 'COGs Function',
-                   'pattern': '^[A-Z]$" obsolete="true" replacement="MIR:00000119',
+                   'pattern': '^[A-Z]$" obsolete="true" '
+                              'replacement="MIR:00000119',
                    'url': 'http://identifiers.org/cogs.function/'},
  'COMBINE specifications': {'data_entry': 'http://co.mbine.org/specifications/$id',
                             'example': 'sbgn.er.level-1.version-1.2',
@@ -463,12 +472,14 @@ miriamids =\
                         'url': 'http://identifiers.org/cellimage/'},
  'Cell Signaling Technology Antibody': {'data_entry': 'http://www.cellsignal.com/products/$id.html',
                                         'example': '3305',
-                                        'name': 'Cell Signaling Technology Antibody',
+                                        'name': 'Cell Signaling Technology '
+                                                'Antibody',
                                         'pattern': '^\\d+$',
                                         'url': 'http://identifiers.org/cst.ab/'},
  'Cell Signaling Technology Pathways': {'data_entry': 'http://www.cellsignal.com/reference/pathway/$id.html',
                                         'example': 'Akt_PKB',
-                                        'name': 'Cell Signaling Technology Pathways',
+                                        'name': 'Cell Signaling Technology '
+                                                'Pathways',
                                         'pattern': '^[A-Za-z0-9_-]+$',
                                         'url': 'http://identifiers.org/cst/'},
  'Cell Type Ontology': {'data_entry': 'http://www.ebi.ac.uk/ols/ontologies/cl/terms?obo_id=$id',
@@ -549,12 +560,15 @@ miriamids =\
  'CluSTr': {'data_entry': 'http://www.ebi.ac.uk/clustr-srv/CCluster?interpro=yes&amp;cluster_varid=$id',
             'example': 'HUMAN:55140:308.6',
             'name': 'CluSTr',
-            'pattern': '^[0-9A-Za-z]+:\\d+:\\d{1,5}(\\.\\d)?$" obsolete="true" replacement="',
+            'pattern': '^[0-9A-Za-z]+:\\d+:\\d{1,5}(\\.\\d)?$" obsolete="true" '
+                       'replacement="',
             'url': 'http://identifiers.org/clustr/'},
  'Compulyeast': {'data_entry': 'http://compluyeast2dpage.dacya.ucm.es/cgi-bin/2d/2d.cgi?ac=$id',
                  'example': 'O08709',
                  'name': 'Compulyeast',
-                 'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])$',
+                 'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, '
+                            '0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, '
+                            '0-9][0-9])$',
                  'url': 'http://identifiers.org/compulyeast/'},
  'Conoserver': {'data_entry': 'http://www.conoserver.org/?page=card&amp;table=protein&amp;id=$id',
                 'example': '2639',
@@ -573,8 +587,13 @@ miriamids =\
                                'url': 'http://identifiers.org/cdd/'},
  'Cooperative Patent Classification': {'data_entry': 'http://worldwide.espacenet.com/classification?locale=en_EP#!/CPC=$id',
                                        'example': 'A01M1/026',
-                                       'name': 'Cooperative Patent Classification',
-                                       'pattern': '^([A-H,Y]|[A-H, Y]\\d+{2}|[A-H, Y]\\d+{2}[A-Z]|[A-H, Y]\\d+{2}[A-Z]\\d+{1,3}|[A-H, Y]\\d+{2}[A-Z]\\d+{1,3}(\\/)?\\d+{2,})$',
+                                       'name': 'Cooperative Patent '
+                                               'Classification',
+                                       'pattern': '^([A-H,Y]|[A-H, '
+                                                  'Y]\\d+{2}|[A-H, '
+                                                  'Y]\\d+{2}[A-Z]|[A-H, '
+                                                  'Y]\\d+{2}[A-Z]\\d+{1,3}|[A-H, '
+                                                  'Y]\\d+{2}[A-Z]\\d+{1,3}(\\/)?\\d+{2,})$',
                                        'url': 'http://identifiers.org/cpc/'},
  'Coriell Cell Repositories': {'data_entry': 'http://ccr.coriell.org/Sections/Search/Sample_Detail.aspx?Ref=$id',
                                'example': 'GM17027',
@@ -663,17 +682,26 @@ miriamids =\
               'url': 'http://identifiers.org/dailymed/'},
  'Database of Interacting Proteins': {'data_entry': 'http://dip.doe-mbi.ucla.edu/dip/DIPview.cgi?ID=$id',
                                       'example': 'DIP-743N',
-                                      'name': 'Database of Interacting Proteins',
+                                      'name': 'Database of Interacting '
+                                              'Proteins',
                                       'pattern': '^DIP(\\:)?\\-\\d{1,}[ENXS]$',
                                       'url': 'http://identifiers.org/dip/'},
  'Database of Quantitative Cellular Signaling: Model': {'data_entry': 'http://doqcs.ncbs.res.in/template.php?&amp;y=accessiondetails&amp;an=$id',
                                                         'example': '57',
-                                                        'name': 'Database of Quantitative Cellular Signaling: Model',
+                                                        'name': 'Database of '
+                                                                'Quantitative '
+                                                                'Cellular '
+                                                                'Signaling: '
+                                                                'Model',
                                                         'pattern': '^\\d+$',
                                                         'url': 'http://identifiers.org/doqcs.model/'},
  'Database of Quantitative Cellular Signaling: Pathway': {'data_entry': 'http://doqcs.ncbs.res.in/template.php?&amp;y=pathwaydetails&amp;pn=$id',
                                                           'example': '131',
-                                                          'name': 'Database of Quantitative Cellular Signaling: Pathway',
+                                                          'name': 'Database of '
+                                                                  'Quantitative '
+                                                                  'Cellular '
+                                                                  'Signaling: '
+                                                                  'Pathway',
                                                           'pattern': '^\\d+$',
                                                           'url': 'http://identifiers.org/doqcs.pathway/'},
  'Degradome Database': {'data_entry': 'http://degradome.uniovi.es/cgi-bin/protease/$id',
@@ -724,7 +752,8 @@ miriamids =\
  'DrugBank Target v3': {'data_entry': 'http://v3.drugbank.ca/molecules/$id?as=target',
                         'example': '54',
                         'name': 'DrugBank Target v3',
-                        'pattern': '^\\d+$" obsolete="true" replacement="MIR:00000528',
+                        'pattern': '^\\d+$" obsolete="true" '
+                                   'replacement="MIR:00000528',
                         'url': 'http://identifiers.org/drugbank.target/'},
  'DrugBank Target v4': {'data_entry': 'http://www.drugbank.ca/biodb/bio_entities/$id',
                         'example': 'BE0000048',
@@ -843,12 +872,14 @@ miriamids =\
                          'url': 'http://identifiers.org/ec-code/'},
  'European Genome-phenome Archive Dataset': {'data_entry': 'https://www.ebi.ac.uk/ega/datasets/$id',
                                              'example': 'EGAD00000000001',
-                                             'name': 'European Genome-phenome Archive Dataset',
+                                             'name': 'European Genome-phenome '
+                                                     'Archive Dataset',
                                              'pattern': '^EGAD\\d{11}$',
                                              'url': 'http://identifiers.org/ega.dataset/'},
  'European Genome-phenome Archive Study': {'data_entry': 'https://www.ebi.ac.uk/ega/studies/$id',
                                            'example': 'EGAS00000000001',
-                                           'name': 'European Genome-phenome Archive Study',
+                                           'name': 'European Genome-phenome '
+                                                   'Archive Study',
                                            'pattern': '^EGAS\\d{11}$',
                                            'url': 'http://identifiers.org/ega.study/'},
  'Evidence Code Ontology': {'data_entry': 'http://www.ebi.ac.uk/ols/ontologies/eco/terms?obo_id=$id',
@@ -931,7 +962,8 @@ miriamids =\
                     'name': 'FuncBase Yeast',
                     'pattern': '^\\d+$',
                     'url': 'http://identifiers.org/funcbase.yeast/'},
- 'Fungal Barcode': {'data_entry': 'http://www.fungalbarcoding.org/BioloMICS.aspx?Table=Fungal barcodes&amp;Rec=$id&amp;Fields=All&amp;ExactMatch=T',
+ 'Fungal Barcode': {'data_entry': 'http://www.fungalbarcoding.org/BioloMICS.aspx?Table=Fungal '
+                                  'barcodes&amp;Rec=$id&amp;Fields=All&amp;ExactMatch=T',
                     'example': '2224',
                     'name': 'Fungal Barcode',
                     'pattern': '^\\d+$',
@@ -964,7 +996,9 @@ miriamids =\
  'GOA': {'data_entry': 'http://www.ebi.ac.uk/QuickGO/GProtein?ac=$id',
          'example': 'P12345',
          'name': 'GOA',
-         'pattern': '^(([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9]))|(URS[0-9A-F]{10}(_[0-9]+){0,1})|(EBI-[0-9]+)$',
+         'pattern': '^(([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, '
+                    '0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, '
+                    '0-9][0-9]))|(URS[0-9A-F]{10}(_[0-9]+){0,1})|(EBI-[0-9]+)$',
          'url': 'http://identifiers.org/goa/'},
  'GOLD genome': {'data_entry': 'http://www.genomesonline.org/cgi-bin/GOLD/GOLDCards.cgi?goldstamp=$id',
                  'example': 'Gi07796',
@@ -1069,11 +1103,13 @@ miriamids =\
  'Genome Properties': {'data_entry': 'http://cmr.jcvi.org/tigr-scripts/CMR/shared/GenomePropDefinition.cgi?prop_acc=$id',
                        'example': 'GenProp0151',
                        'name': 'Genome Properties',
-                       'pattern': '^GenProp\\d+$" obsolete="true" replacement="MIR:00000202',
+                       'pattern': '^GenProp\\d+$" obsolete="true" '
+                                  'replacement="MIR:00000202',
                        'url': 'http://identifiers.org/genprop/'},
  'Genomic Data Commons Data Portal': {'data_entry': 'https://portal.gdc.cancer.gov/cases/$id',
                                       'example': 'ae8c77fe-e6c8-44d5-8265-4a38c637bbef',
-                                      'name': 'Genomic Data Commons Data Portal',
+                                      'name': 'Genomic Data Commons Data '
+                                              'Portal',
                                       'pattern': '^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$',
                                       'url': 'http://identifiers.org/gdc/'},
  'GiardiaDB': {'data_entry': 'http://giardiadb.org/giardiadb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&amp;source_id=$id',
@@ -1098,22 +1134,27 @@ miriamids =\
                               'url': 'http://identifiers.org/gmd/'},
  'Golm Metabolome Database Analyte': {'data_entry': 'http://gmd.mpimp-golm.mpg.de/Analytes/$id',
                                       'example': '4f0fa9b6-514f-4ff4-98cc-0009bc08eb80',
-                                      'name': 'Golm Metabolome Database Analyte',
+                                      'name': 'Golm Metabolome Database '
+                                              'Analyte',
                                       'pattern': '^([0-9a-fA-F]){8}(-([0-9a-fA-F]){4}){3}-([0-9a-fA-F]){12}$',
                                       'url': 'http://identifiers.org/gmd.analyte/'},
  'Golm Metabolome Database GC-MS spectra': {'data_entry': 'http://gmd.mpimp-golm.mpg.de/Spectrums/$id',
                                             'example': '53d583d8-40c6-40e1-9296-23f821cd77a5',
-                                            'name': 'Golm Metabolome Database GC-MS spectra',
+                                            'name': 'Golm Metabolome Database '
+                                                    'GC-MS spectra',
                                             'pattern': '^([0-9a-fA-F]){8}(-([0-9a-fA-F]){4}){3}-([0-9a-fA-F]){12}$',
                                             'url': 'http://identifiers.org/gmd.gcms/'},
  'Golm Metabolome Database Profile': {'data_entry': 'http://gmd.mpimp-golm.mpg.de/profile/default.aspx?XemlId=$id',
                                       'example': '10b38aaf-b977-4950-85b8-f4775f66658d',
-                                      'name': 'Golm Metabolome Database Profile',
+                                      'name': 'Golm Metabolome Database '
+                                              'Profile',
                                       'pattern': '^([0-9a-fA-F]){8}(-([0-9a-fA-F]){4}){3}-([0-9a-fA-F]){12}$',
                                       'url': 'http://identifiers.org/gmd.profile/'},
  'Golm Metabolome Database Reference Substance': {'data_entry': 'http://gmd.mpimp-golm.mpg.de/ReferenceSubstances/$id',
                                                   'example': '8cf84adb-b4db-4807-ac98-0004247c35df',
-                                                  'name': 'Golm Metabolome Database Reference Substance',
+                                                  'name': 'Golm Metabolome '
+                                                          'Database Reference '
+                                                          'Substance',
                                                   'pattern': '^([0-9a-fA-F]){8}(-([0-9a-fA-F]){4}){3}-([0-9a-fA-F]){12}$',
                                                   'url': 'http://identifiers.org/gmd.ref/'},
  'Google Patents': {'data_entry': 'https://www.google.com/patents/$id',
@@ -1329,7 +1370,8 @@ miriamids =\
  'ISBN': {'data_entry': 'http://isbndb.com/search-all.html?kw=$id',
           'example': '9781584885658',
           'name': 'ISBN',
-          'pattern': '^(ISBN)?(-13|-10)?[:]?[ ]?(\\d{2,3}[ -]?)?\\d{1,5}[ -]?\\d{1,7}[ -]?\\d{1,6}[ -]?(\\d|X)$',
+          'pattern': '^(ISBN)?(-13|-10)?[:]?[ ]?(\\d{2,3}[ -]?)?\\d{1,5}[ '
+                     '-]?\\d{1,7}[ -]?\\d{1,6}[ -]?(\\d|X)$',
           'url': 'http://identifiers.org/isbn/'},
  'ISFinder': {'data_entry': 'https://www-is.biotoul.fr/scripts/ficheIS.php?name=$id',
               'example': 'ISA1083-2',
@@ -1393,12 +1435,14 @@ miriamids =\
                      'url': 'http://identifiers.org/intact.molecule/'},
  'Integrated Microbial Genomes Gene': {'data_entry': 'http://img.jgi.doe.gov/cgi-bin/w/main.cgi?section=GeneDetail&amp;gene_oid=$id',
                                        'example': '638309541',
-                                       'name': 'Integrated Microbial Genomes Gene',
+                                       'name': 'Integrated Microbial Genomes '
+                                               'Gene',
                                        'pattern': '^\\d+$',
                                        'url': 'http://identifiers.org/img.gene/'},
  'Integrated Microbial Genomes Taxon': {'data_entry': 'http://img.jgi.doe.gov/cgi-bin/w/main.cgi?section=TaxonDetail&amp;taxon_oid=$id',
                                         'example': '648028003',
-                                        'name': 'Integrated Microbial Genomes Taxon',
+                                        'name': 'Integrated Microbial Genomes '
+                                                'Taxon',
                                         'pattern': '^\\d+$',
                                         'url': 'http://identifiers.org/img.taxon/'},
  'InterPro': {'data_entry': 'http://www.ebi.ac.uk/interpro/entry/$id',
@@ -1428,12 +1472,14 @@ miriamids =\
                 'url': 'http://identifiers.org/jws/'},
  'Japan Chemical Substance Dictionary': {'data_entry': 'http://jglobal.jst.go.jp/en/redirect?Nikkaji_No=$id',
                                          'example': 'J55.713G',
-                                         'name': 'Japan Chemical Substance Dictionary',
+                                         'name': 'Japan Chemical Substance '
+                                                 'Dictionary',
                                          'pattern': '^J\\d{1,3}(\\.\\d{3})?(\\.\\d{1,3})?[A-Za-z]$',
                                          'url': 'http://identifiers.org/jcsd/'},
  'Japan Collection of Microorganisms': {'data_entry': 'http://www.jcm.riken.go.jp/cgi-bin/jcm/jcm_number?JCM=$id',
                                         'example': '17254',
-                                        'name': 'Japan Collection of Microorganisms',
+                                        'name': 'Japan Collection of '
+                                                'Microorganisms',
                                         'pattern': '^\\d+$',
                                         'url': 'http://identifiers.org/jcm/'},
  'KEGG Compound': {'data_entry': 'http://www.kegg.jp/entry/$id',
@@ -1508,7 +1554,8 @@ miriamids =\
               'url': 'http://identifiers.org/knapsack/'},
  'Kyoto Encyclopedia of Genes and Genomes': {'data_entry': 'http://www.kegg.jp/entry/$id',
                                              'example': 'hsa00190',
-                                             'name': 'Kyoto Encyclopedia of Genes and Genomes',
+                                             'name': 'Kyoto Encyclopedia of '
+                                                     'Genes and Genomes',
                                              'pattern': '^([CHDEGTMKR]\\d+)|(\\w+:[\\w\\d\\.-]*)|([a-z]{3,5})|(\\w{2,4}\\d{5})$',
                                              'url': 'http://identifiers.org/kegg/'},
  'LINCS Cell': {'data_entry': 'http://lincsportal.ccs.miami.edu/cells/#/view/$id',
@@ -1543,7 +1590,8 @@ miriamids =\
                  'url': 'http://identifiers.org/ligandexpo/'},
  'Ligand-Gated Ion Channel database': {'data_entry': 'http://www.ebi.ac.uk/compneur-srv/LGICdb/HTML/$id.php',
                                        'example': '5HT3Arano',
-                                       'name': 'Ligand-Gated Ion Channel database',
+                                       'name': 'Ligand-Gated Ion Channel '
+                                               'database',
                                        'pattern': '^\\w+$',
                                        'url': 'http://identifiers.org/lgic/'},
  'LigandBox': {'data_entry': 'http://ligandbox.protein.osaka-u.ac.jp/ligandbox/cgi-bin/liginf.cgi?id=$id',
@@ -1633,7 +1681,8 @@ miriamids =\
                                   'url': 'http://identifiers.org/mp/'},
  'Mass Spectrometry Controlled Vocabulary': {'data_entry': 'http://www.ebi.ac.uk/ols/ontologies/ms/terms?obo_id=$id',
                                              'example': 'MS:1000001',
-                                             'name': 'Mass Spectrometry Controlled Vocabulary',
+                                             'name': 'Mass Spectrometry '
+                                                     'Controlled Vocabulary',
                                              'pattern': '^MS:\\d{7}$',
                                              'url': 'http://identifiers.org/ms/'},
  'MassBank': {'data_entry': 'http://www.massbank.jp/jsp/FwdRecord.jsp?id=$id',
@@ -1649,7 +1698,9 @@ miriamids =\
  'MatrixDB': {'data_entry': 'http://matrixdb.univ-lyon1.fr//cgi-bin/current/newPort?type=association&amp;value=$id&amp;class=Association',
               'example': 'P00747__P07355',
               'name': 'MatrixDB',
-              'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])_.*|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9]_.*)|(GAG_.*)|(MULT_.*)|(PFRAG_.*)|(LIP_.*)|(CAT_.*)$',
+              'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, '
+                         '0-9][0-9])_.*|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, '
+                         '0-9][0-9]_.*)|(GAG_.*)|(MULT_.*)|(PFRAG_.*)|(LIP_.*)|(CAT_.*)$',
               'url': 'http://identifiers.org/matrixdb.association/'},
  'MeSH': {'data_entry': 'http://id.nlm.nih.gov/mesh/$id',
           'example': 'C000100',
@@ -1683,7 +1734,8 @@ miriamids =\
                  'url': 'http://identifiers.org/medlineplus/'},
  'Melanoma Molecular Map Project Biomaps': {'data_entry': 'http://www.mmmp.org/MMMP/public/biomap/viewBiomap.mmmp?id=$id',
                                             'example': '37',
-                                            'name': 'Melanoma Molecular Map Project Biomaps',
+                                            'name': 'Melanoma Molecular Map '
+                                                    'Project Biomaps',
                                             'pattern': '^\\d+$',
                                             'url': 'http://identifiers.org/biomaps/'},
  'MetaNetX chemical': {'data_entry': 'http://www.metanetx.org/chem_info/$id',
@@ -1708,7 +1760,8 @@ miriamids =\
                   'url': 'http://identifiers.org/metabolights/'},
  'Microbial Protein Interaction Database': {'data_entry': 'http://www.jcvi.org/mpidb/experiment.php?interaction_id=$id',
                                             'example': '172',
-                                            'name': 'Microbial Protein Interaction Database',
+                                            'name': 'Microbial Protein '
+                                                    'Interaction Database',
                                             'pattern': '^\\d+$',
                                             'url': 'http://identifiers.org/mpid/'},
  'MicrosporidiaDB': {'data_entry': 'http://microsporidiadb.org/micro/showRecord.do?name=GeneRecordClasses.GeneRecordClass&amp;source_id=$id',
@@ -1823,7 +1876,9 @@ miriamids =\
                   'url': 'http://identifiers.org/ncbiprotein/'},
  'NCI Pathway Interaction Database: Pathway': {'data_entry': 'http://pid.nci.nih.gov/search/pathway_landing.shtml?what=graphic&amp;jpg=on&amp;pathway_id=$id',
                                                'example': 'pi3kcipathway',
-                                               'name': 'NCI Pathway Interaction Database: Pathway',
+                                               'name': 'NCI Pathway '
+                                                       'Interaction Database: '
+                                                       'Pathway',
                                                'pattern': '^\\w+$',
                                                'url': 'http://identifiers.org/pid.pathway/'},
  'NCIm': {'data_entry': 'http://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&amp;code=$id',
@@ -1848,7 +1903,9 @@ miriamids =\
             'url': 'http://identifiers.org/niaest/'},
  'NITE Biological Research Center Catalogue': {'data_entry': 'http://www.nbrc.nite.go.jp/NBRC2/NBRCCatalogueDetailServlet?ID=NBRC&amp;CAT=$id',
                                                'example': '00001234',
-                                               'name': 'NITE Biological Research Center Catalogue',
+                                               'name': 'NITE Biological '
+                                                       'Research Center '
+                                                       'Catalogue',
                                                'pattern': '^\\d+$',
                                                'url': 'http://identifiers.org/nbrc/'},
  'NONCODE v3': {'data_entry': 'http://www.noncode.org/NONCODERv3/ncrna.php?ncid=$id',
@@ -1953,7 +2010,8 @@ miriamids =\
                                  'url': 'http://identifiers.org/ordb/'},
  'Ontology for Biomedical Investigations': {'data_entry': 'http://purl.obolibrary.org/obo/$id',
                                             'example': 'OBI_0000070',
-                                            'name': 'Ontology for Biomedical Investigations',
+                                            'name': 'Ontology for Biomedical '
+                                                    'Investigations',
                                             'pattern': '(^OBI:\\d{7}$)|(^OBI_\\d{7}$)',
                                             'url': 'http://identifiers.org/obi/'},
  'Ontology of Physics for Biology': {'data_entry': 'http://purl.bioontology.org/ontology/OPB?conceptid=http%3A%2F%2Fbhi.washington.edu%2FOPB%23$id',
@@ -2054,7 +2112,9 @@ miriamids =\
  'PINA': {'data_entry': 'http://cbg.garvan.unsw.edu.au/pina/interactome.oneP.do?ac=$id&amp;showExtend=null',
           'example': 'Q13485',
           'name': 'PINA',
-          'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])$',
+          'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, '
+                     '0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, '
+                     '0-9][0-9])$',
           'url': 'http://identifiers.org/pina/'},
  'PIRSF': {'data_entry': 'http://pir.georgetown.edu/cgi-bin/ipcSF?id=$id',
            'example': 'PIRSF000100',
@@ -2069,7 +2129,9 @@ miriamids =\
  'PMP': {'data_entry': 'http://www.proteinmodelportal.org/query/uniprot/$id',
          'example': 'Q0VCA6',
          'name': 'PMP',
-         'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])$',
+         'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, '
+                    '0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, '
+                    '0-9][0-9])$',
          'url': 'http://identifiers.org/pmp/'},
  'PRIDE': {'data_entry': 'http://www.ebi.ac.uk/pride/archive/assays/$id',
            'example': '1',
@@ -2214,7 +2276,8 @@ miriamids =\
  'Plant Genome Network': {'data_entry': 'http://pgn.cornell.edu/unigene/unigene_assembly_contigs.pl?unigene_id=$id',
                           'example': '196828',
                           'name': 'Plant Genome Network',
-                          'pattern': '^\\d+$" obsolete="true" replacement="MIR:00000185',
+                          'pattern': '^\\d+$" obsolete="true" '
+                                     'replacement="MIR:00000185',
                           'url': 'http://identifiers.org/pgn/'},
  'Plant Ontology': {'data_entry': 'http://www.plantontology.org/amigo/go.cgi?view=details&amp;query=$id',
                     'example': 'PO:0009089',
@@ -2223,7 +2286,8 @@ miriamids =\
                     'url': 'http://identifiers.org/po/'},
  'Plant Transcription Factor Database': {'data_entry': 'http://planttfdb.cbi.pku.edu.cn/tf.php?uid=$id',
                                          'example': 'Ath_AT1G01030.1',
-                                         'name': 'Plant Transcription Factor Database',
+                                         'name': 'Plant Transcription Factor '
+                                                 'Database',
                                          'pattern': '^[A-Z][a-z]{2}_([A-Za-z]{3}[0-9]{6})|([A-Za-z0-9\\._\\-#]*)$',
                                          'url': 'http://identifiers.org/planttfdb/'},
  'PlasmoDB': {'data_entry': 'http://plasmodb.org/plasmo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&amp;source_id=$id',
@@ -2514,7 +2578,9 @@ miriamids =\
  'STRING': {'data_entry': 'http://string.embl.de/interactions/$id',
             'example': 'P53350',
             'name': 'STRING',
-            'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])|([0-9][A-Za-z0-9]{3})$',
+            'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, '
+                       '0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, '
+                       '0-9][0-9])|([0-9][A-Za-z0-9]{3})$',
             'url': 'http://identifiers.org/string/'},
  'SUPFAM': {'data_entry': 'http://supfam.org/SUPERFAMILY/cgi-bin/scop.cgi?ipid=$id',
             'example': 'SSF57615',
@@ -2528,7 +2594,8 @@ miriamids =\
                  'url': 'http://identifiers.org/swiss-model/'},
  'Saccharomyces genome database pathways': {'data_entry': 'http://pathway.yeastgenome.org/YEAST/new-image?type=PATHWAY&amp;object=$id',
                                             'example': 'PWY3O-214',
-                                            'name': 'Saccharomyces genome database pathways',
+                                            'name': 'Saccharomyces genome '
+                                                    'database pathways',
                                             'pattern': '^PWY\\w{2}\\-\\d{3}$',
                                             'url': 'http://identifiers.org/sgd.pathways/'},
  'ScerTF': {'data_entry': 'http://stormo.wustl.edu/ScerTF/details/$id/',
@@ -2539,17 +2606,27 @@ miriamids =\
  'Science Signaling Pathway': {'data_entry': 'http://stke.sciencemag.org/cgi/cm/stkecm;$id',
                                'example': 'CMP_18019',
                                'name': 'Science Signaling Pathway',
-                               'pattern': '^CMP_\\d+$" obsolete="true" replacement="',
+                               'pattern': '^CMP_\\d+$" obsolete="true" '
+                                          'replacement="',
                                'url': 'http://identifiers.org/sciencesignaling.path/'},
  'Science Signaling Pathway-Dependent Component': {'data_entry': 'http://stke.sciencemag.org/cgi/cm/stkecm;$id',
                                                    'example': 'CMN_15494',
-                                                   'name': 'Science Signaling Pathway-Dependent Component',
-                                                   'pattern': '^CMN_\\d+$" obsolete="true" replacement="',
+                                                   'name': 'Science Signaling '
+                                                           'Pathway-Dependent '
+                                                           'Component',
+                                                   'pattern': '^CMN_\\d+$" '
+                                                              'obsolete="true" '
+                                                              'replacement="',
                                                    'url': 'http://identifiers.org/sciencesignaling.pdc/'},
  'Science Signaling Pathway-Independent Component': {'data_entry': 'http://stke.sciencemag.org/cgi/cm/stkecm;$id',
                                                      'example': 'CMC_15493',
-                                                     'name': 'Science Signaling Pathway-Independent Component',
-                                                     'pattern': '^CMC_\\d+$" obsolete="true" replacement="',
+                                                     'name': 'Science '
+                                                             'Signaling '
+                                                             'Pathway-Independent '
+                                                             'Component',
+                                                     'pattern': '^CMC_\\d+$" '
+                                                                'obsolete="true" '
+                                                                'replacement="',
                                                      'url': 'http://identifiers.org/sciencesignaling.pic/'},
  'Sequence Ontology': {'data_entry': 'http://www.sequenceontology.org/miso/current_release/term/$id',
                        'example': 'SO:0000704',
@@ -2588,7 +2665,8 @@ miriamids =\
              'url': 'http://identifiers.org/soybase/'},
  'Spectral Database for Organic Compounds': {'data_entry': 'http://riodb01.ibase.aist.go.jp/sdbs/cgi-bin/cre_frame_disp.cgi?sdbsno=$id',
                                              'example': '4544',
-                                             'name': 'Spectral Database for Organic Compounds',
+                                             'name': 'Spectral Database for '
+                                                     'Organic Compounds',
                                              'pattern': '\\d+$',
                                              'url': 'http://identifiers.org/sdbs/'},
  'SubstrateDB': {'data_entry': 'http://substrate.burnham.org/protein/annotation/$id/html',
@@ -2684,7 +2762,9 @@ miriamids =\
  'TopFind': {'data_entry': 'http://clipserve.clip.ubc.ca/topfind/proteins/$id',
              'example': 'Q9UKQ2',
              'name': 'TopFind',
-             'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])$',
+             'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, '
+                        '0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, '
+                        '0-9][0-9])$',
              'url': 'http://identifiers.org/topfind/'},
  'ToxoDB': {'data_entry': 'http://toxodb.org/toxo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&amp;source_id=$id',
             'example': 'TGME49_053730',
@@ -2693,7 +2773,8 @@ miriamids =\
             'url': 'http://identifiers.org/toxoplasma/'},
  'Transport Classification Database': {'data_entry': 'http://www.tcdb.org/search/result.php?tc=$id',
                                        'example': '5.A.1.1.1',
-                                       'name': 'Transport Classification Database',
+                                       'name': 'Transport Classification '
+                                               'Database',
                                        'pattern': '^\\d+(\\.[A-Z])?(\\.\\d+)?(\\.\\d+)?(\\.\\d+)?$',
                                        'url': 'http://identifiers.org/tcdb/'},
  'Tree of Life': {'data_entry': 'http://tolweb.org/$id',
@@ -2789,12 +2870,17 @@ miriamids =\
  'UniProt Isoform': {'data_entry': 'http://www.uniprot.org/uniprot/$id',
                      'example': 'Q5BJF6-3',
                      'name': 'UniProt Isoform',
-                     'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\-\\d+)$',
+                     'pattern': '^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, '
+                                '0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, '
+                                '0-9][A-Z, 0-9][0-9])(\\-\\d+)$',
                      'url': 'http://identifiers.org/uniprot.isoform/'},
  'UniProt Knowledgebase': {'data_entry': 'http://purl.uniprot.org/uniprot/$id',
                            'example': 'P0DP23',
                            'name': 'UniProt Knowledgebase',
-                           'pattern': '^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$',
+                           'pattern': '^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, '
+                                      '0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, '
+                                      '0-9][A-Z, 0-9][A-Z, '
+                                      '0-9][0-9])(\\.\\d+)?$',
                            'url': 'http://identifiers.org/uniprot/'},
  'UniSTS': {'data_entry': 'http://www.ncbi.nlm.nih.gov/genome/sts/sts.cgi?uid=$id',
             'example': '456789',
@@ -2893,7 +2979,8 @@ miriamids =\
             'url': 'http://identifiers.org/worfdb/'},
  'World Register of Marine Species': {'data_entry': 'http://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=$id',
                                       'example': '146421',
-                                      'name': 'World Register of Marine Species',
+                                      'name': 'World Register of Marine '
+                                              'Species',
                                       'pattern': '^\\d+$',
                                       'url': 'http://identifiers.org/worms/'},
  'WormBase': {'data_entry': 'http://www.wormbase.org/db/gene/gene?name=$id;class=Gene',

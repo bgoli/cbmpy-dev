@@ -8,14 +8,14 @@ PP = pprint.PrettyPrinter()
 mDir = cDir
 mFile = os.path.join(mDir,'miriamresources.xml')
 
-F = file(mFile,'r')
-res = F.read()
-F.close()
+with open(mFile,'r', encoding="utf-8") as F:
+    print(F.readable())
+    res =  F.read()
 
 datatype = re.compile('<datatype id=.*?</datatype>', re.DOTALL)
 
 res2 = re.findall(datatype, res)
-print len(res2)
+print(len(res2))
 
 
 name = re.compile('<name>.*?</name>')
@@ -44,11 +44,11 @@ for r_ in res2:
         }})
 
 p = PP.pformat(out)
-print p
+print(p)
 
-F = file(os.path.join(mDir, 'miriamids.py'), 'w')
-F.write('# created on %s\n\n' % time.strftime('%y%m%d:%H%M'))
-F.write('miriamids =\\\n')
-F.write(p)
-F.write('\n')
-F.close()
+with open(os.path.join(mDir, 'miriamids.py'), 'w') as F:
+    F.write('# created on %s\n\n' % time.strftime('%y%m%d:%H%M'))
+    F.write('miriamids =\\\n')
+    F.write(p)
+    F.write('\n')
+    F.close()
